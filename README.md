@@ -1,3 +1,4 @@
 # Artelle-nextjs
-Проект C:\OpenServer\domains\artelle-creative\
-Деплой  https://artellecreative.com/
+
+Проект C:\OpenServer\domains\artelle-new orange\
+Деплой https://artellecreative.com/
