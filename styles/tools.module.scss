@@ -1,0 +1,36 @@
+.toolall {
+  background: linear-gradient(180deg, #f7f7fa 0%, #ffffff 100%);
+
+  .tools {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    .tool {
+      width: 16em;
+      margin: 0 3.5em;
+      h4 {
+        color: rgba(78, 147, 206, 1);
+      }
+    }
+  }
+  .btnServices {
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .toolall {
+    .tools {
+      justify-content: flex-start;
+      margin: 0 20px;
+      .tool {
+        margin: 0;
+        width: auto;
+      }
+    }
+  }
+}

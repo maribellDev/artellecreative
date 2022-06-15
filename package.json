@@ -1,0 +1,27 @@
+{
+  "name": "artellecreative",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "prestart": "npm run export",
+    "start": "npm run start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.1.0",
+    "react": "^18.1.0",
+    "react-calendly": "^2.2.3",
+    "react-dom": "^18.1.0",
+    "react-hotjar": "^5.0.0",
+    "sass": "^1.49.9",
+    "swiper": "^8.0.6"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.55",
+    "@swc/core": "^1.2.147",
+    "eslint": "8.10.0",
+    "eslint-config-next": "12.1.0"
+  }
+}

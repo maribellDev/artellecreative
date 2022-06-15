@@ -1,0 +1,22 @@
+.form {
+  .getform {
+    .emailForm {
+      width: 282px;
+      height: 40px;
+      padding: 0 20px;
+      margin-bottom: 10px;
+    }
+  }
+  .emailBut {
+    width: 282px;
+    height: 40px;
+    background: rgb(66, 68, 81);
+    border-radius: 4px;
+    border-style: none;
+    border-color: rgb(49, 49, 63);
+    color: white;
+  }
+  .message {
+    display: none;
+  }
+}

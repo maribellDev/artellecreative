@@ -1,0 +1,36 @@
+/* .swiperNavigation {
+  .swiperButtonPrev {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+  }
+} */
+.imageSlide {
+  width: "624px";
+  height: "351px";
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 22%;
+  right: auto;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 22%;
+  left: auto;
+}
+@media (max-width: 950px) {
+  .swiper-button-prev {
+    left: 12%;
+  }
+  .swiper-button-next {
+    right: 12%;
+  }
+}
+@media (max-width: 500px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}
