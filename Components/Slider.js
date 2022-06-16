@@ -92,35 +92,35 @@ export default function Slider() {
           <SwiperSlide>
             <Link href={"/shuda-properties"}>
               <a>
-                <Image src={slide2} class={styles.images} alt="slide2" />
+                <Image src={slide2} className={styles.images} alt="slide2" />
               </a>
             </Link>
           </SwiperSlide>
           <SwiperSlide>
             <Link href={"/nomadtechy"}>
               <a>
-                <Image src={slide3} class={styles.images} alt="slide3" />
+                <Image src={slide3} className={styles.images} alt="slide3" />
               </a>
             </Link>
           </SwiperSlide>
           <SwiperSlide>
             <Link href={"/nomadtechy"}>
               <a>
-                <Image src={slide4} class={styles.images} alt="slide4" />
+                <Image src={slide4} className={styles.images} alt="slide4" />
               </a>
             </Link>
           </SwiperSlide>
           <SwiperSlide>
             <Link href={"/nomadtechy"}>
               <a>
-                <Image src={slide5} class={styles.images} alt="slide5" />
+                <Image src={slide5} className={styles.images} alt="slide5" />
               </a>
             </Link>
           </SwiperSlide>
           <SwiperSlide>
             <Link href={"/nomadtechy"}>
               <a>
-                <Image src={slide6} class={styles.images} alt="slide6" />
+                <Image src={slide6} className={styles.images} alt="slide6" />
               </a>
             </Link>
           </SwiperSlide>

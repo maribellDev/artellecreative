@@ -12,7 +12,7 @@ export default function Tools() {
             paddingTop: "80px",
           }}
         >
-          A holistic website strategy
+          A well-rounded website strategy
         </h2>
         <p
           style={{
@@ -24,7 +24,7 @@ export default function Tools() {
             lineHeight: "24px",
           }}
         >
-          A thought-out approach to crafting websites.
+          Reach your business goals with a creative website solution.
         </p>
         <div className={style.tools}>
           <div className={style.tool}>

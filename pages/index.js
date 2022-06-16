@@ -81,12 +81,9 @@ export default function Home() {
       <section>
         <Tools></Tools>
       </section>
-      <section>
-        <Blog></Blog>
-      </section>
-      <section>
-        <Answers></Answers>
-      </section>
+
+      <Answers></Answers>
+
       <section>
         <Action></Action>
       </section>
