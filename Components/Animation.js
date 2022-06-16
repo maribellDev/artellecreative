@@ -5,14 +5,12 @@ export function Animation() {
     <>
       <section className={styles.rwWrapper}>
         <h1 className={styles.rwSentence}>
-          <span className={styles.span}>
-            Crafting websites
-            <br /> that
-          </span>
+          <span className={styles.span}>Crеative studio</span>
+          <br />
           <div className={styles.rwWords}>
-            <span className={styles.spanWord1}>sell.</span>
-            <span className={styles.spanWord2}>showcase.</span>
-            <span className={styles.spanWord3}>convert.</span>
+            <span className={styles.spanWord1}>crafting websites</span>
+            <span className={styles.spanWord2}>designing logos</span>
+            <span className={styles.spanWord3}>laying out emails</span>
           </div>
           <br />
         </h1>

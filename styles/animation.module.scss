@@ -7,12 +7,12 @@
     }
     .rwWords {
       display: inline;
-      text-indent: 10px;
+
       span {
         position: absolute;
         opacity: 0;
         overflow: hidden;
-        color: #4e93ce;
+        color: #db8e76;
         -webkit-animation: rotateWord 12s linear infinite 0s;
         -moz-animation: rotateWord 12s linear infinite 0s;
         -o-animation: rotateWord 12s linear infinite 0s;
@@ -25,7 +25,7 @@
           -o-animation-delay: 4s;
           -ms-animation-delay: 4s;
           animation-delay: 4s;
-          color: #4e93ce;
+          color: #db8e76;
         }
         &:nth-child(3) {
           -webkit-animation-delay: 7s;
@@ -33,7 +33,7 @@
           -o-animation-delay: 7s;
           -ms-animation-delay: 7s;
           animation-delay: 7s;
-          color: #4e93ce;
+          color: #db8e76;
         }
       }
     }
