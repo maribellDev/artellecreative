@@ -6,6 +6,7 @@ import { Footer } from "../Components/Footer";
 import { Navbar } from "../Components/Navbar";
 import style from "../styles/about.module.scss";
 import Layout from "../Components/Layout";
+import { Aboutus } from "../Components/AboutUs";
 
 export default function About() {
   return (
@@ -68,7 +69,7 @@ export default function About() {
           </div>
         </div>
       </div>
-
+      <Aboutus />
       <Footer />
     </Layout>
   );

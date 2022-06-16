@@ -12,7 +12,6 @@ export default function Action() {
         <div style={{ padding: "0", textAlign: "center" }}>
           <Link href={"/contact"}>
             <a style={{ paddingRight: "0px" }}>
-              {" "}
               <button className={style.black}>Get Started </button>
             </a>
           </Link>
