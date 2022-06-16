@@ -4,7 +4,9 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head></Head>
+        <Head>
+          <link rel="stylesheet" href="https://use.typekit.net/mod3ewt.css" />
+        </Head>
         <body>
           <Main />
           <NextScript />
