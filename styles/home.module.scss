@@ -4,11 +4,11 @@ button.dark {
   color: white;
   font-family: "sofia-pro";
   &:hover {
-    background: rgba(60, 113, 159, 1);
+    background: #bb7b67;
 
     transition: ease-in-out 0.2s;
     &:active {
-      background: rgba(78, 147, 206, 1);
+      background: #bb7b67;
       box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.25) inset;
     }
     a {
@@ -22,6 +22,31 @@ button.dark {
     }
   }
 }
+button.black {
+  transition: ease-in-out 0.2s;
+  background: #2e303d;
+  color: white;
+  font-family: "sofia-pro";
+  &:hover {
+    background: #474b61;
+
+    transition: ease-in-out 0.2s;
+    &:active {
+      background: #474b61;
+      box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.25) inset;
+    }
+    a {
+      padding-right: 30px;
+      &:hover {
+        color: white;
+      }
+      &:active {
+        color: white;
+      }
+    }
+  }
+}
+
 .sectionService {
   background: rgba(247, 247, 250, 1);
   .allservices {
