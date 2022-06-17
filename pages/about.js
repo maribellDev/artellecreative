@@ -6,7 +6,7 @@ import { Footer } from "../Components/Footer";
 import { Navbar } from "../Components/Navbar";
 import style from "../styles/about.module.scss";
 import Layout from "../Components/Layout";
-import { Aboutus } from "../Components/AboutUs";
+import { Aboutus } from "../Components/Aboutus";
 
 export default function About() {
   return (
