@@ -17,11 +17,28 @@
     }
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1040px) {
   .blockmain {
     flex-direction: column;
     .textmain {
-      margin-bottom: 20px;
+      height: auto;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .blockmain {
+    .textmain {
+      width: 600px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .blockmain {
+    .textmain {
+      width: 100%;
+      min-width: 320px;
     }
   }
 }
@@ -33,6 +50,15 @@
     .header1 {
       font-size: 2.34em;
       line-height: 45px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .blockmain {
+    .textmain {
+      h1 {
+        font-size: 38px;
+      }
     }
   }
 }

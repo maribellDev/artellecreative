@@ -13,26 +13,26 @@
         opacity: 0;
         overflow: hidden;
         color: #db8e76;
-        -webkit-animation: rotateWord 12s linear infinite 0s;
-        -moz-animation: rotateWord 12s linear infinite 0s;
-        -o-animation: rotateWord 12s linear infinite 0s;
-        -ms-animation: rotateWord 12s linear infinite 0s;
-        animation: rotateWord 12s linear infinite 0s;
+        -webkit-animation: rotateWord 5s linear infinite 0s;
+        -moz-animation: rotateWord 5s linear infinite 0s;
+        -o-animation: rotateWord 5s linear infinite 0s;
+        -ms-animation: rotateWord 5s linear infinite 0s;
+        animation: rotateWord 5s linear infinite 0s;
 
         &:nth-child(2) {
-          -webkit-animation-delay: 4s;
-          -moz-animation-delay: 4s;
-          -o-animation-delay: 4s;
-          -ms-animation-delay: 4s;
-          animation-delay: 4s;
+          -webkit-animation-delay: 2s;
+          -moz-animation-delay: 2s;
+          -o-animation-delay: 2s;
+          -ms-animation-delay: 2s;
+          animation-delay: 2s;
           color: #db8e76;
         }
         &:nth-child(3) {
-          -webkit-animation-delay: 7s;
-          -moz-animation-delay: 7s;
-          -o-animation-delay: 7s;
-          -ms-animation-delay: 7s;
-          animation-delay: 7s;
+          -webkit-animation-delay: 3.5s;
+          -moz-animation-delay: 3.5s;
+          -o-animation-delay: 3.5s;
+          -ms-animation-delay: 3.5s;
+          animation-delay: 3.5s;
           color: #db8e76;
         }
       }
