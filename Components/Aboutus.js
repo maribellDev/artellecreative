@@ -3,7 +3,7 @@ import styles from "../styles/aboutus.module.scss";
 import maria from "../public/img/maria.png";
 import ana from "../public/img/ana.png";
 import Image from "next/image";
-export function Aboutus() {
+export default function Aboutus() {
   return (
     <>
       <div className={styles.aboutinfo}>
