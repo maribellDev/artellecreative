@@ -13,26 +13,15 @@
         opacity: 0;
         overflow: hidden;
         color: #db8e76;
-        -webkit-animation: rotateWord 5s linear infinite 0s;
-        -moz-animation: rotateWord 5s linear infinite 0s;
-        -o-animation: rotateWord 5s linear infinite 0s;
-        -ms-animation: rotateWord 5s linear infinite 0s;
-        animation: rotateWord 5s linear infinite 0s;
+
+        animation: rotateWord 9s linear infinite 0s;
 
         &:nth-child(2) {
-          -webkit-animation-delay: 2s;
-          -moz-animation-delay: 2s;
-          -o-animation-delay: 2s;
-          -ms-animation-delay: 2s;
-          animation-delay: 2s;
+          animation-delay: 3s;
           color: #db8e76;
         }
         &:nth-child(3) {
-          -webkit-animation-delay: 3.5s;
-          -moz-animation-delay: 3.5s;
-          -o-animation-delay: 3.5s;
-          -ms-animation-delay: 3.5s;
-          animation-delay: 3.5s;
+          animation-delay: 6s;
           color: #db8e76;
         }
       }
@@ -45,15 +34,15 @@
         opacity: 0;
         -webkit-transform: translateY(-30px);
       }
-      5% {
+      12% {
         opacity: 1;
         -webkit-transform: translateY(0px);
       }
-      17% {
+      12% {
         opacity: 1;
         -webkit-transform: translateY(0px);
       }
-      20% {
+      25% {
         opacity: 0;
         -webkit-transform: translateY(30px);
       }
