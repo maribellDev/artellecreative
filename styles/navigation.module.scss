@@ -1,27 +1,47 @@
 .navbar {
   height: 104px;
   max-width: 1286px;
-  margin: 0 auto;
+  margin: -90px auto 180px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  a {
-    padding-right: 30px;
-    &:hover {
-      color: rgba(219, 142, 118, 1);
+  .menubig {
+    margin-right: 20px;
+    margin-left: -20px;
+    // float: right;
+    .but {
+      width: 50px;
     }
-    &:active {
-      color: rgba(220, 180, 118, 1);
+    .css-9tj150-MuiButton-endIcon {
+      margin-left: -10px;
+    }
+    a {
+      font-family: Sofia-pro;
+      font-size: 16px;
+      text-transform: capitalize;
+      color: #2e303d;
+      &:hover {
+        color: rgba(219, 142, 118, 1);
+      }
+      &:active {
+        color: rgba(220, 180, 118, 1);
+      }
     }
   }
+}
+.logo {
+  width: 280px;
+  height: 35px;
+  margin-left: -45px;
 }
 
 @media (max-width: 768px) {
   .navbar {
     height: 78px;
 
-    .menu {
+    .menubig,
+    .logo {
       display: none;
     }
   }
