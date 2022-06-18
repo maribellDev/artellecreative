@@ -79,7 +79,9 @@ export default function Menuui() {
           // aria-expanded={open ? "true" : undefined}
           // onClick={handleClick}
         >
-          <a>Work</a>
+          <Link href={"/work"}>
+            <a>Work</a>
+          </Link>
         </Button>
         {/* <Menu
           id="work-menu"
@@ -94,10 +96,14 @@ export default function Menuui() {
           <MenuItem onClick={handleClose}>Brand & Logo Design</MenuItem>
         </Menu> */}
         <Button className={styles.but}>
-          <a>About</a>
+          <Link href={"/about"}>
+            <a>About</a>
+          </Link>
         </Button>
         <Button className={styles.but}>
-          <a>Blog</a>
+          <Link href={"/blog"}>
+            <a>Blog</a>
+          </Link>
         </Button>
 
         <Button className={style.dark}>
