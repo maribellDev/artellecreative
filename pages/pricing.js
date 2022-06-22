@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { Footer } from "../Components/Footer";
 import { Navbar } from "../Components/Navbar";
 import style from "../styles/pricing.module.scss";
@@ -10,6 +11,7 @@ import { Servicedesign } from "../Components/Servicedesign";
 import { Servicemarketing } from "../Components/Servicemarketing";
 import { Servicephoto } from "../Components/Servicesphoto";
 import Action from "../Components/Action";
+import image1 from "../public/img/imgdev.png";
 
 export default function Pricing() {
   return (
@@ -44,6 +46,32 @@ export default function Pricing() {
         </div>
         <Servicedesign />
         <Servicemarketing />
+        <div className={style.block}>
+          <h2>Web Development</h2>
+          <p className={style.text}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna{" "}
+          </p>
+          <Link href={"/pricing"}>
+            <a>
+              <div style={{ marginTop: "68px", padding: "0 10px 0 10px" }}>
+                <Image src={image1} alt="" />
+              </div>
+              <h3 style={{ textAlign: "center" }}>Web Development</h3>
+              <p
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "400",
+                  lineHeight: "16px",
+                  letterSpacing: "2.0999999046px",
+                  textAlign: "center",
+                }}
+              >
+                Starting at $2,800
+              </p>
+            </a>
+          </Link>
+        </div>
         <Servicephoto />
         <div style={{ marginBottom: "62px" }}>
           <Action />
