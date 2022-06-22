@@ -22,7 +22,7 @@ export default function About() {
       dedicated to creating websites that drive results and look the part."
     >
       <div style={{ backgroundColor: "rgba(247, 247, 250, 1)" }}>
-        <Navbar />
+        <Navbar style={{ backgroundColor: "rgba(247, 247, 250, 1)" }} />
       </div>
       <div className={style.aboutmain}>
         <div className={style.container1}>

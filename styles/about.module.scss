@@ -1,16 +1,17 @@
 .container1 {
   max-width: 1073px;
   margin: 0 auto;
-  padding: 0 20px;
+
+  padding: 140px 20px 0 20px;
 }
 .aboutmain {
   background: url("../public/img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 550px;
+  margin-top: -183px;
 
   .who {
-    padding-top: 90px;
     max-width: 780px;
     h2 {
       text-align: left;
@@ -116,6 +117,11 @@
 @media (min-width: 1445px) {
   .aboutmain {
     height: 650px;
+  }
+}
+@media (max-width: 1445px) {
+  .nameabout {
+    margin-top: 190px;
   }
 }
 @media (min-width: 1700px) {
