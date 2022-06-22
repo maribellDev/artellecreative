@@ -7,7 +7,6 @@
   //   }
   .aboutcards {
     .aboutcardsleft {
-      margin-bottom: 52px;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -32,6 +31,7 @@
       }
     }
     .aboutcardsright {
+      margin-bottom: 52px;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
