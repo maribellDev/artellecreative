@@ -30,8 +30,8 @@ export function Navadapt() {
             </Link>
           </li>
           <li className={styles.navLi}>
-            <Link href="/blog">
-              <a>Blog</a>
+            <Link href="/pricing">
+              <a>Pricing</a>
             </Link>
           </li>
           <li className={styles.navLi}>

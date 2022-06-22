@@ -101,8 +101,8 @@ export default function Menuui() {
           </Link>
         </Button>
         <Button className={styles.but}>
-          <Link href={"/blog"}>
-            <a>Blog</a>
+          <Link href={"/pricing"}>
+            <a>Pricing</a>
           </Link>
         </Button>
 

@@ -1,0 +1,81 @@
+.services {
+  background-color: #f5f7fb;
+  text-align: center;
+  height: 248px;
+  h1 {
+    padding-top: 25px;
+    font-size: 48px;
+  }
+  p {
+    max-width: 515px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+  }
+}
+
+// Serviceblock
+.container {
+  max-width: 997px;
+  margin: 0 auto;
+
+  .block {
+    h2 {
+      margin-bottom: 20px;
+      margin-top: 36px;
+    }
+    p {
+      max-width: 444px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .images {
+      margin-top: 68px;
+      margin-bottom: 68px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .imageright,
+      .imageleft {
+        max-width: 470px;
+        padding: 0 10px;
+        h3 {
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 32px;
+          letter-spacing: 0em;
+          text-align: center;
+        }
+        .price {
+          max-width: 470px;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 16px;
+          letter-spacing: 2.0999999046325684px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    .block {
+      .images {
+        flex-direction: column;
+        .imageright,
+        .imageleft {
+          align-self: center;
+          margin-bottom: 80px;
+        }
+      }
+    }
+  }
+}
