@@ -70,6 +70,7 @@
     .block {
       .images {
         flex-direction: column;
+        margin-bottom: 0;
         .imageright,
         .imageleft {
           align-self: center;
