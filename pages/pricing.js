@@ -6,6 +6,10 @@ import style from "../styles/pricing.module.scss";
 import Layout from "../Components/Layout";
 import { Servicewebsite } from "../Components/Servicewebsite";
 import business from "../public/img/pricing/businessimg.png";
+import { Servicedesign } from "../Components/Servicedesign";
+import { Servicemarketing } from "../Components/Servicemarketing";
+import { Servicephoto } from "../Components/Servicesphoto";
+import Action from "../Components/Action";
 
 export default function Pricing() {
   return (
@@ -37,6 +41,12 @@ export default function Pricing() {
           <p style={{ textAlign: "center" }} className={style.price}>
             Starting at $2,800
           </p>
+        </div>
+        <Servicedesign />
+        <Servicemarketing />
+        <Servicephoto />
+        <div style={{ marginBottom: "62px" }}>
+          <Action />
         </div>
       </div>
 

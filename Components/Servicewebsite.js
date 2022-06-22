@@ -14,14 +14,22 @@ export function Servicewebsite() {
         </p>
         <div className={style.images}>
           <div className={style.imageright}>
-            <Image src={image1} alt="" />
-            <h3>Website Packages</h3>
-            <p className={style.price}>Starting at $2,800</p>
+            <Link href={"/pricing"}>
+              <a>
+                <Image src={image1} alt="" />
+                <h3>Website Packages</h3>
+                <p className={style.price}>Starting at $2,800</p>
+              </a>
+            </Link>
           </div>
           <div className={style.imageleft}>
-            <Image src={image1} alt="" />
-            <h3>Branding Packages</h3>
-            <p className={style.price}>Starting at $2,800</p>
+            <Link href={"/pricing"}>
+              <a>
+                <Image src={image1} alt="" />
+                <h3>Branding Packages</h3>
+                <p className={style.price}>Starting at $2,800</p>
+              </a>
+            </Link>
           </div>
         </div>
       </div>
