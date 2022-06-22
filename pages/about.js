@@ -7,6 +7,7 @@ import { Navbar } from "../Components/Navbar";
 import style from "../styles/about.module.scss";
 import Layout from "../Components/Layout";
 import { Aboutus } from "../Components/Aboutus";
+import { Aboutinsta } from "../Components/Aboutinsta";
 
 export default function About() {
   return (
@@ -70,6 +71,7 @@ export default function About() {
         </div>
       </div>
       <Aboutus />
+      <Aboutinsta />
       <Footer />
     </Layout>
   );
