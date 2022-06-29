@@ -6,12 +6,12 @@ import { Navbar } from "../Components/Navbar";
 import style from "../styles/pricing.module.scss";
 import Layout from "../Components/Layout";
 import { Servicewebsite } from "../Components/Servicewebsite";
-import business from "../public/img/pricing/businessimg.png";
-import { Servicedesign } from "../Components/Servicedesign";
+import business from "../public/img/pricing/3-new-business.jpg";
+import { Servicedevelopment } from "../Components/Servicedevelopment";
 import { Servicemarketing } from "../Components/Servicemarketing";
 import { Servicephoto } from "../Components/Servicesphoto";
 import Action from "../Components/Action";
-import image1 from "../public/img/imgdev.png";
+import retainer from "../public/img/pricing/6-design_retainer.jpg";
 
 export default function Pricing() {
   return (
@@ -34,30 +34,36 @@ export default function Pricing() {
       <div className={style.container}>
         <Servicewebsite />
         <div style={{ padding: "0 10px 0 10px" }}>
-          <Image
-            src={business}
-            className={style.business}
-            alt="business package"
-          />
-          <h3 style={{ textAlign: "center" }}>New Business Package</h3>
-          <p style={{ textAlign: "center" }} className={style.price}>
-            Starting at $2,800
-          </p>
+          <Link href={"/pricing"}>
+            <a>
+              <Image
+                src={business}
+                className={style.business}
+                alt="business package"
+              />
+              <h3 style={{ textAlign: "center" }}>New Business Package</h3>
+              <p style={{ textAlign: "center" }} className={style.price}>
+                Starting at $2,800
+              </p>
+            </a>
+          </Link>
         </div>
-        <Servicedesign />
-        <Servicemarketing />
+
+        <Servicedevelopment />
+
         <div className={style.block}>
-          <h2>Web Development</h2>
+          <h2>Design Retainer</h2>
           <p className={style.text}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna{" "}
+            On-going design support at a flat monthly rate. Includes social
+            media posts design, email design, website assets design, campaign
+            design, and more.
           </p>
           <Link href={"/pricing"}>
             <a>
               <div style={{ marginTop: "68px", padding: "0 10px 0 10px" }}>
-                <Image src={image1} alt="" />
+                <Image src={retainer} alt="" />
               </div>
-              <h3 style={{ textAlign: "center" }}>Web Development</h3>
+              <h3 style={{ textAlign: "center" }}>Design Retainer</h3>
               <p
                 style={{
                   fontSize: "14px",
@@ -72,6 +78,7 @@ export default function Pricing() {
             </a>
           </Link>
         </div>
+        <Servicemarketing />
         <Servicephoto />
         <div style={{ marginBottom: "62px" }}>
           <Action />

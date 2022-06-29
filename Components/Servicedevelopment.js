@@ -1,0 +1,39 @@
+import Link from "next/link";
+import Image from "next/image";
+import style from "../styles/pricing.module.scss";
+import image1 from "../public/img/pricing/4-maintenance.jpg";
+import image2 from "../public/img/pricing/5-web-development.gif";
+
+export function Servicedevelopment() {
+  return (
+    <>
+      <div className={style.block}>
+        <h2>Web Development</h2>
+        <p className={style.text}>
+          Hourly or flat rate website editing, maintanence, and monitoring and
+          website development from existing design files.
+        </p>
+        <div className={style.images}>
+          <div className={style.imageright}>
+            <Link href={"/pricing"}>
+              <a>
+                <Image src={image1} alt="" />
+                <h3>Website Maintanence</h3>
+                <p className={style.price}>Starting at $2,800</p>
+              </a>
+            </Link>
+          </div>
+          <div className={style.imageleft}>
+            <Link href={"/pricing"}>
+              <a>
+                <Image src={image2} alt="" />
+                <h3>Web Development</h3>
+                <p className={style.price}>Starting at $2,800</p>
+              </a>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

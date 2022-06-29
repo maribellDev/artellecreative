@@ -1,7 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import style from "../styles/pricing.module.scss";
-import image1 from "../public/img/img.png";
+import image1 from "../public/img/pricing/9-product-photography.jpg";
+import image2 from "../public/img/pricing/10-video.gif";
 
 export function Servicephoto() {
   return (
@@ -25,7 +26,7 @@ export function Servicephoto() {
           <div className={style.imageleft}>
             <Link href={"/pricing"}>
               <a>
-                <Image src={image1} alt="" />
+                <Image src={image2} alt="" />
                 <h3>Video</h3>
                 <p className={style.price}>Starting at $2,800</p>
               </a>

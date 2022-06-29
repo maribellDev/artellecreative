@@ -1,7 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import style from "../styles/pricing.module.scss";
-import image1 from "../public/img/img.png";
+import image1 from "../public/img/pricing/7-email-design.jpg";
+import image2 from "../public/img/pricing/8-digital-print-materials.jpg";
 
 export function Servicemarketing() {
   return (
@@ -9,8 +10,8 @@ export function Servicemarketing() {
       <div className={style.block}>
         <h2>Marketing Collateral</h2>
         <p className={style.text}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna{" "}
+          Ad design, email design, newsletters, direct mail, social media assets
+          and sales collateral.
         </p>
         <div className={style.images}>
           <div className={style.imageright}>
@@ -25,7 +26,7 @@ export function Servicemarketing() {
           <div className={style.imageleft}>
             <Link href={"/pricing"}>
               <a>
-                <Image src={image1} alt="" />
+                <Image src={image2} alt="" />
                 <h3>Digital & Print Materials</h3>
                 <p className={style.price}>Starting at $2,800</p>
               </a>
