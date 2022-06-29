@@ -61,7 +61,7 @@ export default function Pricing() {
           <Link href={"/pricing"}>
             <a>
               <div style={{ marginTop: "68px", padding: "0 10px 0 10px" }}>
-                <Image src={retainer} alt="" />
+                <Image className={style.im} src={retainer} alt="" />
               </div>
               <h3 style={{ textAlign: "center" }}>Design Retainer</h3>
               <p

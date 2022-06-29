@@ -18,7 +18,7 @@ export function Servicewebsite() {
           <div className={style.imageright}>
             <Link href={"/pricing"}>
               <a>
-                <Image src={image1} alt="" />
+                <Image className={style.im} src={image1} alt="" />
                 <h3>Website Packages</h3>
                 <p className={style.price}>Starting at $2,800</p>
               </a>
@@ -27,7 +27,7 @@ export function Servicewebsite() {
           <div className={style.imageleft}>
             <Link href={"/pricing"}>
               <a>
-                <Image src={image2} alt="" />
+                <Image className={style.im} src={image2} alt="" />
                 <h3>Branding Packages</h3>
                 <p className={style.price}>Starting at $2,800</p>
               </a>
