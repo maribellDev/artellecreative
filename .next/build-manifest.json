@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/pricing": [
+    "/services/packages/website-packages": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/pricing.js"
+      "static/chunks/pages/services/packages/website-packages.js"
     ]
   },
   "ampFirstPages": []

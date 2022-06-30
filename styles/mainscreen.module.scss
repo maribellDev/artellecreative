@@ -17,6 +17,10 @@
     }
   }
 }
+//Firstscreen
+#block {
+  max-height: 400px;
+}
 @media (max-width: 1040px) {
   .blockmain {
     flex-direction: column;
@@ -26,7 +30,13 @@
       margin-bottom: 50px;
     }
   }
+  #block {
+    max-height: fit-content;
+    height: auto;
+    margin-top: 0px;
+  }
 }
+//Firstscreen
 
 @media (max-width: 768px) {
   .blockmain {
