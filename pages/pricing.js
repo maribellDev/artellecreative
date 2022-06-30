@@ -28,7 +28,7 @@ export default function Pricing() {
       <Navbar />
 
       <div className={style.services}>
-        <h1>Services & Pricing</h1>
+        <h1>Services & Pricing</h1>{" "}
         {/* <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna{" "}
@@ -39,13 +39,13 @@ export default function Pricing() {
         <div style={{ padding: "0 10px 0 10px" }}>
           <Link href={"/pricing"}>
             <a>
-              <animated.div style={props}>
+              <div className={style.im}>
                 <Image
                   src={business}
                   className={style.business}
                   alt="business package"
                 />
-              </animated.div>
+              </div>
               <h3 style={{ textAlign: "center" }}>New Business Package</h3>
               <p style={{ textAlign: "center" }} className={style.price}>
                 Starting at $2,800
@@ -66,7 +66,9 @@ export default function Pricing() {
           <Link href={"/pricing"}>
             <a>
               <div style={{ marginTop: "68px", padding: "0 10px 0 10px" }}>
-                <Image className={style.im} src={retainer} alt="" />
+                <div className={style.im}>
+                  <Image className={style.im} src={retainer} alt="" />
+                </div>
               </div>
               <h3 style={{ textAlign: "center" }}>Design Retainer</h3>
               <p

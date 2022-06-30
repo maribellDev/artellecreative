@@ -17,7 +17,9 @@ export function Servicedevelopment() {
           <div className={style.imageright}>
             <Link href={"/pricing"}>
               <a>
-                <Image className={style.im} src={image1} alt="" />
+                <div className={style.imsquare}>
+                  <Image src={image1} alt="" />
+                </div>
                 <h3>Website Maintanence</h3>
                 <p className={style.price}>Starting at $2,800</p>
               </a>
@@ -26,7 +28,9 @@ export function Servicedevelopment() {
           <div className={style.imageleft}>
             <Link href={"/pricing"}>
               <a>
-                <Image className={style.im} src={image2} alt="" />
+                <div className={style.imsquare}>
+                  <Image src={image2} alt="" />
+                </div>
                 <h3>Web Development</h3>
                 <p className={style.price}>Starting at $2,800</p>
               </a>
