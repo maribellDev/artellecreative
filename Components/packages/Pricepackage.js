@@ -38,8 +38,8 @@ export default function Pricepackage() {
           </div>
           <div className={style.pricecard}>
             {" "}
-            <p className={style.title}>One Page Love</p>
-            <p className={style.cost}>$2,800</p>
+            <p className={style.title}>The Start-Up</p>
+            <p className={style.cost}>$4,200</p>
             <p className={style.text}>
               Great design and functionality, minus the extras.
             </p>
@@ -66,8 +66,8 @@ export default function Pricepackage() {
           </div>
           <div className={style.pricecard}>
             {" "}
-            <p className={style.title}>One Page Love</p>
-            <p className={style.cost}>$2,800</p>
+            <p className={style.title}>The TBD</p>
+            <p className={style.cost}>$6,400</p>
             <p className={style.text}>
               Great design and functionality, minus the extras.
             </p>
