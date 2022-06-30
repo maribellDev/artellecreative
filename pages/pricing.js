@@ -12,8 +12,11 @@ import { Servicemarketing } from "../Components/Servicemarketing";
 import { Servicephoto } from "../Components/Servicesphoto";
 import Action from "../Components/Action";
 import retainer from "../public/img/pricing/6-design_retainer.jpg";
+import { useSpring, animated } from "react-spring";
 
 export default function Pricing() {
+  const props = useSpring({ to: { opacity: 1 }, from: { opacity: 0 } });
+
   return (
     <Layout
       title="Artelle Creative"
@@ -25,22 +28,24 @@ export default function Pricing() {
       <Navbar />
 
       <div className={style.services}>
-        <h1>Services</h1>
-        <p>
+        <h1>Services & Pricing</h1>
+        {/* <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna{" "}
-        </p>
+        </p> */}
       </div>
       <div className={style.container}>
         <Servicewebsite />
         <div style={{ padding: "0 10px 0 10px" }}>
           <Link href={"/pricing"}>
             <a>
-              <Image
-                src={business}
-                className={style.business}
-                alt="business package"
-              />
+              <animated.div style={props}>
+                <Image
+                  src={business}
+                  className={style.business}
+                  alt="business package"
+                />
+              </animated.div>
               <h3 style={{ textAlign: "center" }}>New Business Package</h3>
               <p style={{ textAlign: "center" }} className={style.price}>
                 Starting at $2,800
