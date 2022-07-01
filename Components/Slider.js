@@ -7,12 +7,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 import Image from "next/image";
-import slide1 from "../public/slider/slider_1.jpg";
-import slide2 from "../public/slider/slider_2.jpg";
-import slide3 from "../public/slider/slider_3.jpg";
-import slide4 from "../public/slider/slider_4.jpg";
-import slide5 from "../public/slider/slider_5.jpg";
-import slide6 from "../public/slider/slider_6.jpg";
+import slide1 from "../public/slider/1-branding-website-MG-920.jpg";
+import slide2 from "../public/slider/2-product-photos-920.jpg";
+import slide3 from "../public/slider/3-branding-website-design-920.jpg";
+import slide4 from "../public/slider/4-email-design-920.jpg";
+import slide5 from "../public/slider/5-branding-website-920.jpg";
+import slide6 from "../public/slider/6-artelle-branding-920.jpg";
 import styles from "../styles/slider.module.scss";
 
 export default function Slider() {
@@ -46,8 +46,9 @@ export default function Slider() {
           }}
           modules={[Navigation, Autoplay]}
           centeredSlides={true}
+          speed={1000}
           autoplay={{
-            delay: 2900,
+            delay: 5000,
             disableOnInteraction: false,
           }}
           navigation={{
