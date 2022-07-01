@@ -3,9 +3,9 @@ import { Mainscreen } from "../Components/Mainscreen";
 import { Navbar } from "../Components/Navbar";
 import style from "../styles/home.module.scss";
 import Image from "next/image";
-import Icon1 from "../public/icons/icons-home1.svg";
-import Icon2 from "../public/icons/icons-home2.svg";
-import Icon3 from "../public/icons/icons-home3.svg";
+import Icon1 from "../public/icons/icon1.gif";
+import Icon2 from "../public/icons/icon2.gif";
+import Icon3 from "../public/icons/icon3.gif";
 import { Answers } from "../Components/Answers";
 import Action from "../Components/Action";
 import { Footer } from "../Components/Footer";
@@ -39,7 +39,11 @@ export default function Home() {
         <h2 style={{ paddingTop: "80px" }}>A full-service web design studio</h2>
         <div className={style.allservices}>
           <div className={style.service}>
-            <Image src={Icon1} alt="design" />
+            <div
+              style={{ width: "80px", marginRight: "auto", marginLeft: "auto" }}
+            >
+              <Image src={Icon1} alt="design" />
+            </div>
             <h3>
               Website Design <br />+ Development
             </h3>
@@ -48,7 +52,11 @@ export default function Home() {
             </p>
           </div>
           <div className={style.service}>
-            <Image src={Icon2} alt="design" />
+            <div
+              style={{ width: "80px", marginRight: "auto", marginLeft: "auto" }}
+            >
+              <Image src={Icon2} alt="design" />
+            </div>
             <h3 className={style.header3}>
               Content
               <br /> Creation
@@ -58,7 +66,11 @@ export default function Home() {
             </p>
           </div>
           <div className={style.service}>
-            <Image src={Icon3} alt="design" />
+            <div
+              style={{ width: "80px", marginRight: "auto", marginLeft: "auto" }}
+            >
+              <Image src={Icon3} alt="design" />
+            </div>
             <h3>
               Brand <br />
               Identity
