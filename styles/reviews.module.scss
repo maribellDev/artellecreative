@@ -1,0 +1,99 @@
+.container {
+  .reviews {
+    background: #f5f7fb;
+    border-radius: 20px;
+    max-width: 1052px;
+    height: 256px;
+    margin: 80px auto;
+    padding-top: 30px;
+
+    .blockrev {
+      max-width: 745px;
+      margin: 30px auto;
+      position: relative;
+      .illustration {
+        position: absolute;
+        top: -10px;
+        left: -30px;
+      }
+      .text {
+        max-width: 738px;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-right: 0;
+        // padding-left: 30px;
+      }
+      .client {
+        height: 54px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px;
+      }
+
+      .textright {
+        padding: 0;
+        padding-left: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+      }
+    }
+  }
+}
+@media (max-width: 1170px) {
+  .container {
+    .reviews {
+      max-width: 830px;
+    }
+  }
+}
+@media (max-width: 850px) {
+  .container {
+    .reviews {
+      height: auto;
+      max-width: 450px;
+      padding-bottom: 30px;
+      .blockrev {
+        .text {
+          margin-right: auto;
+          margin-left: auto;
+          width: 270px;
+        }
+        .client {
+          justify-content: center;
+        }
+        .illustration {
+          left: 30px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 467px) {
+  .container {
+    .reviews {
+      .blockrev {
+        .text {
+          width: 280px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 380px) {
+  .container {
+    .reviews {
+      .blockrev {
+        .illustration {
+          width: 20px;
+          top: 0px;
+          left: 15px;
+        }
+      }
+    }
+  }
+}
