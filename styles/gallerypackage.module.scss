@@ -31,11 +31,18 @@
 
     .item {
       margin: 22px 0 22px;
+      display: inline-block;
+      overflow: hidden;
     }
     img {
       border-radius: 10px;
       width: 298px;
       height: auto;
+      transition: 1s; /* Время эффекта */
+      display: block;
+    }
+    img:hover {
+      transform: scale(1.1);
     }
   }
   .btnServices {
