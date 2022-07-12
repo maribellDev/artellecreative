@@ -1,0 +1,19 @@
+.container {
+  background: linear-gradient(180deg, #ffffff 0%, #eeece5 100%);
+  //   height: 1160px;
+
+  .gallerypackage {
+    max-width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    gap: 22px 22px;
+    .item {
+      margin: 22px 0 22px;
+    }
+  }
+  .btnServices {
+    margin: 0 auto;
+    max-width: 142.31px;
+    padding-bottom: 80px;
+  }
+}

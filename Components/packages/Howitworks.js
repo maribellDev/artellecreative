@@ -1,8 +1,6 @@
 import Image from "next/image";
 import style from "../../styles/howitwork.module.scss";
-import pricing from "../../styles/pricing.module.scss";
 import image from "../../public/img/howitwork.png";
-import Link from "next/link";
 
 export function Howitworks() {
   return (
