@@ -4,16 +4,57 @@
 
   .gallerypackage {
     max-width: 1260px;
+    // flex-wrap: wrap;
+    flex-direction: row;
     margin: 0 auto;
     display: flex;
     gap: 22px 22px;
+    padding: 0 20px;
+    .part1 {
+      display: flex;
+      flex-direction: row;
+      gap: 22px 22px;
+
+      .col1 {
+        margin-top: 50px;
+      }
+    }
+    .part2 {
+      display: flex;
+      flex-direction: row;
+      gap: 22px 22px;
+
+      .col3 {
+        margin-top: 80px;
+      }
+    }
+
     .item {
       margin: 22px 0 22px;
+    }
+    img {
+      border-radius: 10px;
+      width: 298px;
+      height: auto;
     }
   }
   .btnServices {
     margin: 0 auto;
     max-width: 142.31px;
     padding-bottom: 80px;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    .gallerypackage {
+      flex-wrap: wrap;
+      gap: 10px 10px;
+      .item {
+        margin: 10px 0 10px;
+      }
+    }
+  }
+  .btnServices {
+    padding-top: 80px;
   }
 }

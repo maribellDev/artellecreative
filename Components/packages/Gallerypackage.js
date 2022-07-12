@@ -17,36 +17,41 @@ export function Gallerypackage() {
     <>
       <div className={style.container}>
         <div className={style.gallerypackage}>
-          <div className={style.col1}>
-            <div className={style.item}>
-              <Image classname={style.img} src={img5} alt="" />
+          <div className={style.part1}>
+            <div className={style.col1}>
+              <div className={style.item}>
+                <Image classname={style.img} src={img5} alt="" />
+              </div>
+              <div className={style.item}>
+                <Image classname={style.img} src={img8} alt="" />
+              </div>
             </div>
-            <div className={style.item}>
-              <Image classname={style.img} src={img8} alt="" />
-            </div>
-          </div>
-          <div className={style.col2}>
-            <div className={style.item}>
-              <Image classname={style.img} src={img2} alt="" />
-            </div>
-            <div className={style.item}>
-              <Image classname={style.img} src={img1} alt="" />
-            </div>
-          </div>
-          <div className={style.col3}>
-            <div className={style.item}>
-              <Image classname={style.img} src={img6} alt="" />
-            </div>
-            <div className={style.item}>
-              <Image classname={style.img} src={img3} alt="" />
+
+            <div className={style.col2}>
+              <div className={style.item}>
+                <Image classname={style.img} src={img2} alt="" />
+              </div>
+              <div className={style.item}>
+                <Image classname={style.img} src={img1} alt="" />
+              </div>
             </div>
           </div>
-          <div className={style.col4}>
-            <div className={style.item}>
-              <Image src={img4} alt="" />
+          <div className={style.part2}>
+            <div className={style.col3}>
+              <div className={style.item}>
+                <Image classname={style.img} src={img6} alt="" />
+              </div>
+              <div className={style.item}>
+                <Image classname={style.img} src={img3} alt="" />
+              </div>
             </div>
-            <div className={style.item}>
-              <Image src={img7} alt="" />
+            <div className={style.col4}>
+              <div className={style.item}>
+                <Image src={img4} alt="" />
+              </div>
+              <div className={style.item}>
+                <Image src={img7} alt="" />
+              </div>
             </div>
           </div>
         </div>
