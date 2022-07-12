@@ -16,8 +16,7 @@
       text-align: left;
       margin-left: -85px;
     }
-    // .imghow {
-    // }
+
     .texthow {
       max-width: 478px;
       h2 {
@@ -36,6 +35,28 @@
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0em;
+      }
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    .howitworks {
+      flex-direction: column;
+      align-items: center;
+      .imghow {
+        margin: 0 20px;
+      }
+      .number {
+        padding-left: 5px;
+      }
+      .texthow {
+        margin-left: 80px;
+        padding: 0 16px;
+        h2 {
+          margin-left: 0;
+          font-size: 28px;
+        }
       }
     }
   }
