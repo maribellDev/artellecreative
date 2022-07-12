@@ -1,0 +1,42 @@
+.container {
+  .howitworks {
+    max-width: 970px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .number {
+      float: left;
+      color: #cdd5df;
+      font-size: 48px;
+      font-weight: 500;
+      line-height: 52px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-left: -85px;
+    }
+    // .imghow {
+    // }
+    .texthow {
+      max-width: 478px;
+      h2 {
+        text-align: left;
+        font-weight: 400;
+        margin-bottom: 52px;
+        margin-left: -82px;
+      }
+      h3 {
+        padding-top: 12px;
+      }
+
+      p {
+        max-width: 397px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+      }
+    }
+  }
+}

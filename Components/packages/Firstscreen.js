@@ -2,7 +2,7 @@ import Image from "next/image";
 import style from "../../styles/home.module.scss";
 import mainstyle from "../../styles/mainscreen.module.scss";
 import pricing from "../../styles/pricing.module.scss";
-import Imagemain from "../../public/img/mainimage.png";
+import Imagemain from "../../public/img/main-package.png";
 import Link from "next/link";
 
 export function Firstscreen() {
