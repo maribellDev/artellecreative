@@ -2,7 +2,7 @@ import Image from "next/image";
 import style from "../../styles/home.module.scss";
 import mainstyle from "../../styles/mainscreen.module.scss";
 import pricing from "../../styles/pricing.module.scss";
-import Imagemain from "../../public/img/main-package.png";
+import Imagemain from "../../public/img/services/website-package.jpg";
 import Link from "next/link";
 
 export function Firstscreen() {
@@ -24,7 +24,7 @@ export function Firstscreen() {
               </a>
             </Link>
           </div>
-          <div className={mainstyle.Imagemain}>
+          <div className={mainstyle.imagemain}>
             <Image src={Imagemain} alt="crafting websites" />
           </div>
         </div>

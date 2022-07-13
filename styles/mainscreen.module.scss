@@ -5,6 +5,13 @@
   justify-content: space-between;
   margin: 0 auto 88px auto;
   padding: 0 20px;
+  .imagemain {
+    max-width: 606px;
+
+    img {
+      border-radius: 20px;
+    }
+  }
 
   .textmain {
     text-align: left;

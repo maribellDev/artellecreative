@@ -14,6 +14,7 @@ import Slider from "../Components/Slider";
 import Layout from "../Components/Layout";
 import Tools from "../Components/Tools";
 import Link from "next/link";
+import CustomSeparator from "../Components/CustomSeparator";
 
 export default function Home() {
   return (
@@ -33,7 +34,9 @@ export default function Home() {
           content="width=device-width, initial-scale=1.0"
         ></meta>
       </Head>
+
       <Navbar />
+
       <Mainscreen />
       <section className={style.sectionService}>
         <h2 style={{ paddingTop: "80px" }}>A full-service web design studio</h2>
