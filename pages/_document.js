@@ -4,6 +4,11 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <meta charSet="UTF-8"></meta>
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          ></meta>
           <link rel="stylesheet" href="https://use.typekit.net/mod3ewt.css" />
           <link
             rel="stylesheet"

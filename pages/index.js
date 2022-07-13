@@ -14,7 +14,6 @@ import Slider from "../Components/Slider";
 import Layout from "../Components/Layout";
 import Tools from "../Components/Tools";
 import Link from "next/link";
-import CustomSeparator from "../Components/CustomSeparator";
 
 export default function Home() {
   return (

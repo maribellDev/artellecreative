@@ -5,14 +5,12 @@
 /* 48em = 768px */
 
 .header {
-  display: block;
   background-color: #fff;
   position: fixed;
   width: 100%;
   z-index: 3;
   height: 78px;
   margin-left: -20px;
-  margin-top: 180px;
 
   .menu {
     position: absolute;
@@ -73,17 +71,16 @@
       }
     }
   }
+  .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 20px 0px;
+    text-decoration: none;
+    position: relative;
+    margin-left: 20px;
+  }
 }
-.logo {
-  display: block;
-  float: left;
-  font-size: 2em;
-  padding: 20px 0px;
-  text-decoration: none;
-  position: relative;
-  margin-left: 20px;
-}
-
 .menu {
   transition: 0.7s;
   overflow: hidden;
