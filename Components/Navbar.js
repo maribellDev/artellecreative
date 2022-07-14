@@ -4,6 +4,7 @@ import Logo from "../public/logo/Logo-up.svg";
 import styles from "../styles/navigation.module.scss";
 import style from "../styles/home.module.scss";
 import { Navadapt } from "../Components/Navadapt";
+import img from "../public/icons/menuimg.svg";
 
 export function Navbar() {
   return (
@@ -26,11 +27,21 @@ export function Navbar() {
       </div>
 
       <div className={styles.menu}>
-        <Link href={"/services"}>
-          <a>Services</a>
+        <Link href={"/"}>
+          <a>
+            Services{" "}
+            <span>
+              <Image src={img} alt=""></Image>
+            </span>
+          </a>
         </Link>
         <Link href={"/work"}>
-          <a>Work</a>
+          <a>
+            Work{" "}
+            <span>
+              <Image src={img} alt=""></Image>
+            </span>
+          </a>
         </Link>
 
         <Link href={"/pricing"}>
