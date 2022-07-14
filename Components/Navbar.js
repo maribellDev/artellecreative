@@ -19,39 +19,108 @@ export function Navbar() {
         </Link>
       </div>
       <Navadapt />
-      <div></div>
-      <div className={styles.btnMenu}>
-        <span className={styles.line1}></span>
-        <span className={styles.line2}></span>
-        <span className={styles.line3}></span>
-      </div>
 
       <div className={styles.menu}>
-        <Link href={"/"}>
-          <a>
-            Services{" "}
-            <span>
-              <Image src={img} alt=""></Image>
-            </span>
-          </a>
-        </Link>
-        <Link href={"/work"}>
-          <a>
-            Work{" "}
-            <span>
-              <Image src={img} alt=""></Image>
-            </span>
-          </a>
-        </Link>
+        <input type="radio" name="vkl" id="vkl2" />
+        <label style={{ color: "#2E303D", marginRight: "10px" }} htmlFor="vkl2">
+          Services
+          <span style={{ marginLeft: "10px" }}>
+            <Image src={img} alt=""></Image>
+          </span>
+        </label>
+        <div className={styles.navigul}>
+          <div className={styles.navserv1}>
+            <h3>PACKAGES</h3>
+            <Link href={"/services/website-packages"}>
+              <a>
+                <li>Website Packages</li>
+              </a>
+            </Link>
+            <Link href={"/services/brand-logo-design-packages"}>
+              <a>
+                <li>Brand & Logo Design Packages</li>
+              </a>
+            </Link>
+            <Link href={"/work"}>
+              <a>
+                <li>New Business Packages</li>
+              </a>
+            </Link>
+          </div>
+
+          <div
+            class="line"
+            style={{
+              width: "1px",
+              height: "222px",
+              borderRight: "1px solid  #F9B384",
+              margin: "0 29px",
+              alignSelf: "center",
+            }}
+          ></div>
+          <div className={styles.navserv2}>
+            <h3>SERVICES</h3>
+            <Link href={"/work"}>
+              <a>
+                <li>Email Design</li>
+              </a>
+            </Link>
+            <Link href={"/work"}>
+              <a>
+                <li> Digital & Print Design</li>
+              </a>
+            </Link>
+            <Link href={"/work"}>
+              <a>
+                <li>Design Retainer </li>
+              </a>
+            </Link>
+            <Link href={"/work"}>
+              <a>
+                <li>Website Maintanence</li>
+              </a>
+            </Link>
+            <Link href={"/work"}>
+              <a>
+                <li>Web Development</li>
+              </a>
+            </Link>
+            <Link href={"/work"}>
+              <a>
+                <li>Product Photos & Videos</li>
+              </a>
+            </Link>
+          </div>
+        </div>
+
+        <input type="radio" name="vk2" id="vkl3" />
+        <label style={{ color: "#2E303D", marginRight: "10px" }} htmlFor="vkl3">
+          Work
+          <span style={{ marginLeft: "10px" }}>
+            <Image src={img} alt=""></Image>
+          </span>
+        </label>
+        {/* <div className={styles.navigulwork}>
+          <Link href={"/"}>
+            <a>
+              <li>Case Studies</li>
+            </a>
+          </Link>
+          <Link href={"/work"}>
+            <a>
+              <li>Our Work</li>
+            </a>
+          </Link>
+        </div> */}
 
         <Link href={"/pricing"}>
-          <a>Pricing</a>
+          <a style={{ paddingRight: "30px" }}>Pricing</a>
         </Link>
         <Link href={"/about"}>
-          <a>About</a>
+          <a style={{ paddingRight: "30px" }}>About</a>
         </Link>
         <Link href={"/blog"}>
-          <a>Blog</a>
+          <a style={{ paddingRight: "30px" }}>Blog</a>
         </Link>
 
         <Link href={"/contact"}>
