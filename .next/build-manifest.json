@@ -25,15 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about": [
+    "/services/brand-logo-design-packages": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/about.js"
+      "static/chunks/pages/services/brand-logo-design-packages.js"
     ],
-    "/work": [
+    "/services/website-packages": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/work.js"
+      "static/chunks/pages/services/website-packages.js"
     ]
   },
   "ampFirstPages": []

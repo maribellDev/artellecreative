@@ -21,8 +21,11 @@ export function Navbar() {
       <Navadapt />
 
       <div className={styles.menu}>
-        <input type="radio" name="vkl" id="vkl2" />
-        <label style={{ color: "#2E303D", marginRight: "10px" }} htmlFor="vkl2">
+        <input type="radio" name="vk" id="vklserv" />
+        <label
+          style={{ color: "#2E303D", marginRight: "10px" }}
+          htmlFor="vklserv"
+        >
           Services
           <span style={{ marginLeft: "10px" }}>
             <Image src={img} alt=""></Image>
@@ -93,7 +96,7 @@ export function Navbar() {
           </div>
         </div>
 
-        <input type="radio" name="vk2" id="vkl3" />
+        <input type="radio" name="vk" id="vklwork" />
         <label style={{ color: "#2E303D", marginRight: "10px" }} htmlFor="vkl3">
           Work
           <span style={{ marginLeft: "10px" }}>
