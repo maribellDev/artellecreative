@@ -11,11 +11,22 @@
     position: relative;
   }
   .navigulwork {
+    width: 152px;
     background: #ffffff;
     box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     position: absolute;
     z-index: 10;
+    top: 50px;
+    left: 35px;
+    .navwork {
+      padding: 16px 31px 16px 27px;
+      li {
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
   }
   .navigul {
     background: #ffffff;
@@ -50,11 +61,8 @@
         text-align: left;
       }
     }
-
-    .navigulwork {
-      left: 100px;
-    }
   }
+
   span {
     margin-left: 5px;
   }

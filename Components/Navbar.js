@@ -97,24 +97,29 @@ export function Navbar() {
         </div>
 
         <input type="radio" name="vk" id="vklwork" />
-        <label style={{ color: "#2E303D", marginRight: "10px" }} htmlFor="vkl3">
+        <label
+          style={{ color: "#2E303D", marginRight: "10px" }}
+          htmlFor="vklwork"
+        >
           Work
           <span style={{ marginLeft: "10px" }}>
             <Image src={img} alt=""></Image>
           </span>
         </label>
-        {/* <div className={styles.navigulwork}>
-          <Link href={"/"}>
-            <a>
-              <li>Case Studies</li>
-            </a>
-          </Link>
-          <Link href={"/work"}>
-            <a>
-              <li>Our Work</li>
-            </a>
-          </Link>
-        </div> */}
+        <div className={styles.navigulwork}>
+          <div className={styles.navwork}>
+            <Link href={"/work/case-studies"}>
+              <a>
+                <li>Case Studies</li>
+              </a>
+            </Link>
+            <Link href={"/work"}>
+              <a>
+                <li>Our Work</li>
+              </a>
+            </Link>
+          </div>
+        </div>
 
         <Link href={"/pricing"}>
           <a style={{ paddingRight: "30px" }}>Pricing</a>

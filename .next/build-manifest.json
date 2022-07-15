@@ -25,35 +25,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/services/design-retainer": [
+    "/about": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/services/design-retainer.js"
-    ],
-    "/services/digital-&-print-design": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/services/digital-&-print-design.js"
-    ],
-    "/services/email-design": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/services/email-design.js"
+      "static/chunks/pages/about.js"
     ],
     "/services/product-photos-&-videos": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/services/product-photos-&-videos.js"
     ],
-    "/services/web-development": [
+    "/work": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/services/web-development.js"
-    ],
-    "/services/website-maintanence": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/services/website-maintanence.js"
+      "static/chunks/pages/work.js"
     ]
   },
   "ampFirstPages": []
