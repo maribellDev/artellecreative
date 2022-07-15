@@ -44,7 +44,7 @@ export function Navbar() {
                 <li>Brand & Logo Design Packages</li>
               </a>
             </Link>
-            <Link href={"/work"}>
+            <Link href={"/services/new-business-packages"}>
               <a>
                 <li>New Business Packages</li>
               </a>
@@ -63,32 +63,32 @@ export function Navbar() {
           ></div>
           <div className={styles.navserv2}>
             <h3>SERVICES</h3>
-            <Link href={"/work"}>
+            <Link href={"/services/email-design"}>
               <a>
                 <li>Email Design</li>
               </a>
             </Link>
-            <Link href={"/work"}>
+            <Link href={"/services/digital-&-print-design"}>
               <a>
                 <li> Digital & Print Design</li>
               </a>
             </Link>
-            <Link href={"/work"}>
+            <Link href={"/services/design-retainer"}>
               <a>
                 <li>Design Retainer </li>
               </a>
             </Link>
-            <Link href={"/work"}>
+            <Link href={"/services/website-maintanence"}>
               <a>
                 <li>Website Maintanence</li>
               </a>
             </Link>
-            <Link href={"/work"}>
+            <Link href={"/services/web-development"}>
               <a>
                 <li>Web Development</li>
               </a>
             </Link>
-            <Link href={"/work"}>
+            <Link href={"/services/product-photos-&-videos"}>
               <a>
                 <li>Product Photos & Videos</li>
               </a>
