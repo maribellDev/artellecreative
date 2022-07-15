@@ -18,7 +18,7 @@
     position: absolute;
     z-index: 10;
     top: 50px;
-    left: 35px;
+    left: 45px;
     .navwork {
       padding: 16px 31px 16px 27px;
       li {
@@ -63,9 +63,6 @@
     }
   }
 
-  span {
-    margin-left: 5px;
-  }
   a {
     &:hover {
       color: rgba(219, 142, 118, 1);

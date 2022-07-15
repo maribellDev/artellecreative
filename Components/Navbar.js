@@ -27,7 +27,7 @@ export function Navbar() {
           htmlFor="vklserv"
         >
           Services
-          <span style={{ marginLeft: "10px" }}>
+          <span style={{ marginLeft: "10px", marginRight: "10px" }}>
             <Image src={img} alt=""></Image>
           </span>
         </label>
@@ -102,7 +102,7 @@ export function Navbar() {
           htmlFor="vklwork"
         >
           Work
-          <span style={{ marginLeft: "10px" }}>
+          <span style={{ marginLeft: "10px", marginRight: "10px" }}>
             <Image src={img} alt=""></Image>
           </span>
         </label>
