@@ -108,12 +108,12 @@ export function Navbar() {
         </label>
         <div className={styles.navigulwork}>
           <div className={styles.navwork}>
-            <Link href={"/work/case-studies"}>
+            <Link href={"/work"}>
               <a>
                 <li>Case Studies</li>
               </a>
             </Link>
-            <Link href={"/work"}>
+            <Link href={"/gallery"}>
               <a>
                 <li>Our Work</li>
               </a>
