@@ -2,11 +2,11 @@ import Head from "next/head";
 
 import { Footer } from "../Components/Footer";
 import { Navbar } from "../Components/Navbar";
-
+import Action from "../Components/Action";
 import React from "react";
-import { InlineWidget } from "react-calendly";
 import Layout from "../Components/Layout";
 import { Gallery } from "../Components/gallery/gallery";
+import styles from "../styles/gallery.module.scss";
 
 export default function Contact() {
   return (
@@ -25,6 +25,9 @@ export default function Contact() {
       <Navbar />
 
       <Gallery />
+      <section className={styles.section}>
+        <Action />
+      </section>
 
       <Footer />
     </Layout>

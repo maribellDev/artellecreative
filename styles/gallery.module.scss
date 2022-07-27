@@ -1,7 +1,19 @@
 .container {
   background: linear-gradient(180deg, #ffffff 0%, #eeece5 100%);
+  padding-bottom: 20px;
   //   height: 1160px;
-
+  .text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 10px;
+  }
+  h2 {
+    margin-bottom: 0px;
+  }
   .gallerypackage {
     max-width: 1260px;
     // flex-wrap: wrap;
@@ -30,18 +42,22 @@
       border-radius: 10px;
       width: 298px;
       height: auto;
-      transition: 1s; /* Время эффекта */
+      // transition: 1s; /* Время эффекта */
       display: block;
     }
-    img:hover {
-      transform: scale(1.1);
-    }
+    // img:hover {
+    //   transform: scale(1.1);
+    // }
   }
   .btnServices {
     margin: 0 auto;
     max-width: 142.31px;
     padding-bottom: 80px;
   }
+}
+.section {
+  margin-bottom: 56px;
+  margin-top: 56px;
 }
 @media (max-width: 1000px) {
   .container {
