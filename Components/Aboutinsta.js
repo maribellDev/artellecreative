@@ -20,18 +20,19 @@ export function Aboutinsta() {
             }}
           >
             <p className={styles.place}>
-              Based in Port St. Lucie, Florida working with clients anywhere.
+              Working out of different corners of the world, but calling Port
+              St. Lucie, Florida - home.
             </p>
 
             <p className={styles.description}>
-              On any given day we might be skydiving, baking pies, or posting
-              cute cat videos. You never know what you’re going to get - follow
-              to find out :)
+              Our team collaborates remotely and works with clients near and
+              far, but we might as well be sitting next to each other. Catch us
+              on Instagram to see what we’re up to.
             </p>
             <p className={styles.linkinsta}>
               {" "}
               <Link href={"/about"}>
-                <a>Go to Instagram</a>
+                <a>See what we’re up to</a>
               </Link>
             </p>
           </div>

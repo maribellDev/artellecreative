@@ -15,10 +15,19 @@ export function Aboutus() {
               <h2>Ana Shuda</h2>
               <p className={styles.profession}>Lead Designer</p>
               <p className={styles.description}>
-                Choosing the right design agency is difficult. We want to make
-                it as easy as possible by not keeping our pricing a secret. No
-                matter the size or revenue of your business, our pricing stays
-                the same.
+                With over six years of designing for e-commerce, IT, and real
+                estate brands, Ana incorporates liveliness and delight into her
+                work, striking a balance between purpose-driven design and
+                playful appeal.
+                <br />
+                <br /> Ana is both the lead designer and the self-proclaimed
+                “introverted people-person” behind Artelle Creative - and you
+                can expect to work with her throughout the entire design
+                process.
+                <br />
+                <br /> During her free time, she spends time outdoors and uses
+                her experiences as creative fuel for her work. She enjoys
+                documenting her adventures and sharing them with the world.
               </p>
             </div>
             <Image src={ana} className={style.aboutphoto} alt="designer" />
@@ -30,10 +39,11 @@ export function Aboutus() {
               <h2>Maria Bel</h2>
               <p className={styles.profession}>Lead Developer</p>
               <p className={styles.description}>
-                Choosing the right design agency is difficult. We want to make
-                it as easy as possible by not keeping our pricing a secret. No
-                matter the size or revenue of your business, our pricing stays
-                the same.
+                Maria is an experienced web developer with a knack for solving
+                technical problems. She has worked with clients in health and
+                wellness, cosmetology, IT and other fields. <br />
+                <br /> Outside of development, she enjoys reading books and
+                teaching her oldest son coding.
               </p>
             </div>
           </div>
