@@ -21,12 +21,13 @@ export function Navadapt() {
           <span className={styles.navicon}></span>
         </label>
         <ul className={styles.menu}>
-          <li className={styles.navLi} style={{ paddingLeft: "35px" }}>
+          <input type="checkbox" name="on" id="serv" className={styles.serv} />
+          <label className={styles.label} htmlFor="serv">
             Services
             <span style={{ marginLeft: "10px", marginRight: "10px" }}>
               <Image src={img} alt=""></Image>
             </span>
-          </li>
+          </label>
 
           <div className={styles.navigul}>
             <h3>PACKAGES </h3>
@@ -79,12 +80,14 @@ export function Navadapt() {
             </Link>
           </div>
 
-          <li className={styles.navLi} style={{ paddingLeft: "35px" }}>
+          <input type="checkbox" name="on" id="work" className={styles.work} />
+          <label className={styles.label} htmlFor="work">
             Work
             <span style={{ marginLeft: "10px", marginRight: "10px" }}>
               <Image src={img} alt=""></Image>
             </span>
-          </li>
+          </label>
+
           <div className={styles.navwork}>
             <Link href={"/work"}>
               <a>

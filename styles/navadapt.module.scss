@@ -15,10 +15,16 @@
     overflow: auto;
     background-color: white;
     height: 600px;
+    .label {
+      display: flex;
+      justify-content: center;
+      margin-left: 15px;
+      padding: 20px 20px 20px 35px;
+    }
     .navigul,
     .navwork {
-      z-index: 10;
       text-align: center;
+      display: none;
 
       a {
         font-size: 14px;
@@ -139,6 +145,28 @@
   }
 }
 
+// переключатель
+.serv {
+  display: none;
+
+  &:checked ~ .navigul {
+    display: block;
+  }
+}
+.work {
+  display: none;
+  &:checked ~ .navwork {
+    display: block;
+  }
+}
+
+.menu > :checked + label + * {
+  overflow: hidden;
+  height: auto;
+}
+.menu > :checked + label {
+  cursor: default;
+}
 @media (min-width: 850px) {
   .header {
     display: none;
