@@ -38,6 +38,29 @@
     flex-direction: row;
     top: 50px;
     left: -280px;
+    .navserv1 {
+      padding-left: 27px;
+      padding-bottom: 27px;
+    }
+    .navserv2 {
+      padding-right: 27px;
+      padding-bottom: 27px;
+    }
+
+    a {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0em;
+    }
+    h3 {
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 33px;
+      letter-spacing: 0.08em;
+      text-align: left;
+      color: #db8e76;
+    }
   }
 
   a {

@@ -44,7 +44,11 @@
   }
 }
 //Firstscreen
-
+@media (max-width: 750px) {
+  .blockmain {
+    margin-top: -50px;
+  }
+}
 @media (max-width: 768px) {
   .blockmain {
     .textmain {
@@ -63,8 +67,6 @@
 
 @media (max-width: 550px) {
   .sectionAll {
-    margin-top: -40px;
-
     .header1 {
       font-size: 2.34em;
       line-height: 45px;
