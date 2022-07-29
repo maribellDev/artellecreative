@@ -43,106 +43,214 @@ export function Gallery() {
                 <div className={style.item}>
                   <a
                     data-fancybox="gallery"
-                    href="https://images.unsplash.com/photo-1647613233044-bb52d86f778d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109611/EmailDesign5_wxnegk.jpg"
                   >
                     <Image classname={style.img} src={img5} alt="" />
                   </a>
                 </div>
 
                 <div className={style.item}>
-                  <Image classname={style.img} src={img8} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109613/NT-gif_hfuknj.gif"
+                  >
+                    <Image classname={style.img} src={img8} alt="" />
+                  </a>
                 </div>
 
                 <div className={style.item}>
-                  <Image classname={style.img} src={img9} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109611/BakingKit2_wo4jce.jpg"
+                  >
+                    <Image classname={style.img} src={img9} alt="" />
+                  </a>
                 </div>
 
                 <div className={style.item}>
-                  <Image classname={style.img} src={img10} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109611/EmailDesign3_yci188.jpg"
+                  >
+                    <Image classname={style.img} src={img10} alt="" />
+                  </a>
                 </div>
 
                 <div className={style.item}>
-                  <Image classname={style.img} src={img11} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109611/BabyKtan_wdkm8p.jpg"
+                  >
+                    <Image classname={style.img} src={img11} alt="" />
+                  </a>
                 </div>
 
                 <div className={style.item}>
-                  <Image classname={style.img} src={img12} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109612/MG2_dbfu83.jpg"
+                  >
+                    <Image classname={style.img} src={img12} alt="" />
+                  </a>
                 </div>
               </div>
               <div className={style.col2}>
                 <div className={style.item}>
-                  <Image classname={style.img} src={img2} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109612/myphoto1_xrw2ix.jpg"
+                  >
+                    <Image classname={style.img} src={img2} alt="" />
+                  </a>
                 </div>
 
                 <div className={style.item}>
-                  <Image classname={style.img} src={img1} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109612/MG1_qglj7z.jpg"
+                  >
+                    <Image classname={style.img} src={img1} alt="" />
+                  </a>
                 </div>
 
                 <div className={style.item}>
-                  <Image classname={style.img} src={img13} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109612/MG3_etovp1.jpg"
+                  >
+                    <Image classname={style.img} src={img13} alt="" />
+                  </a>
                 </div>
 
                 <div className={style.item}>
-                  <Image classname={style.img} src={img14} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109612/myphoto2_ge9dd7.jpg"
+                  >
+                    <Image classname={style.img} src={img14} alt="" />
+                  </a>
                 </div>
 
                 <div className={style.item}>
-                  <Image classname={style.img} src={img15} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109613/NomadTechy1_hjujkh.jpg"
+                  >
+                    <Image classname={style.img} src={img15} alt="" />
+                  </a>
                 </div>
 
                 <div className={style.item}>
-                  <Image classname={style.img} src={img16} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109613/NT-full_oarpnz.jpg"
+                  >
+                    <Image classname={style.img} src={img16} alt="" />
+                  </a>
                 </div>
               </div>
             </div>
             <div className={style.part2}>
               <div className={style.col3}>
                 <div className={style.item}>
-                  <Image classname={style.img} src={img6} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109613/Thrive_StyleGuide_nbqcfl.jpg"
+                  >
+                    <Image classname={style.img} src={img6} alt="" />
+                  </a>
                 </div>
 
                 <div className={style.item}>
-                  <Image classname={style.img} src={img3} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109612/lights_july4_nwqxo1.jpg"
+                  >
+                    <Image classname={style.img} src={img3} alt="" />
+                  </a>
                 </div>
 
                 <div className={style.item}>
-                  <Image classname={style.img} src={img17} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109613/PhotoGifts_Decor1_bviqow.jpg"
+                  >
+                    <Image classname={style.img} src={img17} alt="" />
+                  </a>
                 </div>
 
                 <div className={style.item}>
-                  <Image classname={style.img} src={img18} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109613/PhotoGifts_Decor2_spazqm.jpg"
+                  >
+                    <Image classname={style.img} src={img18} alt="" />
+                  </a>
                 </div>
 
                 <div className={style.item}>
-                  <Image classname={style.img} src={img19} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109613/PhotoGifts_Decor3_jjerrd.jpg"
+                  >
+                    <Image classname={style.img} src={img19} alt="" />
+                  </a>
                 </div>
 
                 <div className={style.item}>
-                  <Image classname={style.img} src={img20} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109613/StockingStuffers_trkfdn.jpg"
+                  >
+                    <Image classname={style.img} src={img20} alt="" />
+                  </a>
                 </div>
 
                 <div className={style.item}>
-                  <Image classname={style.img} src={img25} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109614/vday_block_ojv1aj.gif"
+                  >
+                    <Image classname={style.img} src={img25} alt="" />
+                  </a>
                 </div>
               </div>
               <div className={style.col4}>
                 <div className={style.item}>
-                  <Image classname={style.img} src={img4} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109612/360block_lsnl5y.gif"
+                  >
+                    <Image classname={style.img} src={img4} alt="" />
+                  </a>
                 </div>
                 <div className={style.item}>
-                  <Image classname={style.img} src={img7} alt="" />
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109613/TheArtelleWebsite-blog_tm905p.jpg"
+                  >
+                    <Image classname={style.img} src={img7} alt="" />
+                  </a>
                 </div>
                 <div className={style.item}>
-                  <Image classname={style.img} src={img21} alt="" />
+                  <a data-fancybox="gallery" href="">
+                    <Image classname={style.img} src={img21} alt="" />
+                  </a>
                 </div>
                 <div className={style.item}>
-                  <Image classname={style.img} src={img22} alt="" />
+                  <a data-fancybox="gallery" href="">
+                    <Image classname={style.img} src={img22} alt="" />
+                  </a>
                 </div>
                 <div className={style.item}>
-                  <Image classname={style.img} src={img23} alt="" />
+                  <a data-fancybox="gallery" href="">
+                    <Image classname={style.img} src={img23} alt="" />
+                  </a>
                 </div>
                 <div className={style.item}>
-                  <Image classname={style.img} src={img24} alt="" />
+                  <a data-fancybox="gallery" href="">
+                    <Image classname={style.img} src={img24} alt="" />
+                  </a>
                 </div>
               </div>
             </div>
