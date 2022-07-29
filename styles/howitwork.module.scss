@@ -5,7 +5,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    .imghow {
+      max-width: 430px;
+    }
     .number {
       float: left;
       color: #cdd5df;
