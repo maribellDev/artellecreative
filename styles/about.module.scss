@@ -146,13 +146,13 @@
     padding: 0;
   }
 }
-@media (min-width: 1445px) {
-  .aboutmain {
-    height: 650px;
-  }
-}
-// @media (max-width: 1445px) {
-//   .nameabout {
-//     margin-top: 190px;
+// @media (min-width: 1445px) {
+//   .aboutmain {
+//     height: 650px;
 //   }
 // }
+@media (max-width: 1445px) {
+  .nameabout {
+    margin-top: 190px;
+  }
+}
