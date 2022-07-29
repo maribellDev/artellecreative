@@ -1,6 +1,6 @@
 import Image from "next/image";
 import style from "../../styles/howitwork.module.scss";
-import image from "../../public/img/howitwork.png";
+import image from "../../public/img/howitwork.gif";
 
 export function Howitworks() {
   return (
