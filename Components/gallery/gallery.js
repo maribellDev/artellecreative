@@ -233,22 +233,34 @@ export function Gallery() {
                   </a>
                 </div>
                 <div className={style.item}>
-                  <a data-fancybox="gallery" href="">
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109613/TheArtelle-blog_bltrhe.jpg"
+                  >
                     <Image classname={style.img} src={img21} alt="" />
                   </a>
                 </div>
                 <div className={style.item}>
-                  <a data-fancybox="gallery" href="">
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109613/TheArtelleWebsite-blog_tm905p.jpg"
+                  >
                     <Image classname={style.img} src={img22} alt="" />
                   </a>
                 </div>
                 <div className={style.item}>
-                  <a data-fancybox="gallery" href="">
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109613/Thrive_StyleGuide_nbqcfl.jpg"
+                  >
                     <Image classname={style.img} src={img23} alt="" />
                   </a>
                 </div>
                 <div className={style.item}>
-                  <a data-fancybox="gallery" href="">
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109614/ThriveWomensConference_croglg.jpg"
+                  >
                     <Image classname={style.img} src={img24} alt="" />
                   </a>
                 </div>
