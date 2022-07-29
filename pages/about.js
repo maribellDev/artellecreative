@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import Image1 from "../public/img/hand-image.jpg";
-import Image2 from "../public/img/about.svg";
+
+import Image2 from "../public/img/illustr.svg";
 import { Footer } from "../Components/Footer";
 import { Navbar } from "../Components/Navbar";
 import style from "../styles/about.module.scss";

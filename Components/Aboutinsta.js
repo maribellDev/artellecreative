@@ -9,7 +9,11 @@ export function Aboutinsta() {
       <div className={styles.backgr}>
         <div className={styles.instablock}>
           <div className={styles.instaimg}>
-            <Image src={img} alt="instagram-foto" />
+            <Image
+              style={{ maxWidth: "425px" }}
+              src={img}
+              alt="instagram-foto"
+            />
           </div>
 
           <div

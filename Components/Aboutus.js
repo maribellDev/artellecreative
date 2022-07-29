@@ -1,8 +1,8 @@
 import Image from "next/image";
 import style from "../styles/home.module.scss";
 import styles from "../styles/aboutus.module.scss";
-import maria from "../public/img/maria.png";
-import ana from "../public/img/ana.png";
+import maria from "../public/img/maria.jpg";
+import ana from "../public/img/ana.jpg";
 
 export function Aboutus() {
   return (
@@ -30,11 +30,14 @@ export function Aboutus() {
                 documenting her adventures and sharing them with the world.
               </p>
             </div>
-            <Image src={ana} className={style.aboutphoto} alt="designer" />
+            <div style={{ width: "317px" }} className={style.aboutphoto}>
+              <Image src={ana} className={style.aboutphoto} alt="designer" />
+            </div>
           </div>
           <div className={styles.aboutcardsleft}>
-            <Image src={maria} alt="developer" />
-
+            <div style={{ width: "317px" }} className={style.aboutphoto}>
+              <Image src={maria} alt="developer" />
+            </div>
             <div className={styles.aboutselftext}>
               <h2>Maria Bel</h2>
               <p className={styles.profession}>Lead Developer</p>
