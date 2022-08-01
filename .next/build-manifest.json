@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/gallery": [
+    "/services/brand-logo-design-packages": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/gallery.js"
+      "static/chunks/pages/services/brand-logo-design-packages.js"
     ],
     "/services/website-packages": [
       "static/chunks/webpack.js",
