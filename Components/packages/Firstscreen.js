@@ -14,8 +14,9 @@ export function Firstscreen() {
             <p className={pricing.packageprice}>Starting at $2,800</p>
             <h1 style={{ fontSize: "32px" }}>Website Packages</h1>
             <p>
-              Get a beautifully designed, custom-built website to showcase your
-              products and services, attract clients, and show off your brand.
+              Get an engaging, beautifully designed, custom-built marketing
+              website to help scale your business, showcase your offerings, and
+              build your brand.
             </p>
 
             <Link href="/contact">

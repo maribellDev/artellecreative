@@ -30,6 +30,7 @@
     }
 
     .item {
+      max-width: 293px;
       margin: 22px 0 22px;
       display: inline-block;
       overflow: hidden;
@@ -51,6 +52,7 @@
     padding-bottom: 80px;
   }
 }
+
 @media (max-width: 1000px) {
   .container {
     .gallerypackage {

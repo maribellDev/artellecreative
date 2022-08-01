@@ -18,8 +18,8 @@ export function Howitworks() {
                 <h3>Brief & Strategy</h3>
                 <p>
                   We start with a custom questionnaire to learn about your
-                  business and goals and develop a content plan and website
-                  structure.
+                  business and goals, and develop a content plan and structure
+                  for your website.
                 </p>
               </div>
             </div>
@@ -28,14 +28,15 @@ export function Howitworks() {
                 <div className={style.number}>02</div>
                 <h3>Design & Development</h3>
                 <p>
-                  With your feedback, we design all the pages and develop the
-                  website to get it ready for launch.
+                  With your feedback, we design all the pages and build out the
+                  website with the needed functionality to get it ready for
+                  launch.
                 </p>
               </div>
 
               <div className={style.before}>
                 <div className={style.number}>03</div>
-                <h3>Post-Launch Training + Support</h3>
+                <h3>Post-Launch Training & Support</h3>
                 <p>
                   Post-launch we will walk you through everything you need to
                   know about your new website and monitor the site’s performance

@@ -36,8 +36,7 @@ export default function Toolsweb() {
               }}
             >
               Includes custom design for all pages. No templates used. Crafted
-              from concept to completion until you’re fully happy with your
-              website.
+              from concept to completion for your specific needs.
             </p>
           </div>
           <div className={style.tool}>
@@ -85,9 +84,9 @@ export default function Toolsweb() {
                 lineHeight: "24px",
               }}
             >
-              External email marketing programs, client management systems or
-              social media feeds integration to streamline your business
-              operations and marketing.
+              Streamline your business and marketing processes with email
+              marketing, client management system, social media, and other
+              third-party integrations.
             </p>
           </div>
           <div className={style.tool}>
@@ -98,9 +97,9 @@ export default function Toolsweb() {
                 lineHeight: "24px",
               }}
             >
-              We will be available for a specific amount of time post the launch
-              of your website to provide additional support if needed and make
-              sure everything is running as intended.
+              We will be available before and after your website’s launch to
+              make sure everything is running smoothly and provide additional
+              support when needed.
             </p>
           </div>
         </div>

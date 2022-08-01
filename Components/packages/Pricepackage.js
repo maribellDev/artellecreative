@@ -7,25 +7,28 @@ export default function Pricepackage() {
     <>
       <div className={style.priceblock}>
         <h2>Website Package Pricing</h2>
-        <p>Transparent pricing for our website design services.</p>
+        <p>
+          Transparent pricing to set you up with a new website. Payment plans
+          available.
+        </p>
         <div className={style.pricepackage}>
           <div className={style.pricecard}>
-            <p className={style.title}>One Page Love</p>
+            <p className={style.title}>Up to 3 Pages</p>
             <p className={style.cost}>$2,800</p>
             <p className={style.text}>
-              Great design and functionality, minus the extras.
+              Establish an engaging digital presence with a branded website.
             </p>
             <hr width="100%" size="1" color="#FFF4E4" />
             <ul>
-              <li>Single page website</li>
-              <li>Custom design</li>
-              <li>Responsive development</li>
+              <li>Complete Design &amp; Development</li>
+              <li>Discovery Consultation via Zoom</li>
+              <li>Responsive Mobile Development</li>
               <li>Copywriting</li>
-              <li>Contact form</li>
-              <li>Basic SEO</li>
-              <li>Hosting & Domain for 1 year</li>
-              <li>Google Analytics intergartion</li>
-              <li>1 week of post-launch support</li>
+              <li>Foundational SEO</li>
+              <li>Google Analytics Integration</li>
+              <li>Hosting &amp; Domain for 1 year</li>
+              <li>Post-Launch Training</li>
+              <li>7 Days of Post-Launch Support</li>
             </ul>
             <hr width="100%" size="1" color="#FFF4E4" />
             <div className={style.btnServices}>
@@ -38,22 +41,22 @@ export default function Pricepackage() {
           </div>
           <div className={style.pricecard}>
             {" "}
-            <p className={style.title}>The Start-Up</p>
+            <p className={style.title}>Up to 6 Pages</p>
             <p className={style.cost}>$4,200</p>
             <p className={style.text}>
-              Great design and functionality, minus the extras.
+              Propel your business forward with a website designed for growth.
             </p>
             <hr width="100%" size="1" color="#FFF4E4" />
             <ul>
-              <li>Single page website</li>
-              <li>Custom design</li>
-              <li>Responsive development</li>
+              <li>Complete Design &amp; Development</li>
+              <li>Discovery Consultation via Zoom</li>
+              <li>Responsive Mobile Development</li>
               <li>Copywriting</li>
-              <li>Contact form</li>
-              <li>Basic SEO</li>
-              <li>Hosting & Domain for 1 year</li>
-              <li>Google Analytics intergartion</li>
-              <li>1 week of post-launch support</li>
+              <li>Foundational SEO</li>
+              <li>Google Analytics Integration</li>
+              <li>Hosting &amp; Domain for 1 year</li>
+              <li>Post-Launch Training</li>
+              <li>14 Days of Post-Launch Support</li>
             </ul>
             <hr width="100%" size="1" color="#FFF4E4" />
             <div className={style.btnServices}>
@@ -66,22 +69,23 @@ export default function Pricepackage() {
           </div>
           <div className={style.pricecard}>
             {" "}
-            <p className={style.title}>The TBD</p>
+            <p className={style.title}>Up to 12 Pages</p>
             <p className={style.cost}>$6,400</p>
             <p className={style.text}>
-              Great design and functionality, minus the extras.
+              Scale your business with a website powerhouse that vouches for
+              you.
             </p>
             <hr width="100%" size="1" color="#FFF4E4" />
             <ul>
-              <li>Single page website</li>
-              <li>Custom design</li>
-              <li>Responsive development</li>
+              <li>Complete Design &amp; Development</li>
+              <li>Discovery Consultation via Zoom</li>
+              <li>Responsive Mobile Development</li>
               <li>Copywriting</li>
-              <li>Contact form</li>
-              <li>Basic SEO</li>
-              <li>Hosting & Domain for 1 year</li>
-              <li>Google Analytics intergartion</li>
-              <li>1 week of post-launch support</li>
+              <li>Foundational SEO</li>
+              <li>Google Analytics Integration</li>
+              <li>Hosting &amp; Domain for 1 year</li>
+              <li>Post-Launch Training</li>
+              <li>30 Days of Post-Launch Support</li>
             </ul>
             <hr width="100%" size="1" color="#FFF4E4" />
             <div className={style.btnServices}>
