@@ -6,26 +6,50 @@ export default function Pricepackage() {
   return (
     <>
       <div className={style.priceblock}>
-        <h2>Website Package Pricing</h2>
-        <p>Transparent pricing for our website design services.</p>
+        <h2>Brand & Logo Design Packages</h2>
+        <p>Branding packages to cover all your design needs.</p>
         <div className={style.pricepackage}>
           <div className={style.pricecard}>
-            <p className={style.title}>One Page Love</p>
+            <p className={style.title}>Base</p>
+            <p className={style.cost}>$1,200</p>
+            <p className={style.text}>
+              Help your business stand out with a professional logo.
+            </p>
+            <hr width="100%" size="1" color="#FFF4E4" />
+            <ul>
+              <li>Discovery Consultation via Zoom</li>
+              <li>1 Brand Material</li>
+              <li>Color Palette and Fonts</li>
+              <li>Social Media Banner</li>
+              <li>One Page Style Guide Document</li>
+              <li>Google Drive Folder With All Files</li>
+            </ul>
+            <hr width="100%" size="1" color="#FFF4E4" />
+            <div className={style.btnServices}>
+              <Link href="/contact">
+                <a style={{ paddingRight: "0px", color: "white" }}>
+                  <button className={styles.dark}>Get Started </button>
+                </a>
+              </Link>
+            </div>
+          </div>
+          <div className={style.pricecard}>
+            {" "}
+            <p className={style.title}>Full</p>
             <p className={style.cost}>$2,800</p>
             <p className={style.text}>
-              Great design and functionality, minus the extras.
+              Get a full brand design that speaks to your audience.
             </p>
             <hr width="100%" size="1" color="#FFF4E4" />
             <ul>
-              <li>Single page website</li>
-              <li>Custom design</li>
-              <li>Responsive development</li>
-              <li>Copywriting</li>
-              <li>Contact form</li>
-              <li>Basic SEO</li>
-              <li>Hosting & Domain for 1 year</li>
-              <li>Google Analytics intergartion</li>
-              <li>1 week of post-launch support</li>
+              <li>Discovery Consultation via Zoom</li>
+              <li>Primary Logo Design + Variations</li>
+              <li>Full Stationery Suite Design</li>
+              <li>2 Brand Materials</li>
+              <li>Color Palette and Fonts</li>
+              <li>Social Media Banner</li>
+              <li>6 Social Media Post Designs</li>
+              <li>Extensive Style Guide Document</li>
             </ul>
             <hr width="100%" size="1" color="#FFF4E4" />
             <div className={style.btnServices}>
@@ -38,50 +62,23 @@ export default function Pricepackage() {
           </div>
           <div className={style.pricecard}>
             {" "}
-            <p className={style.title}>The Start-Up</p>
-            <p className={style.cost}>$4,200</p>
+            <p className={style.title}>E-comm</p>
+            <p className={style.cost}>$4,400+</p>
             <p className={style.text}>
-              Great design and functionality, minus the extras.
+              Build a beautiful visual brand for your e-commerce business.
             </p>
             <hr width="100%" size="1" color="#FFF4E4" />
             <ul>
-              <li>Single page website</li>
-              <li>Custom design</li>
-              <li>Responsive development</li>
-              <li>Copywriting</li>
-              <li>Contact form</li>
-              <li>Basic SEO</li>
-              <li>Hosting & Domain for 1 year</li>
-              <li>Google Analytics intergartion</li>
-              <li>1 week of post-launch support</li>
-            </ul>
-            <hr width="100%" size="1" color="#FFF4E4" />
-            <div className={style.btnServices}>
-              <Link href="/contact">
-                <a style={{ paddingRight: "0px", color: "white" }}>
-                  <button className={styles.dark}>Get Started </button>
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div className={style.pricecard}>
-            {" "}
-            <p className={style.title}>The TBD</p>
-            <p className={style.cost}>$6,400</p>
-            <p className={style.text}>
-              Great design and functionality, minus the extras.
-            </p>
-            <hr width="100%" size="1" color="#FFF4E4" />
-            <ul>
-              <li>Single page website</li>
-              <li>Custom design</li>
-              <li>Responsive development</li>
-              <li>Copywriting</li>
-              <li>Contact form</li>
-              <li>Basic SEO</li>
-              <li>Hosting & Domain for 1 year</li>
-              <li>Google Analytics intergartion</li>
-              <li>1 week of post-launch support</li>
+              <li>Discovery Consultation via Zoom</li>
+              <li>Primary Logo Design + Variations</li>
+              <li>Full Stationery Suite Design</li>
+              <li>Product Photography</li>
+              <li>Labels/Packaging Design</li>
+              <li>Email Marketing Templates</li>
+              <li>Brand Materials</li>
+              <li>Color Palette and Fonts</li>
+              <li>Full Social Media Suite Design</li>
+              <li>Extensive Style Guide Document</li>
             </ul>
             <hr width="100%" size="1" color="#FFF4E4" />
             <div className={style.btnServices}>

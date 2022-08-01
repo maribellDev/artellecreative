@@ -18,28 +18,29 @@ export function Howitworks() {
                 <h3>Brief & Strategy</h3>
                 <p>
                   We start with a custom questionnaire to learn about your
-                  business and goals and develop a content plan and website
-                  structure.
+                  business, target market, and goals to guide the visual
+                  direction of the brand.
                 </p>
               </div>
             </div>
             <div>
               <div className={style.before}>
                 <div className={style.number}>02</div>
-                <h3>Design & Development</h3>
+                <h3>Design</h3>
                 <p>
-                  With your feedback, we design all the pages and develop the
-                  website to get it ready for launch.
+                  We land on a design direction through a moodboard, and design
+                  all the brand elements, including digital and printed
+                  materials
                 </p>
               </div>
 
               <div className={style.before}>
                 <div className={style.number}>03</div>
-                <h3>Post-Launch Training + Support</h3>
+                <h3>Handoff & Walkthrough</h3>
                 <p>
-                  Post-launch we will walk you through everything you need to
-                  know about your new website and monitor the site’s performance
-                  for a set number of days.
+                  As the final step, we deliver all the brand files, including
+                  logos, imagery, materials, and the brand guide, and show you
+                  how to use your new brand guide.
                 </p>
               </div>
             </div>

@@ -11,11 +11,14 @@ export function Firstscreen() {
       <section className={mainstyle.sectionAll}>
         <div id={mainstyle.block} className={mainstyle.blockmain}>
           <div style={{ maxWidth: "350px" }} className={mainstyle.textmain}>
-            <p className={pricing.packageprice}>Starting at $2,800</p>
-            <h1 style={{ fontSize: "32px" }}>Brand & Logo Design Packages</h1>
+            <p className={pricing.packageprice}>Starting at $1,200</p>
+            <h1 style={{ fontSize: "32px" }}>
+              Brand &amp; Logo Design Packages
+            </h1>
             <p>
-              Get a beautifully designed, custom-built website to showcase your
-              products and services, attract clients, and show off your brand.
+              Differentiate your business with brand and logo design, including
+              a full suite of uniquely branded assets most brands need to get
+              started.
             </p>
 
             <Link href="/contact">
