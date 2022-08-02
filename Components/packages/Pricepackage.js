@@ -19,17 +19,19 @@ export default function Pricepackage() {
               Establish an engaging digital presence with a branded website.
             </p>
             <hr width="100%" size="1" color="#FFF4E4" />
-            <ul>
-              <li>Complete Design &amp; Development</li>
-              <li>Discovery Consultation via Zoom</li>
-              <li>Responsive Mobile Development</li>
-              <li>Copywriting</li>
-              <li>Foundational SEO</li>
-              <li>Google Analytics Integration</li>
-              <li>Hosting &amp; Domain for 1 year</li>
-              <li>Post-Launch Training</li>
-              <li>7 Days of Post-Launch Support</li>
-            </ul>
+            <div className={style.ulclass}>
+              <ul>
+                <li>Complete Design &amp; Development</li>
+                <li>Discovery Consultation via Zoom</li>
+                <li>Responsive Mobile Development</li>
+                <li>Copywriting</li>
+                <li>Foundational SEO</li>
+                <li>Google Analytics Integration</li>
+                <li>Hosting &amp; Domain for 1 year</li>
+                <li>Post-Launch Training</li>
+                <li>7 Days of Post-Launch Support</li>
+              </ul>
+            </div>
             <hr width="100%" size="1" color="#FFF4E4" />
             <div className={style.btnServices}>
               <Link href="/contact">
@@ -47,17 +49,19 @@ export default function Pricepackage() {
               Propel your business forward with a website designed for growth.
             </p>
             <hr width="100%" size="1" color="#FFF4E4" />
-            <ul>
-              <li>Complete Design &amp; Development</li>
-              <li>Discovery Consultation via Zoom</li>
-              <li>Responsive Mobile Development</li>
-              <li>Copywriting</li>
-              <li>Foundational SEO</li>
-              <li>Google Analytics Integration</li>
-              <li>Hosting &amp; Domain for 1 year</li>
-              <li>Post-Launch Training</li>
-              <li>14 Days of Post-Launch Support</li>
-            </ul>
+            <div className={style.ulclass}>
+              <ul>
+                <li>Complete Design &amp; Development</li>
+                <li>Discovery Consultation via Zoom</li>
+                <li>Responsive Mobile Development</li>
+                <li>Copywriting</li>
+                <li>Foundational SEO</li>
+                <li>Google Analytics Integration</li>
+                <li>Hosting &amp; Domain for 1 year</li>
+                <li>Post-Launch Training</li>
+                <li>14 Days of Post-Launch Support</li>
+              </ul>
+            </div>
             <hr width="100%" size="1" color="#FFF4E4" />
             <div className={style.btnServices}>
               <Link href="/contact">
@@ -76,17 +80,19 @@ export default function Pricepackage() {
               you.
             </p>
             <hr width="100%" size="1" color="#FFF4E4" />
-            <ul>
-              <li>Complete Design &amp; Development</li>
-              <li>Discovery Consultation via Zoom</li>
-              <li>Responsive Mobile Development</li>
-              <li>Copywriting</li>
-              <li>Foundational SEO</li>
-              <li>Google Analytics Integration</li>
-              <li>Hosting &amp; Domain for 1 year</li>
-              <li>Post-Launch Training</li>
-              <li>30 Days of Post-Launch Support</li>
-            </ul>
+            <div className={style.ulclass}>
+              <ul>
+                <li>Complete Design &amp; Development</li>
+                <li>Discovery Consultation via Zoom</li>
+                <li>Responsive Mobile Development</li>
+                <li>Copywriting</li>
+                <li>Foundational SEO</li>
+                <li>Google Analytics Integration</li>
+                <li>Hosting &amp; Domain for 1 year</li>
+                <li>Post-Launch Training</li>
+                <li>30 Days of Post-Launch Support</li>
+              </ul>
+            </div>
             <hr width="100%" size="1" color="#FFF4E4" />
             <div className={style.btnServices}>
               <Link href="/contact">

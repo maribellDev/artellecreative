@@ -19,37 +19,9 @@
     .pricecard {
       border-top: #db8e76 9px solid;
       background-color: white;
-      height: 680px;
+      height: auto;
       width: 387px;
       border-radius: 5px;
-      // &:hover {
-      //   animation: wiggle 2.5s linear infinite;
-      // }
-      // @keyframes wiggle {
-      //   0%,
-      //   7% {
-      //     transform: rotateZ(0);
-      //   }
-      //   15% {
-      //     transform: rotateZ(-15deg);
-      //   }
-      //   20% {
-      //     transform: rotateZ(10deg);
-      //   }
-      //   25% {
-      //     transform: rotateZ(-10deg);
-      //   }
-      //   30% {
-      //     transform: rotateZ(6deg);
-      //   }
-      //   35% {
-      //     transform: rotateZ(-4deg);
-      //   }
-      //   40%,
-      //   100% {
-      //     transform: rotateZ(0);
-      //   }
-      // }
 
       .title {
         margin-top: 44px;
@@ -79,17 +51,24 @@
         color: #424451;
       }
       hr {
-        margin-bottom: 28px;
+        margin-bottom: 31px;
       }
-      ul {
-        padding-left: 0;
-        margin: 40px auto 32px auto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 28px;
-        letter-spacing: 0em;
-        text-align: center;
+      .ulclass {
+        ul {
+          padding-left: 0;
+          margin: 40px auto 32px auto;
+          li {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: center;
+          }
+        }
       }
+    }
+    .btnServices {
+      height: 76px;
     }
   }
 }
