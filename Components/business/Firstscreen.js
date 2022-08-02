@@ -11,11 +11,13 @@ export function Firstscreen() {
       <section className={mainstyle.sectionAll}>
         <div id={mainstyle.block} className={mainstyle.blockmain}>
           <div style={{ maxWidth: "350px" }} className={mainstyle.textmain}>
-            <p className={pricing.packageprice}>Starting at $2,800</p>
-            <h1 style={{ fontSize: "32px" }}>New business packages</h1>
+            <p className={pricing.packageprice}>Starting at $3,800</p>
+            <h1 style={{ fontSize: "32px" }}>
+              New Business Website &amp; Branding Packages
+            </h1>
             <p>
-              Get a beautifully designed, custom-built website to showcase your
-              products and services, attract clients, and show off your brand.
+              The complete package to get launch your business. Website design,
+              branding, and marketing materials all in one.
             </p>
 
             <Link href="/contact">

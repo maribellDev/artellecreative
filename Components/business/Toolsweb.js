@@ -12,7 +12,7 @@ export default function Toolsweb() {
             paddingTop: "80px",
           }}
         >
-          A digital home for your business
+          Everything needed to get up-and-running
         </h2>
         <p
           style={{
@@ -24,83 +24,80 @@ export default function Toolsweb() {
             lineHeight: "24px",
           }}
         >
-          All website design services are custom and tailored to your business.
+          Services designed with new businesses in mind.
         </p>
         <div className={style.tools}>
           <div className={style.tool}>
-            <h4>Website Design</h4>
+            <h4>Brand &amp; Logo Design</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Includes custom design for all pages. No templates used. Crafted
-              from concept to completion until you’re fully happy with your
-              website.
+              Differentiate your business with a complete brand identity design
+              including logo, colors, and fonts.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Website Development</h4>
+            <h4>Marketing Website</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Complete build-out of your website including all pages, contact
-              and scheduling forms, responsive mobile development, custom
-              functionality, and more.
+              Get an engaging, fully branded, marketing website custom designed
+              and developed to showcase your business.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Foundational Website SEO</h4>
+            <h4>Digital &amp; Print Materials</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Includes keyword implementation, image optimization, all metadata
-              and alt text, Google Analytics and Search Console integration.
+              Promote your business with printed and digital brand and marketing
+              materials.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Copywriting</h4>
+            <h4>Email Templates</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              We take care of all your content needs with content questionnaires
-              to help us organize content and write engaging website copy.
+              Stay top-of-mind with email marketing templates for newsletters,
+              promotions, events, and more.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>External Intergrations</h4>
+            <h4>Social Media Design</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              External email marketing programs, client management systems or
-              social media feeds integration to streamline your business
-              operations and marketing.
+              Build connections with fully branded social media profiles -
+              including banners, profile photos, and post and story designs.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Technical Support</h4>
+            <h4>Purposefully designed</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              We will be available for a specific amount of time post the launch
-              of your website to provide additional support if needed and make
-              sure everything is running as intended.
+              Thoughtfully researched and purposefully designed. We work with
+              you to design something special for your business and create a
+              consistent brand look with all assets.
             </p>
           </div>
         </div>

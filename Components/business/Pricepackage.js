@@ -6,26 +6,29 @@ export default function Pricepackage() {
   return (
     <>
       <div className={style.priceblock}>
-        <h2>Website Package Pricing</h2>
-        <p>Transparent pricing for our website design services.</p>
+        <h2>New Business Website &amp; Branding Package</h2>
+        <p>Packages to cover all your design needs. Payment plans available.</p>
         <div className={style.pricepackage}>
           <div className={style.pricecard}>
-            <p className={style.title}>One Page Love</p>
-            <p className={style.cost}>$2,800</p>
+            <p className={style.title}>Starter</p>
+            <p className={style.cost}>$3,800</p>
             <p className={style.text}>
-              Great design and functionality, minus the extras.
+              Everything included in the 3 page Website Package + base Brand
+              Package.
             </p>
             <hr width="100%" size="1" color="#FFF4E4" />
             <ul>
-              <li>Single page website</li>
-              <li>Custom design</li>
-              <li>Responsive development</li>
+              <li>Website w/ up to 3 Pages</li>
+              <li>Custom Design &amp; Development</li>
+              <li>Discovery Consultation via Zoom</li>
               <li>Copywriting</li>
-              <li>Contact form</li>
-              <li>Basic SEO</li>
-              <li>Hosting & Domain for 1 year</li>
-              <li>Google Analytics intergartion</li>
-              <li>1 week of post-launch support</li>
+              <li>Foundational SEO</li>
+              <li>Primary Logo Design + Variations</li>
+              <li>1 Brand Material</li>
+              <li>Color Palette and Fonts</li>
+              <li>Social Media Banner</li>
+              <li>One Page Style Guide Document</li>
+              <li>Google Drive Folder With All Files</li>
             </ul>
             <hr width="100%" size="1" color="#FFF4E4" />
             <div className={style.btnServices}>
@@ -39,21 +42,24 @@ export default function Pricepackage() {
           <div className={style.pricecard}>
             {" "}
             <p className={style.title}>The Start-Up</p>
-            <p className={style.cost}>$4,200</p>
+            <p className={style.cost}>$6,600</p>
             <p className={style.text}>
-              Great design and functionality, minus the extras.
+              Everything included in the 6 page Website Package + Full Brand
+              Package.
             </p>
             <hr width="100%" size="1" color="#FFF4E4" />
             <ul>
-              <li>Single page website</li>
-              <li>Custom design</li>
-              <li>Responsive development</li>
+              <li>Website w/ up to 6 Pages</li>
+              <li>Custom design &amp; Development</li>
+              <li>Discovery Consultation via Zoom</li>
               <li>Copywriting</li>
-              <li>Contact form</li>
-              <li>Basic SEO</li>
-              <li>Hosting & Domain for 1 year</li>
-              <li>Google Analytics intergartion</li>
-              <li>1 week of post-launch support</li>
+              <li>Foundational SEO</li>
+              <li>Primary Logo Design + Variations</li>
+              <li>2 Brand Material</li>
+              <li>Full Stationery Suite Design</li>
+              <li>Full Social Media Suite Design</li>
+              <li>Extensive Style Guide Document</li>
+              <li>Google Drive Folder With All Files</li>
             </ul>
             <hr width="100%" size="1" color="#FFF4E4" />
             <div className={style.btnServices}>
@@ -66,22 +72,25 @@ export default function Pricepackage() {
           </div>
           <div className={style.pricecard}>
             {" "}
-            <p className={style.title}>The TBD</p>
-            <p className={style.cost}>$6,400</p>
+            <p className={style.title}>Full</p>
+            <p className={style.cost}>$8,400</p>
             <p className={style.text}>
-              Great design and functionality, minus the extras.
+              Everything included in the 12 page Website Package + Full Brand
+              Package.
             </p>
             <hr width="100%" size="1" color="#FFF4E4" />
             <ul>
-              <li>Single page website</li>
-              <li>Custom design</li>
-              <li>Responsive development</li>
+              <li>Website w/ up to 12 Pages</li>
+              <li>Custom design &amp; Development</li>
+              <li>Discovery Consultation via Zoom</li>
               <li>Copywriting</li>
-              <li>Contact form</li>
-              <li>Basic SEO</li>
-              <li>Hosting & Domain for 1 year</li>
-              <li>Google Analytics intergartion</li>
-              <li>1 week of post-launch support</li>
+              <li>Foundational SEO</li>
+              <li>Primary Logo Design + Variations</li>
+              <li>3 Brand Material</li>
+              <li>Full Stationery Suite Design</li>
+              <li>Full Social Media Suite Design</li>
+              <li>Extensive Style Guide Document</li>
+              <li>+ 2 Weeks of Unlimited Design Support</li>
             </ul>
             <hr width="100%" size="1" color="#FFF4E4" />
             <div className={style.btnServices}>
