@@ -11,11 +11,13 @@ export function Firstscreen() {
       <section className={mainstyle.sectionAll}>
         <div id={mainstyle.block} className={mainstyle.blockmain}>
           <div style={{ maxWidth: "350px" }} className={mainstyle.textmain}>
-            <p className={pricing.packageprice}>Starting at $2,800</p>
-            <h1 style={{ fontSize: "32px" }}>Design Retainer</h1>
+            <p className={pricing.packageprice}>Starting at $720/month</p>
+            <h1 style={{ fontSize: "32px" }}>Ongoing Design Support</h1>
             <p>
-              Get a beautifully designed, custom-built website to showcase your
-              products and services, attract clients, and show off your brand.
+              Design for ongoing marketing needs. Whether you have sporadic
+              design needs or simply need an extra set of hands (and brains),
+              our design retainer provides the support of a Senior Designer for
+              a fraction of the cost.
             </p>
 
             <Link href="/contact">

@@ -15,31 +15,29 @@ export function Howitworks() {
             <div>
               <div className={style.before}>
                 <div className={style.number}>01</div>
-                <h3>Brief & Strategy</h3>
+                <h3>Initial meeting</h3>
                 <p>
-                  We start with a custom questionnaire to learn about your
-                  business and goals and develop a content plan and website
-                  structure.
+                  We meet for a quick chat about what you're looking for and how
+                  we can help. Ongoing requests
                 </p>
               </div>
             </div>
             <div>
               <div className={style.before}>
                 <div className={style.number}>02</div>
-                <h3>Design & Development</h3>
+                <h3>Ongoing requests</h3>
                 <p>
-                  With your feedback, we design all the pages and develop the
-                  website to get it ready for launch.
+                  All requests go into a task management board, along with all
+                  assets and comments
                 </p>
               </div>
 
               <div className={style.before}>
                 <div className={style.number}>03</div>
-                <h3>Post-Launch Training + Support</h3>
+                <h3>Revisions &amp; Delivery</h3>
                 <p>
-                  Post-launch we will walk you through everything you need to
-                  know about your new website and monitor the site’s performance
-                  for a set number of days.
+                  All requests have unlimited changes. We work until you're
+                  fully happy, and you receive the files via the task board.
                 </p>
               </div>
             </div>

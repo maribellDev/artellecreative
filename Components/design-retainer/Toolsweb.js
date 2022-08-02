@@ -12,7 +12,7 @@ export default function Toolsweb() {
             paddingTop: "80px",
           }}
         >
-          A digital home for your business
+          Professional design for a fraction of the cost
         </h2>
         <p
           style={{
@@ -24,83 +24,79 @@ export default function Toolsweb() {
             lineHeight: "24px",
           }}
         >
-          All website design services are custom and tailored to your business.
+          Everything a growing business needs to support its marketing and
+          branding needs.
         </p>
         <div className={style.tools}>
           <div className={style.tool}>
-            <h4>Website Design</h4>
+            <h4>Social Media Graphics</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Includes custom design for all pages. No templates used. Crafted
-              from concept to completion until you’re fully happy with your
-              website.
+              On-brand design for social media. Posts, banners, and everything
+              needed for an attractive social media presence.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Website Development</h4>
+            <h4>Email Design</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Complete build-out of your website including all pages, contact
-              and scheduling forms, responsive mobile development, custom
-              functionality, and more.
+              Design for emails. Send great-looking, high-converting emails to
+              your list.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Foundational Website SEO</h4>
+            <h4>Website Assets</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Includes keyword implementation, image optimization, all metadata
-              and alt text, Google Analytics and Search Console integration.
+              Update your website with new banners and headers, new article
+              images, and more.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Copywriting</h4>
+            <h4>On-demand or flat fee</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              We take care of all your content needs with content questionnaires
-              to help us organize content and write engaging website copy.
+              Pay one flat fee for unlimited designs or request designs on
+              demand.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>External Intergrations</h4>
+            <h4>Product Photography</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              External email marketing programs, client management systems or
-              social media feeds integration to streamline your business
-              operations and marketing.
+              Need ongoing product photography for any small items? We can help
+              with that as well.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Technical Support</h4>
+            <h4>3-Day Turnaround</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              We will be available for a specific amount of time post the launch
-              of your website to provide additional support if needed and make
-              sure everything is running as intended.
+              3-day turnaround on most designs.
             </p>
           </div>
         </div>

@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/services/brand-logo-design-packages": [
+    "/services/design-retainer": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/services/brand-logo-design-packages.js"
+      "static/chunks/pages/services/design-retainer.js"
     ],
     "/services/digital-&-print-design": [
       "static/chunks/webpack.js",
