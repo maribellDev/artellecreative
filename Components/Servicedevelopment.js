@@ -21,7 +21,7 @@ export function Servicedevelopment() {
                   <Image src={image1} alt="" />
                 </div>
                 <h3>Website Maintanence</h3>
-                <p className={style.price}>Starting at $2,800</p>
+                <p className={style.price}>Starting at $200</p>
               </a>
             </Link>
           </div>
@@ -32,7 +32,7 @@ export function Servicedevelopment() {
                   <Image src={image2} alt="" />
                 </div>
                 <h3>Web Development</h3>
-                <p className={style.price}>Starting at $2,800</p>
+                <p className={style.price}>Reach out for pricing</p>
               </a>
             </Link>
           </div>

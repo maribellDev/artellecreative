@@ -21,7 +21,7 @@ export function Servicephoto() {
                   <Image className={style.im} src={image1} alt="" />
                 </div>
                 <h3>Product Photography</h3>
-                <p className={style.price}>Starting at $2,800</p>
+                <p className={style.price}>Starting at $50</p>
               </a>
             </Link>
           </div>
@@ -32,7 +32,7 @@ export function Servicephoto() {
                   <Image className={style.im} src={image2} alt="" />
                 </div>
                 <h3>Video</h3>
-                <p className={style.price}>Starting at $2,800</p>
+                <p className={style.price}>Starting at $100</p>
               </a>
             </Link>
           </div>

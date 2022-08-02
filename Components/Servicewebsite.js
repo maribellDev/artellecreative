@@ -8,7 +8,7 @@ export function Servicewebsite() {
   return (
     <>
       <div className={style.block}>
-        <h2>Website & Branding Packages</h2>
+        <h2>Website &amp; Branding Packages</h2>
         <p className={style.text}>
           Whether it’s time for a rebrand or you’re starting out fresh, we make
           great design easy and uncomplicated with our Website and Branding
@@ -32,8 +32,8 @@ export function Servicewebsite() {
                 <div className={style.imsquare}>
                   <Image className={style.im} src={image2} alt="" />
                 </div>
-                <h3>Branding Packages</h3>
-                <p className={style.price}>Starting at $2,800</p>
+                <h3>Brand &amp; Logo Design Packages</h3>
+                <p className={style.price}>Starting at $1,200</p>
               </a>
             </Link>
           </div>

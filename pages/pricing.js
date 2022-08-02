@@ -28,7 +28,7 @@ export default function Pricing() {
       <Navbar />
 
       <div className={style.services}>
-        <h1>Services & Pricing</h1>{" "}
+        <h1>Services &amp; Pricing</h1>{" "}
         {/* <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna{" "}
@@ -47,8 +47,17 @@ export default function Pricing() {
                 />
               </div>
               <h3 style={{ textAlign: "center" }}>New Business Package</h3>
-              <p style={{ textAlign: "center" }} className={style.price}>
-                Starting at $2,800
+              <p
+                style={{
+                  textAlign: "center",
+                  fontSize: "14px",
+                  fontWeight: "400",
+                  lineHeight: "16px",
+                  letterSpacing: "2.0999999046px",
+                }}
+                className={style.price}
+              >
+                Starting at $3,800
               </p>
             </a>
           </Link>
@@ -80,7 +89,7 @@ export default function Pricing() {
                   textAlign: "center",
                 }}
               >
-                Starting at $2,800
+                Starting at $720/month
               </p>
             </a>
           </Link>

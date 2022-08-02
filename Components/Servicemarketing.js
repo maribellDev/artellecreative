@@ -21,7 +21,7 @@ export function Servicemarketing() {
                   <Image src={image1} alt="" />
                 </div>
                 <h3>Email Design</h3>
-                <p className={style.price}>Starting at $2,800</p>
+                <p className={style.price}>Starting at $100/email</p>
               </a>
             </Link>
           </div>
@@ -31,8 +31,8 @@ export function Servicemarketing() {
                 <div className={style.imsquare}>
                   <Image src={image2} alt="" />
                 </div>
-                <h3>Digital & Print Materials</h3>
-                <p className={style.price}>Starting at $2,800</p>
+                <h3>Digital &amp; Print Materials</h3>
+                <p className={style.price}>Starting at $250</p>
               </a>
             </Link>
           </div>
