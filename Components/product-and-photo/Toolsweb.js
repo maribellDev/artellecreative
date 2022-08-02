@@ -12,7 +12,7 @@ export default function Toolsweb() {
             paddingTop: "80px",
           }}
         >
-          A digital home for your business
+          Turn heads with professional product photography
         </h2>
         <p
           style={{
@@ -24,83 +24,78 @@ export default function Toolsweb() {
             lineHeight: "24px",
           }}
         >
-          All website design services are custom and tailored to your business.
+          Everything you need to show off your products to the world.
         </p>
         <div className={style.tools}>
           <div className={style.tool}>
-            <h4>Website Design</h4>
+            <h4>Styling & Props</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Includes custom design for all pages. No templates used. Crafted
-              from concept to completion until you’re fully happy with your
-              website.
+              Let us know what style you're going for and we can source and
+              shoot props specifically for the style you're going for.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Website Development</h4>
+            <h4>Art Direction</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Complete build-out of your website including all pages, contact
-              and scheduling forms, responsive mobile development, custom
-              functionality, and more.
+              Not sure what style you need? We can work with you to narrow it
+              down.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Foundational Website SEO</h4>
+            <h4>Professional Equipment</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Includes keyword implementation, image optimization, all metadata
-              and alt text, Google Analytics and Search Console integration.
+              We use only the best equipment which ensures your images are
+              always crisp and perfectly lit.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Copywriting</h4>
+            <h4>Retouching and Editing</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              We take care of all your content needs with content questionnaires
-              to help us organize content and write engaging website copy.
+              Retouching and light editing are included with all photos.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>External Intergrations</h4>
+            <h4>Any Background or Scene</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              External email marketing programs, client management systems or
-              social media feeds integration to streamline your business
-              operations and marketing.
+              Whether you're a fan of pastel backgrounds or maybe bright yellow
+              is more your pace, we can shoot with many colors and styles.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Technical Support</h4>
+            <h4>Video and GIF</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              We will be available for a specific amount of time post the launch
-              of your website to provide additional support if needed and make
-              sure everything is running as intended.
+              We can do stop-motion and simple product GIFs, as well as
+              360-degree videos for e-commerce.
             </p>
           </div>
         </div>

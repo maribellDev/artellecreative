@@ -11,11 +11,11 @@ export function Firstscreen() {
       <section className={mainstyle.sectionAll}>
         <div id={mainstyle.block} className={mainstyle.blockmain}>
           <div style={{ maxWidth: "350px" }} className={mainstyle.textmain}>
-            <p className={pricing.packageprice}>Starting at $2,800</p>
-            <h1 style={{ fontSize: "32px" }}>Product Photos & Videos</h1>
+            <p className={pricing.packageprice}>Starting at $50/photo</p>
+            <h1 style={{ fontSize: "32px" }}>Product Photos &amp; Videos</h1>
             <p>
-              Get a beautifully designed, custom-built website to showcase your
-              products and services, attract clients, and show off your brand.
+              Show off your products with attractive images shot for e-commerce.
+              Available only for small items that can be easily shipped.
             </p>
 
             <Link href="/contact">

@@ -15,31 +15,31 @@ export function Howitworks() {
             <div>
               <div className={style.before}>
                 <div className={style.number}>01</div>
-                <h3>Brief & Strategy</h3>
+                <h3>Brief and Shot List</h3>
                 <p>
-                  We start with a custom questionnaire to learn about your
-                  business and goals and develop a content plan and website
-                  structure.
+                  To start out we need to know what kinds of shots you need and
+                  what style you prefer.
                 </p>
               </div>
             </div>
             <div>
               <div className={style.before}>
                 <div className={style.number}>02</div>
-                <h3>Design & Development</h3>
+                <h3>Styling & Shooting</h3>
                 <p>
-                  With your feedback, we design all the pages and develop the
-                  website to get it ready for launch.
+                  We style any scenes and backgrounds needed and snap a few
+                  photos. We get your approval, edit the scene if needed, and
+                  continue on with the shoot.
                 </p>
               </div>
 
               <div className={style.before}>
                 <div className={style.number}>03</div>
-                <h3>Post-Launch Training + Support</h3>
+                <h3>Editing and Handoff</h3>
                 <p>
-                  Post-launch we will walk you through everything you need to
-                  know about your new website and monitor the site’s performance
-                  for a set number of days.
+                  We retouch and edit all images and export them in any sizes or
+                  file types you need. And finally deliver all final images to
+                  you via a link.
                 </p>
               </div>
             </div>
