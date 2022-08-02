@@ -11,11 +11,11 @@ export function Firstscreen() {
       <section className={mainstyle.sectionAll}>
         <div id={mainstyle.block} className={mainstyle.blockmain}>
           <div style={{ maxWidth: "350px" }} className={mainstyle.textmain}>
-            <p className={pricing.packageprice}>Starting at $2,800</p>
+            <p className={pricing.packageprice}>Starting at $100/email</p>
             <h1 style={{ fontSize: "32px" }}>Email Design</h1>
             <p>
-              Get a beautifully designed, custom-built website to showcase your
-              products and services, attract clients, and show off your brand.
+              Send on-brand, beautifully designed, conversion-optimized
+              marketing emails. Contact for specific pricing.
             </p>
 
             <Link href="/contact">

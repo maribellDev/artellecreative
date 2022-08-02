@@ -12,7 +12,7 @@ export default function Toolsweb() {
             paddingTop: "80px",
           }}
         >
-          A digital home for your business
+          Beautifully designed, high-converting emails
         </h2>
         <p
           style={{
@@ -24,45 +24,43 @@ export default function Toolsweb() {
             lineHeight: "24px",
           }}
         >
-          All website design services are custom and tailored to your business.
+          Email marketing services for your business.
         </p>
         <div className={style.tools}>
           <div className={style.tool}>
-            <h4>Website Design</h4>
+            <h4>Image-Based Emails</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Includes custom design for all pages. No templates used. Crafted
-              from concept to completion until you’re fully happy with your
-              website.
+              Send on-brand emails that look great on any screen and are
+              compatible with all drag-and-drop email platforms.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Website Development</h4>
+            <h4>Editable Klaviyo Templates</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Complete build-out of your website including all pages, contact
-              and scheduling forms, responsive mobile development, custom
-              functionality, and more.
+              Fully editable email templates built in Klaviyo with custom
+              graphics. Edit text and images or rearrange sections as needed.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Foundational Website SEO</h4>
+            <h4>Ongoing Email Design</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Includes keyword implementation, image optimization, all metadata
-              and alt text, Google Analytics and Search Console integration.
+              Spruce up your email marketing with ongoing email design based on
+              the frequency of your email sends - weekly, daily, or monthly.
             </p>
           </div>
           <div className={style.tool}>
@@ -73,34 +71,31 @@ export default function Toolsweb() {
                 lineHeight: "24px",
               }}
             >
-              We take care of all your content needs with content questionnaires
-              to help us organize content and write engaging website copy.
+              Get on-brand email copy for your email campaigns. Just tell us the
+              details and we’ll take care of it.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>External Intergrations</h4>
+            <h4>On-Brand Design</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              External email marketing programs, client management systems or
-              social media feeds integration to streamline your business
-              operations and marketing.
+              All emails are designed using your brand guidelines - including
+              colors, fonts (where possible), imagery and logo, and tone.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Technical Support</h4>
+            <h4>Fast Delivery</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              We will be available for a specific amount of time post the launch
-              of your website to provide additional support if needed and make
-              sure everything is running as intended.
+              Most email designs can be completed within 3 business days.
             </p>
           </div>
         </div>

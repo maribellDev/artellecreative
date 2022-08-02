@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/services/brand-logo-design-packages.js"
     ],
-    "/services/new-business-packages": [
+    "/services/digital-&-print-design": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/services/new-business-packages.js"
+      "static/chunks/pages/services/digital-&-print-design.js"
     ]
   },
   "ampFirstPages": []

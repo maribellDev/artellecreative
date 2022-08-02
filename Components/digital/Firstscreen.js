@@ -11,11 +11,11 @@ export function Firstscreen() {
       <section className={mainstyle.sectionAll}>
         <div id={mainstyle.block} className={mainstyle.blockmain}>
           <div style={{ maxWidth: "350px" }} className={mainstyle.textmain}>
-            <p className={pricing.packageprice}>Starting at $2,800</p>
-            <h1 style={{ fontSize: "32px" }}>Digital & Print Design</h1>
+            <p className={pricing.packageprice}>Starting at $200</p>
+            <h1 style={{ fontSize: "32px" }}>Digital and Print Design</h1>
             <p>
-              Get a beautifully designed, custom-built website to showcase your
-              products and services, attract clients, and show off your brand.
+              Design for branding and marketing materials - digital or printed,
+              one postcard or a multi-page document.
             </p>
 
             <Link href="/contact">

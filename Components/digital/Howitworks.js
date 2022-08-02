@@ -15,31 +15,31 @@ export function Howitworks() {
             <div>
               <div className={style.before}>
                 <div className={style.number}>01</div>
-                <h3>Brief & Strategy</h3>
+                <h3>Initial chat and brief</h3>
                 <p>
-                  We start with a custom questionnaire to learn about your
-                  business and goals and develop a content plan and website
-                  structure.
+                  We meet for a quick chat about what you're looking for and how
+                  we can help. You send us an existing brief or we make one
+                  together.
                 </p>
               </div>
             </div>
             <div>
               <div className={style.before}>
                 <div className={style.number}>02</div>
-                <h3>Design & Development</h3>
+                <h3>Design</h3>
                 <p>
-                  With your feedback, we design all the pages and develop the
-                  website to get it ready for launch.
+                  We design the assets and submit them for your feedback and
+                  approval.
                 </p>
               </div>
 
               <div className={style.before}>
                 <div className={style.number}>03</div>
-                <h3>Post-Launch Training + Support</h3>
+                <h3>Final files sent</h3>
                 <p>
-                  Post-launch we will walk you through everything you need to
-                  know about your new website and monitor the site’s performance
-                  for a set number of days.
+                  We deliver all final files to you via a link. Print files will
+                  be ready for print, and digital files will be optimized for
+                  the internet.
                 </p>
               </div>
             </div>

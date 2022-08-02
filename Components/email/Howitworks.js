@@ -15,31 +15,32 @@ export function Howitworks() {
             <div>
               <div className={style.before}>
                 <div className={style.number}>01</div>
-                <h3>Brief & Strategy</h3>
+                <h3>Email Outline &amp; Direction</h3>
                 <p>
-                  We start with a custom questionnaire to learn about your
-                  business and goals and develop a content plan and website
-                  structure.
+                  You send us an email outline (or a general email theme if it’s
+                  a template) along with any assets, and brand guidelines and we
+                  take it from there.
                 </p>
               </div>
             </div>
             <div>
               <div className={style.before}>
                 <div className={style.number}>02</div>
-                <h3>Design & Development</h3>
+                <h3>Design &amp; Copywriting</h3>
                 <p>
-                  With your feedback, we design all the pages and develop the
-                  website to get it ready for launch.
+                  We design the email and write the required copy (if needed).
+                  After which we submit it for your approval and make any edits
+                  as needed.
                 </p>
               </div>
 
               <div className={style.before}>
                 <div className={style.number}>03</div>
-                <h3>Post-Launch Training + Support</h3>
+                <h3>Asset Handoff</h3>
                 <p>
-                  Post-launch we will walk you through everything you need to
-                  know about your new website and monitor the site’s performance
-                  for a set number of days.
+                  Depending on your requirements, we either send you image
+                  “slices” of the emails to be upload into any drag-and-drop
+                  email builder, an editable template built in Klaviyo.
                 </p>
               </div>
             </div>
