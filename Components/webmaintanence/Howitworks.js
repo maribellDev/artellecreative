@@ -15,31 +15,29 @@ export function Howitworks() {
             <div>
               <div className={style.before}>
                 <div className={style.number}>01</div>
-                <h3>Brief & Strategy</h3>
+                <h3>Initial call</h3>
                 <p>
-                  We start with a custom questionnaire to learn about your
-                  business and goals and develop a content plan and website
-                  structure.
+                  We'll talk about your needs, answer any questions you might
+                  have, and see if we're a good fit.
                 </p>
               </div>
             </div>
             <div>
               <div className={style.before}>
                 <div className={style.number}>02</div>
-                <h3>Design & Development</h3>
+                <h3>Task management</h3>
                 <p>
-                  With your feedback, we design all the pages and develop the
-                  website to get it ready for launch.
+                  All ongoing requests will be added to a task management board
+                  for easy access and communication from both sides.
                 </p>
               </div>
 
               <div className={style.before}>
                 <div className={style.number}>03</div>
-                <h3>Post-Launch Training + Support</h3>
+                <h3>Quick Turnaround</h3>
                 <p>
-                  Post-launch we will walk you through everything you need to
-                  know about your new website and monitor the site’s performance
-                  for a set number of days.
+                  Based on the task, text edits and image swaps will take 24hrs
+                  - 3 days.
                 </p>
               </div>
             </div>

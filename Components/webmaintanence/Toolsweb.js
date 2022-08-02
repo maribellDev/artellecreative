@@ -12,7 +12,7 @@ export default function Toolsweb() {
             paddingTop: "80px",
           }}
         >
-          A digital home for your business
+          Ongoing Website Support
         </h2>
         <p
           style={{
@@ -24,73 +24,68 @@ export default function Toolsweb() {
             lineHeight: "24px",
           }}
         >
-          All website design services are custom and tailored to your business.
+          Ongoing website support, analytics monitoring, and recommendations.
         </p>
         <div className={style.tools}>
           <div className={style.tool}>
-            <h4>Website Design</h4>
+            <h4>Analytics Monitoring</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Includes custom design for all pages. No templates used. Crafted
-              from concept to completion until you’re fully happy with your
-              website.
+              We will monitor your website traffic, bounce rate, and conversion
+              rate, and provide monthly recommendations on website improvements.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Website Development</h4>
+            <h4>Text Edits</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Complete build-out of your website including all pages, contact
-              and scheduling forms, responsive mobile development, custom
-              functionality, and more.
+              We will make any needed text updates for any of the pages.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Foundational Website SEO</h4>
+            <h4>Image content</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Includes keyword implementation, image optimization, all metadata
-              and alt text, Google Analytics and Search Console integration.
+              We will swap any needed images to keep your website up-to-date.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Copywriting</h4>
+            <h4>Performance Monitoring</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              We take care of all your content needs with content questionnaires
-              to help us organize content and write engaging website copy.
+              We will monitor your website for any broken functionalities,
+              links, SSL certs, and make sure everything is working properly.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>External Intergrations</h4>
+            <h4>Recommendations</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              External email marketing programs, client management systems or
-              social media feeds integration to streamline your business
-              operations and marketing.
+              We will provide monthly website recommendations for improving user
+              experience, conversion rate, and more.
             </p>
           </div>
-          <div className={style.tool}>
+          {/* <div className={style.tool}>
             <h4>Technical Support</h4>
             <p
               style={{
@@ -102,7 +97,7 @@ export default function Toolsweb() {
               of your website to provide additional support if needed and make
               sure everything is running as intended.
             </p>
-          </div>
+          </div> */}
         </div>
         <div className={style.btnServices}>
           <Link href="/contact">
