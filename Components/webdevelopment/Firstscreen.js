@@ -11,12 +11,9 @@ export function Firstscreen() {
       <section className={mainstyle.sectionAll}>
         <div id={mainstyle.block} className={mainstyle.blockmain}>
           <div style={{ maxWidth: "350px" }} className={mainstyle.textmain}>
-            <p className={pricing.packageprice}>Starting at $2,800</p>
+            <p className={pricing.packageprice}>Reach out for pricing.</p>
             <h1 style={{ fontSize: "32px" }}>Web Development</h1>
-            <p>
-              Get a beautifully designed, custom-built website to showcase your
-              products and services, attract clients, and show off your brand.
-            </p>
+            <p>Web development from existing design files.</p>
 
             <Link href="/contact">
               <a>

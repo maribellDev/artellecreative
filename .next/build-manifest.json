@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/services/design-retainer": [
+    "/services/web-development": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/services/design-retainer.js"
+      "static/chunks/pages/services/web-development.js"
     ],
     "/services/website-maintanence": [
       "static/chunks/webpack.js",
