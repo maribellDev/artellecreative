@@ -7,7 +7,7 @@ export function Answers() {
         <h2
           style={{ margin: "0 0 10px 0", paddingTop: "80px", color: "#2E303D" }}
         >
-          FAQ
+          Interested in working together?
         </h2>
         <p
           style={{
@@ -70,16 +70,7 @@ export function Answers() {
             guided questionnaire that will outline any and all information we
             might need.
           </div>
-          {/* <input type="radio" name="vkl" id="vkl5" />
-          <label style={{ color: "#2E303D" }} htmlFor="vkl5">
-            How much will my e-commerce branding project cost?
-          </label>
-          <div style={{ maxWidth: "85%", color: "#2E303D" }}>
-            Because there are many factors in e-commerce that vary one company
-            to another, like the amount of products, type of product photos,
-            types of email templates and more, we encourage you to reach out to
-            us so we can build a custom pricing package based on your needs.
-          </div> */}
+
           <input type="radio" name="vkl" id="vkl6" />
           <label style={{ color: "#2E303D" }} htmlFor="vkl6">
             Overall, what is expected of me as a client?

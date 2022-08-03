@@ -7,7 +7,7 @@ export function Answers() {
         <h2
           style={{ margin: "0 0 10px 0", paddingTop: "80px", color: "#2E303D" }}
         >
-          What people ask
+          Interested in working together?
         </h2>
         <p
           style={{

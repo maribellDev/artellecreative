@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Firstscreen } from "../../Components/email/Firstscreen";
 import { Navbar } from "../../Components/Navbar";
-import { Answers } from "../../Components/Answers";
+import { Answers } from "../../Components/email/Anwers";
 import Action from "../../Components/Action";
 import { Footer } from "../../Components/Footer";
 import Layout from "../../Components/Layout";

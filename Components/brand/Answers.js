@@ -7,7 +7,7 @@ export function Answers() {
         <h2
           style={{ margin: "0 0 10px 0", paddingTop: "80px", color: "#2E303D" }}
         >
-          FAQ
+          Interested in working together?
         </h2>
         <p
           style={{
@@ -28,7 +28,7 @@ export function Answers() {
           </label>
           <div style={{ maxWidth: "85%", color: "#2E303D" }}>
             Take a look at our New Business package that includes everything in
-            Brand & Logo Design Packages, as well as the Website Design
+            Brand &amp; Logo Design Packages, as well as the Website Design
             Packages.
           </div>
           <input type="radio" name="vkl" id="vkl2" />
