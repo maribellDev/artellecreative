@@ -1,6 +1,8 @@
 .rwWrapper {
   position: relative;
-
+  h1 {
+    margin-bottom: 5px;
+  }
   .rwSentence {
     .span {
       font-weight: normal;
@@ -13,7 +15,7 @@
         opacity: 0;
         overflow: hidden;
         color: #db8e76;
-        top: 85px;
+        top: 70px;
 
         animation: rotateWord 7.5s linear infinite 0s;
 
