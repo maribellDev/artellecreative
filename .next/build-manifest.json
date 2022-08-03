@@ -15,11 +15,6 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,10 +25,30 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/pricing": [
+    "/gallery": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/pricing.js"
+      "static/chunks/pages/gallery.js"
+    ],
+    "/maximus-microgreens": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/maximus-microgreens.js"
+    ],
+    "/nomadtechy": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/nomadtechy.js"
+    ],
+    "/shuda-properties": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/shuda-properties.js"
+    ],
+    "/work": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/work.js"
     ]
   },
   "ampFirstPages": []
