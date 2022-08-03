@@ -28,7 +28,7 @@ export default function Pricing() {
       <Navbar />
 
       <div className={style.services}>
-        <h1>Services &amp; Pricing</h1>{" "}
+        <h1>Services &amp; Pricing</h1>
         {/* <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna{" "}
@@ -54,6 +54,7 @@ export default function Pricing() {
                   fontWeight: "400",
                   lineHeight: "16px",
                   letterSpacing: "2.0999999046px",
+                  textTransform: "uppercase",
                 }}
                 className={style.price}
               >
@@ -87,6 +88,7 @@ export default function Pricing() {
                   lineHeight: "16px",
                   letterSpacing: "2.0999999046px",
                   textAlign: "center",
+                  textTransform: "uppercase",
                 }}
               >
                 Starting at $720/month
