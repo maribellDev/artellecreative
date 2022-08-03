@@ -55,8 +55,13 @@ export function Footer() {
             <h3>Company</h3>
             <ul className={style.menufooter}>
               <li style={{ paddingBottom: "10px" }}>
-                <Link href={"/work"}>
+                <Link href={"/gallery"}>
                   <a>Work</a>
+                </Link>
+              </li>
+              <li style={{ paddingBottom: "10px" }}>
+                <Link href={"/pricing"}>
+                  <a>Pricing</a>
                 </Link>
               </li>
               <li style={{ paddingBottom: "10px" }}>
@@ -64,11 +69,11 @@ export function Footer() {
                   <a>About</a>
                 </Link>
               </li>
-              <li style={{ paddingBottom: "10px" }}>
+              {/* <li style={{ paddingBottom: "10px" }}>
                 <Link href={"/blog"}>
                   <a>Blog</a>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href={"/contact"}>
                   <a>Contact</a>

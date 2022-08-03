@@ -12,8 +12,7 @@ export default function Toolsweb() {
             paddingTop: "80px",
           }}
         >
-          Stand out from the competition
-          <br /> with dynamic brand design
+          Stand out from the competition with dynamic brand design
         </h2>
         <p
           style={{

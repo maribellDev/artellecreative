@@ -5,7 +5,7 @@ export function Animation() {
     <>
       <section className={styles.rwWrapper}>
         <h1 className={styles.rwSentence}>
-          <span className={styles.span}>Crеative studio</span>
+          <span className={styles.span}>Creative studio</span>
           <br />
           <div className={styles.rwWords}>
             <span className={styles.spanWord1}>crafting websites</span>
