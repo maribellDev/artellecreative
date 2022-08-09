@@ -29,7 +29,7 @@ export default function Slider() {
           textAlign: "center",
         }}
       >
-        <Link href={"/work"}>
+        <Link href={"/gallery"}>
           <a>
             <span
               style={{ fontSize: "14px", borderBottom: "#2790d1 solid 1px" }}
@@ -78,7 +78,7 @@ export default function Slider() {
           }}
         >
           <SwiperSlide>
-            <Link href={"/shuda-properties"}>
+            <Link href={"/gallery"}>
               <a>
                 {" "}
                 <Image

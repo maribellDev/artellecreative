@@ -12,7 +12,7 @@ export default function Tools() {
             paddingTop: "80px",
           }}
         >
-          A well-rounded website strategy
+          How we work
         </h2>
         <p
           style={{
@@ -24,79 +24,80 @@ export default function Tools() {
             lineHeight: "24px",
           }}
         >
-          Reach your business goals with a creative website solution.
+          Let’s start off on the right foot.
         </p>
         <div className={style.tools}>
           <div className={style.tool}>
-            <h4>Strategy-based</h4>
+            <h4>Consistent process</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Every beautiful website we make is a result of a thought-out
-              approach.
+              We have a consistent and tested process for everything. And when
+              the process works - so does the outcome.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Purposeful websites</h4>
+            <h4>Transparent pricing</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Whether your goal is to get more clients, improve your reputation,
-              or sell more products, we design with the end goal in mind.
+              Clear and predictable pricing for most projects. No matter the
+              size or revenue of your business, our pricing stays the same.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>E-commerce</h4>
+            <h4>Flexible approach</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Built in e-commerce functionality with conversion optimized
-              experience on every device.
+              Whether you need help with a single project or looking for a
+              long-term partnership, we can work with a project of any size.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Responsive design</h4>
+            <h4>1-on-1 communication</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              With over 54% of people browsing the web on phones, we design
-              websites that work and look great on any device.
+              Ana will stay in communication with you throughout the whole
+              project, answering any questions and making sure everything is
+              covered.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Helpful integrations</h4>
+            <h4>Design strategy</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Collect emails, accept payments, or run analytics. We implement
-              the needed integrations for your site to run like a powerhouse.
+              We'll work closely with you to understand your goals and design
+              something you and your audience needs.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>User-friendly CMS</h4>
+            <h4>All needs covered</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Keep your website content updated with a convenient dashboard. We
-              implement customized CMS that anyone can use.
+              We got all your creative needs covered from new business website
+              and brading to ongoing marketing design needs.
             </p>
           </div>
         </div>
