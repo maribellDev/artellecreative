@@ -7,8 +7,9 @@ import React from "react";
 import Layout from "../Components/Layout";
 import { Gallery } from "../Components/gallery/gallery";
 import styles from "../styles/gallery.module.scss";
+import { Gallery1 } from "../Components/gallery/gallery1";
 
-export default function Contact() {
+export default function Gallerypage() {
   return (
     <Layout
       title="Artelle Creative - our work"
@@ -23,8 +24,9 @@ export default function Contact() {
       <Head></Head>
 
       <Navbar />
-
       <Gallery />
+      <Gallery1 />
+
       <section className={styles.section}>
         <Action />
       </section>

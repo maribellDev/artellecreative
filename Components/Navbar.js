@@ -32,6 +32,21 @@ export function Navbar() {
           </span>
         </label>
         <div className={styles.navigul}>
+          <input type="radio" name="vk" id="vklmenu" />
+          <label
+            style={{
+              position: "absolute",
+              right: "10px",
+              color: "#db8e76",
+              marginRight: "-7px",
+              fontSize: "22px",
+            }}
+            htmlFor="vklmenu"
+          >
+            {/* <Image src={img} alt=""></Image> */}
+            &#215;
+            <span style={{ marginRight: "10px" }}></span>
+          </label>
           <div className={styles.navserv1}>
             <h3>PACKAGES</h3>
             <Link href={"/services/website-packages"}>
@@ -41,7 +56,7 @@ export function Navbar() {
             </Link>
             <Link href={"/services/brand-logo-design-packages"}>
               <a>
-                <li>Brand & Logo Design Packages</li>
+                <li>Brand &amp; Logo Design Packages</li>
               </a>
             </Link>
             <Link href={"/services/new-business-packages"}>
@@ -70,7 +85,7 @@ export function Navbar() {
             </Link>
             <Link href={"/services/digital-&-print-design"}>
               <a>
-                <li> Digital & Print Design</li>
+                <li> Digital &amp; Print Design</li>
               </a>
             </Link>
             <Link href={"/services/design-retainer"}>
@@ -90,7 +105,7 @@ export function Navbar() {
             </Link>
             <Link href={"/services/product-photos-&-videos"}>
               <a>
-                <li>Product Photos & Videos</li>
+                <li>Product Photos &amp; Videos</li>
               </a>
             </Link>
           </div>

@@ -38,7 +38,7 @@ export function Navadapt() {
             </Link>
             <Link href={"/services/brand-logo-design-packages"}>
               <a>
-                <li>Brand & Logo Design Packages</li>
+                <li>Brand &amp; Logo Design Packages</li>
               </a>
             </Link>
             <Link href={"/services/new-business-packages"}>
@@ -55,7 +55,7 @@ export function Navadapt() {
             </Link>
             <Link href={"/services/digital-&-print-design"}>
               <a>
-                <li> Digital & Print Design</li>
+                <li> Digital &amp; Print Design</li>
               </a>
             </Link>
             <Link href={"/services/design-retainer"}>
@@ -75,7 +75,7 @@ export function Navadapt() {
             </Link>
             <Link href={"/services/product-photos-&-videos"}>
               <a>
-                <li>Product Photos & Videos</li>
+                <li>Product Photos &amp; Videos</li>
               </a>
             </Link>
           </div>
@@ -100,6 +100,11 @@ export function Navadapt() {
               </a>
             </Link>
           </div>
+          <li className={styles.navLi}>
+            <Link href="/pricing">
+              <a>Pricing</a>
+            </Link>
+          </li>
           <li className={styles.navLi}>
             <Link href="/about">
               <a>About</a>

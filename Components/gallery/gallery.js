@@ -1,5 +1,11 @@
 import Image from "next/image";
 // import Link from "next/link";
+// import lightGallery from 'lightgallery';
+
+// // Plugins
+// import lgThumbnail from 'lightgallery/plugins/thumbnail'
+// import lgZoom from 'lightgallery/plugins/zoom'
+
 import style from "../../styles/gallery.module.scss";
 import img1 from "../../public/gallery/MG1.jpg";
 import img4 from "../../public/gallery/360block.gif";
@@ -27,15 +33,43 @@ import img23 from "../../public/gallery/Thrive_StyleGuide.jpg";
 import img24 from "../../public/gallery/ThriveWomensConference.jpg";
 import img25 from "../../public/gallery/vday_block.gif";
 import Fancybox from "./fancybox.js";
+import { display } from "@mui/system";
 
 export function Gallery() {
+  const showall = () => {
+    const array = ["mozzarella", "gouda", "cheddar"];
+    array.sort();
+    console.log(array);
+    alert("Great Shot!");
+  };
+
   return (
     <>
       <div className={style.container}>
-        <h2>Our Work</h2>
+        <h2>My work</h2>
         <p className={style.text}>
           We help companies look their best. Have a look at our work.
         </p>
+        <div className={style.categories}>
+          <div>
+            <button onClick={showall}>All Categories</button>
+          </div>
+          <div>
+            <button>Websites</button>
+          </div>
+          <div>
+            <button>Logo &amp; Branding</button>
+          </div>
+          <div>
+            <button>Email Design</button>
+          </div>
+          <div>
+            <button>Marketing Materials</button>
+          </div>
+          <div>
+            <button>Product Photography</button>
+          </div>
+        </div>
         <Fancybox>
           <div className={style.gallerypackage}>
             <div className={style.part1}>
