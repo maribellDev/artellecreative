@@ -19,7 +19,7 @@ export default function Slider() {
   return (
     <div className={styles.App}>
       <h2 style={{ margin: "0px auto", textAlign: "center", width: "85%" }}>
-        Latest projects we worked on
+        Our Work
       </h2>
       <p
         style={{

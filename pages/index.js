@@ -38,7 +38,9 @@ export default function Home() {
 
       <Mainscreen />
       <section className={style.sectionService}>
-        <h2 style={{ paddingTop: "80px" }}>A full-service web design studio</h2>
+        <h2 style={{ paddingTop: "80px" }}>
+          Creative partners for businesses at any stage
+        </h2>
         <div className={style.allservices}>
           <div className={style.service}>
             <div
@@ -50,7 +52,7 @@ export default function Home() {
               Website Design <br />+ Development
             </h3>
             <p className={style.small}>
-              We design and build on-of-a-kind websites from start to finish
+              We design and build engaging websites from start to finish.
             </p>
           </div>
           <div className={style.service}>
@@ -60,11 +62,11 @@ export default function Home() {
               <Image src={Icon2} alt="design" />
             </div>
             <h3 className={style.header3}>
-              Content
-              <br /> Creation
+              Brand &amp; Logo <br />
+              Design
             </h3>
             <p className={style.small}>
-              On-brand, written, and visual content for your website.
+              Memorable branding identity and assets to match.
             </p>
           </div>
           <div className={style.service}>
@@ -74,10 +76,13 @@ export default function Home() {
               <Image src={Icon3} alt="design" />
             </div>
             <h3>
-              Brand <br />
-              Identity
+              Marketing
+              <br />
+              Design
             </h3>
-            <p className={style.small}>We craft visual identities that last.</p>
+            <p className={style.small}>
+              Marketing materials designed for social media, email, or print.
+            </p>
           </div>
         </div>
         <div className={style.btnServices}>
