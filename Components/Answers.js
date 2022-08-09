@@ -7,7 +7,7 @@ export function Answers() {
         <h2
           style={{ margin: "0 0 10px 0", paddingTop: "80px", color: "#2E303D" }}
         >
-          Interested in working together?
+          What people ask
         </h2>
         <p
           style={{
@@ -24,24 +24,46 @@ export function Answers() {
         <div className={style.horizontalclick}>
           <input type="radio" name="vkl" id="vkl1" />
           <label style={{ color: "#2E303D" }} htmlFor="vkl1">
-            How do we get started?
+            Do you offer design packages?
           </label>
           <div style={{ maxWidth: "85%", color: "#2E303D" }}>
-            Let’s start off by&nbsp;
-            <a href="/contact" style={{ textDecoration: "underline" }}>
-              scheduling a call
+            We sure do! We have our&nbsp;
+            <a
+              href="/services/website-packages/"
+              style={{ textDecoration: "underline" }}
+            >
+              Website
             </a>
-            &nbsp;to talk about your needs and see if we are a good fit.
+            ,{" "}
+            <a
+              href="/services/brand-logo-design-packages/"
+              style={{ textDecoration: "underline" }}
+            >
+              Branding
+            </a>
+            , and{" "}
+            <a
+              href="/services/new-business-packages/"
+              style={{ textDecoration: "underline" }}
+            >
+              New Business Packages
+            </a>{" "}
+            that combine both. Along with transparent pricing for all. All are
+            covered in detail on each of the respective pages.
           </div>
           <input type="radio" name="vkl" id="vkl2" />
           <label style={{ color: "#2E303D" }} htmlFor="vkl2">
-            How much do projects usually cost?
+            Do you offer ongoing design or <br />
+            website retainers?
           </label>
           <div style={{ maxWidth: "85%", color: "#2E303D" }}>
-            Project cost depends on project complexity and functionality. Please
-            reach out to us, and we can walk you through everything needed to
-            prepare an estimate. The first discovery call is completely free and
-            is a means for us to get to know each other.
+            Yes, we do. See more info on design retainers{" "}
+            <a
+              href="/services/design-retainer/"
+              style={{ textDecoration: "underline" }}
+            >
+              here.
+            </a>
           </div>
 
           <input
@@ -55,60 +77,76 @@ export function Answers() {
             className={style.shortLabel}
             htmlFor="vkl3"
           >
-            What information do you need
-            <br /> to prepare an estimate?
-          </label>
-          <div style={{ maxWidth: "85%", color: "#2E303D" }}>
-            Our work and processes are dependent on the unique needs of each
-            company, so we’d always suggest getting in touch first, and we can
-            talk you through what we need in more detail.
-            <br />
-            <br />
-            During our first call, we’ll talk about your company, needs, and
-            goals. After which we would provide you with a proposal and a cost
-            estimate.
-          </div>
-          <input type="radio" name="vkl" id="vkl4" />
-          <label style={{ color: "#2E303D" }} htmlFor="vkl4">
-            What is your approach?
-          </label>
-          <div style={{ maxWidth: "85%", color: "#2E303D" }}>
-            We approach every website project with the same four-phase
-            process—research, strategy, design, and development. These phases
-            help us keep each project on track, on time, and on budget. Read
-            more about our approach and process&nbsp;
-            <a
-              href="/our-approach-to-website-projects"
-              style={{ textDecoration: "underline" }}
-            >
-              here
-            </a>
-            .
-          </div>
-          <input type="radio" name="vkl" id="vkl5" />
-          <label style={{ color: "#2E303D" }} htmlFor="vkl5">
             How long do projects take?
           </label>
           <div style={{ maxWidth: "85%", color: "#2E303D" }}>
-            Each project is different and the timeline depends on the complexity
-            of each given website. Most of our projects take 6 to 10 weeks,
-            though there are cases when it takes less or more time.
-            <br />
-            <br />
-            If you have a time constraint that requires the launch to be earlier
-            than 6 weeks, talk to us. In most cases, we can create a timeline to
-            complete your site in a shorter timeframe.
+            It depends on what kind of project we're working on. Websites take
+            4-6 weeks, branding 2-4 weeks, marketing materials can take 1-3
+            weeks. If you need a fast turnaround (2-3 days) on marketing
+            materials for social media, email, or anything else, our design
+            retainer might be for you.
+          </div>
+          <input type="radio" name="vkl" id="vkl4" />
+          <label style={{ color: "#2E303D" }} htmlFor="vkl4">
+            What's your pricing?
+          </label>
+          <div style={{ maxWidth: "85%", color: "#2E303D" }}>
+            Had over to our Services and Pricing page for a quick overview of
+            our services and pricing and take a look at our packages for
+            specific pricing on packages. If your needs are more a la carte,
+            reach out to us.
+          </div>
+          <input type="radio" name="vkl" id="vkl5" />
+          <label style={{ color: "#2E303D" }} htmlFor="vkl5">
+            Do you have a guarantee?
+          </label>
+          <div style={{ maxWidth: "85%", color: "#2E303D" }}>
+            We want our clients to be happy with the work we've done for them
+            and offer unlimited edits on all of our work as a guarantee.
           </div>
           <input type="radio" name="vkl" id="vkl6" />
           <label style={{ color: "#2E303D" }} htmlFor="vkl6">
             Who is Artelle Creative?
           </label>
           <div style={{ maxWidth: "85%", color: "#2E303D" }}>
-            We are a group of creatives working remotely from different corners
-            of the world, with our main base in Port St. Lucie, Florida. We have
-            extensive experience in design, development, user experience,
-            content creation, copywriting and virtually anything needed to craft
-            websites that work for the companies we work with.
+            We are a lean creative studio based in Port St. Lucie, FL
+            specializing in design and development. Learn more about us{" "}
+            <a href="/about/" style={{ textDecoration: "underline" }}>
+              here.
+            </a>
+          </div>
+          <input type="radio" name="vkl" id="vkl7" />
+          <label style={{ color: "#2E303D" }} htmlFor="vkl7">
+            How can we get started?
+          </label>
+          <div style={{ maxWidth: "85%", color: "#2E303D" }}>
+            Glad you asked! Head over{" "}
+            <a href="/contact/" style={{ textDecoration: "underline" }}>
+              here
+            </a>{" "}
+            and choose your journey.
+          </div>
+          <input type="radio" name="vkl" id="vkl8" />
+          <label style={{ color: "#2E303D" }} htmlFor="vkl8">
+            What companies do you work with?
+          </label>
+          <div style={{ maxWidth: "85%", color: "#2E303D" }}>
+            Because we offer a range of creative services, we've had the
+            opportunity to work with many businesses of different sizes and
+            industries. Ecommerce companies typically come to us for email
+            design and product photography, while our website and branding
+            packages are mostly geared toward small and medium-sized businesses
+            from all industries.
+          </div>
+          <input type="radio" name="vkl" id="vkl9" />
+          <label style={{ color: "#2E303D" }} htmlFor="vkl9">
+            What does the process look like?
+          </label>
+          <div style={{ maxWidth: "85%", color: "#2E303D" }}>
+            The process might look different for different projects. Learn more
+            about our process on each of our Service pages. But generally, after
+            you reach out to us, we schedule an initial call to talk about your
+            needs and walk you through any next steps.
           </div>
         </div>
       </div>
