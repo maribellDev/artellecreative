@@ -55,3 +55,15 @@
     }
   }
 }
+@media (max-width: 600px) {
+  .rwWrapper {
+    margin-bottom: -5px;
+    .rwSentence {
+      .rwWords {
+        span {
+          top: 45px;
+        }
+      }
+    }
+  }
+}
