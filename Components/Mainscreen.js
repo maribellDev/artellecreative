@@ -13,9 +13,8 @@ export function Mainscreen() {
           <div className={mainstyle.textmain}>
             <Animation />
             <p>
-              Artelle Creative is a creative design &amp; development
-              <br />
-              studio based in Port St. Lucie, Florida.
+              Artelle Creative is a creative design &amp; development studio
+              based in Port St. Lucie, Florida.
             </p>
 
             <Link href="/contact">

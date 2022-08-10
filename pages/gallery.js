@@ -24,8 +24,8 @@ export default function Gallerypage() {
       <Head></Head>
 
       <Navbar />
-      <Gallery />
       {/* <Gallery1 /> */}
+      <Gallery />
 
       <section className={styles.section}>
         <Action />
