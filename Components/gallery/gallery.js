@@ -50,7 +50,7 @@ export function Gallery() {
         <p className={style.text}>
           We help companies look their best. Have a look at our work.
         </p>
-        <div className={style.categories}>
+        {/* <div className={style.categories}>
           <div>
             <button onClick={showall}>All Categories</button>
           </div>
@@ -69,7 +69,7 @@ export function Gallery() {
           <div>
             <button>Product Photography</button>
           </div>
-        </div>
+        </div> */}
         <Fancybox>
           <div className={style.gallerypackage}>
             <div className={style.part1}>

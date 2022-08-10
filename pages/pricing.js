@@ -37,7 +37,7 @@ export default function Pricing() {
       <div className={style.container}>
         <Servicewebsite />
         <div style={{ padding: "0 10px 0 10px" }}>
-          <Link href={"/pricing"}>
+          <Link href={"/services/new-business-packages/"}>
             <a>
               <div className={style.im}>
                 <Image
@@ -73,7 +73,7 @@ export default function Pricing() {
             media posts design, email design, website assets design, campaign
             design, and more.
           </p>
-          <Link href={"/pricing"}>
+          <Link href={"/services/design-retainer/"}>
             <a>
               <div style={{ marginTop: "68px", padding: "0 10px 0 10px" }}>
                 <div className={style.im}>

@@ -18,7 +18,7 @@ export function Howitworks() {
                 <h3>Initial meeting</h3>
                 <p>
                   We meet for a quick chat about what you're looking for and how
-                  we can help. Ongoing requests
+                  we can help.
                 </p>
               </div>
             </div>
@@ -28,7 +28,7 @@ export function Howitworks() {
                 <h3>Ongoing requests</h3>
                 <p>
                   All requests go into a task management board, along with all
-                  assets and comments
+                  assets and comments.
                 </p>
               </div>
 

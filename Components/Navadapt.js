@@ -65,7 +65,7 @@ export function Navadapt() {
             </Link>
             <Link href={"/services/website-maintanence"}>
               <a>
-                <li>Website Maintanence</li>
+                <li>Website Support</li>
               </a>
             </Link>
             <Link href={"/services/web-development"}>

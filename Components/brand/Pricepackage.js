@@ -18,7 +18,7 @@ export default function Pricepackage() {
             <hr width="100%" size="1" color="#FFF4E4" />
             <div className={style.ulclass}>
               <ul>
-                <li>Discovery Consultation via Zoom</li>
+                <li>Primary Logo Design + Variations</li>
                 <li>1 Brand Material</li>
                 <li>Color Palette and Fonts</li>
                 <li>Social Media Banner</li>
@@ -71,7 +71,7 @@ export default function Pricepackage() {
             </div>
           </div>
           <div className={style.pricecard}>
-            <p className={style.title}>E-comm</p>
+            <p className={style.title}>E-commerce</p>
             <p className={style.cost}>$4,400+</p>
             <p className={style.text}>
               Build a beautiful visual brand for your e-commerce business.

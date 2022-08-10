@@ -6,11 +6,11 @@ export default function Pricepackage() {
   return (
     <>
       <div className={style.priceblock}>
-        <h2>New Business Website &amp; Branding Package</h2>
+        <h2>New Business Website &amp; Branding Packages</h2>
         <p>Packages to cover all your design needs. Payment plans available.</p>
         <div className={style.pricepackage}>
           <div className={style.pricecard}>
-            <p className={style.title}>Starter</p>
+            <p className={style.title}>Starter - $200 off</p>
             <p className={style.cost}>$3,800</p>
             <p className={style.text}>
               Everything included in the 3 page Website Package + base Brand
@@ -43,7 +43,7 @@ export default function Pricepackage() {
           </div>
           <div className={style.pricecard}>
             {" "}
-            <p className={style.title}>The Start-Up</p>
+            <p className={style.title}>Mid - $400 off</p>
             <p className={style.cost}>$6,600</p>
             <p className={style.text}>
               Everything included in the 6 page Website Package + Full Brand
@@ -53,7 +53,7 @@ export default function Pricepackage() {
             <div className={style.ulclass}>
               <ul>
                 <li>Website w/ up to 6 Pages</li>
-                <li>Custom design &amp; Development</li>
+                <li>Custom Design &amp; Development</li>
                 <li>Discovery Consultation via Zoom</li>
                 <li>Copywriting</li>
                 <li>Foundational SEO</li>
@@ -75,7 +75,7 @@ export default function Pricepackage() {
             </div>
           </div>
           <div className={style.pricecard}>
-            <p className={style.title}>Full</p>
+            <p className={style.title}>Full - $800 off</p>
             <p className={style.cost}>$8,400</p>
             <p className={style.text}>
               Everything included in the 12 page Website Package + Full Brand
@@ -85,7 +85,7 @@ export default function Pricepackage() {
             <div className={style.ulclass}>
               <ul>
                 <li>Website w/ up to 12 Pages</li>
-                <li>Custom design &amp; Development</li>
+                <li>Custom Design &amp; Development</li>
                 <li>Discovery Consultation via Zoom</li>
                 <li>Copywriting</li>
                 <li>Foundational SEO</li>

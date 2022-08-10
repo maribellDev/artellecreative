@@ -12,7 +12,7 @@ export default function Toolsweb() {
             paddingTop: "80px",
           }}
         >
-          Eye-catching Branding and Marketing materials
+          Eye-catching branding and marketing materials
         </h2>
         <p
           style={{

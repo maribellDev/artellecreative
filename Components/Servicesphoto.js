@@ -8,14 +8,14 @@ export function Servicephoto() {
   return (
     <>
       <div className={style.block}>
-        <h2>Product Photography & Video</h2>
+        <h2>Product Photography &amp; Video</h2>
         <p className={style.text}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna{" "}
+          Show off your products with eye-catching product photos and videos.
+          Great for e-commerce product pages, and ongoing marketing needs.
         </p>
         <div className={style.images}>
           <div className={style.imageright}>
-            <Link href={"/pricing"}>
+            <Link href={"/services/product-photos-&-videos/"}>
               <a>
                 <div className={style.imsquare}>
                   <Image className={style.im} src={image1} alt="" />
@@ -26,7 +26,7 @@ export function Servicephoto() {
             </Link>
           </div>
           <div className={style.imageleft}>
-            <Link href={"/pricing"}>
+            <Link href={"/services/product-photos-&-videos/"}>
               <a>
                 <div className={style.imsquare}>
                   <Image className={style.im} src={image2} alt="" />

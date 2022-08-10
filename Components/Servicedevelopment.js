@@ -15,18 +15,18 @@ export function Servicedevelopment() {
         </p>
         <div className={style.images}>
           <div className={style.imageright}>
-            <Link href={"/pricing"}>
+            <Link href={"/services/website-maintanence/"}>
               <a>
                 <div className={style.imsquare}>
                   <Image src={image1} alt="" />
                 </div>
-                <h3>Website Maintanence</h3>
+                <h3>Website Support</h3>
                 <p className={style.price}>Starting at $200</p>
               </a>
             </Link>
           </div>
           <div className={style.imageleft}>
-            <Link href={"/pricing"}>
+            <Link href={"/services/web-development/"}>
               <a>
                 <div className={style.imsquare}>
                   <Image src={image2} alt="" />

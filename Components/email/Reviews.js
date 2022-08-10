@@ -15,21 +15,20 @@ export default function Reviews() {
             </div>
 
             <p className={style.text}>
-              Thank you for building my website. It’s literally perfect! I am
-              very happy with how my logo and business cards turned out as well.
+              [Artelle Creative] went above and beyond to educate me on the
+              process from beginning to end and also made sure that my requests
+              were in line with best practices.
             </p>
             <div className={style.client}>
-              <div>
+              {/* <div>
                 <Image
                   className={style.photo}
                   src={photo}
                   alt="Good client"
                 ></Image>
-              </div>
+              </div> */}
               <div>
-                <p className={style.textright}>
-                  Ven S. <br /> Nomad Techy
-                </p>
+                <p className={style.textright}>Jen S.</p>
               </div>
             </div>
           </div>

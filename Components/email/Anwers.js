@@ -28,8 +28,8 @@ export function Answers() {
           </label>
           <div style={{ maxWidth: "85%", color: "#2E303D" }}>
             Depending on whether you need a single email template or ongoing
-            email design, we can work on specific pricing for what you need.
-            Generally, prices for HTML-based email templates are between $150 -
+            email design, we can work on specific pricing for your needs.
+            Generally, prices for Klaviyo email templates are between $150 -
             $200 per email and image-based emails start at $100.
           </div>
           <input type="radio" name="vkl" id="vkl2" />

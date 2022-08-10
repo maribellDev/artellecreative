@@ -11,7 +11,7 @@ export function Firstscreen() {
       <section className={mainstyle.sectionAll}>
         <div id={mainstyle.block} className={mainstyle.blockmain}>
           <div style={{ maxWidth: "350px" }} className={mainstyle.textmain}>
-            <p className={pricing.packageprice}>Starting at $200</p>
+            <p className={pricing.packageprice}>Starting at $250</p>
             <h1 style={{ fontSize: "32px" }}>Digital and Print Design</h1>
             <p>
               Design for branding and marketing materials - digital or printed,

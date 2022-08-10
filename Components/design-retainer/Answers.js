@@ -27,16 +27,9 @@ export function Answers() {
             What's your pricing?
           </label>
           <div style={{ maxWidth: "85%", color: "#2E303D" }}>
-            16 hours/month or 4 hours/week - $720
-            <br />
-            40 hours/month or 10 hours/week - $1,800
-            <br />
-            Unlimited designs/month - $4,200
-            <br />
-            Want on-demand designer access?
-            <br />
-            $50/month + $55/hour
-            <br />
+            Pricing starts at $720 for monthly retainers and $55/hour for
+            on-demand design. Monthly retainer plans are available from 16
+            hours/month to fully unlimited depending on your needs.
           </div>
           <input type="radio" name="vkl" id="vkl2" />
           <label style={{ color: "#2E303D" }} htmlFor="vkl2">
@@ -60,30 +53,31 @@ export function Answers() {
             className={style.shortLabel}
             htmlFor="vkl3"
           >
-            We already have our own task management tool, can we use ours?
+            Can we add you to our own task management tool?
           </label>
           <div style={{ maxWidth: "85%", color: "#2E303D" }}>
             No worries, if you have a preferred task management tool that your
             team uses - we can always use yours.
           </div>
-          <input type="radio" name="vkl" id="vkl4" />
+          {/* <input type="radio" name="vkl" id="vkl4" />
           <label style={{ color: "#2E303D" }} htmlFor="vkl4">
             We already have our own task management tool, can we use ours?
           </label>
           <div style={{ maxWidth: "85%", color: "#2E303D" }}>
             No worries, if you have a preferred task management tool that your
             team uses - we can always use yours.
-          </div>
+          </div> */}
           <input type="radio" name="vkl" id="vkl5" />
           <label style={{ color: "#2E303D" }} htmlFor="vkl5">
-            Can you edit my website or design assets for my clients?
+            What's included in this package?
           </label>
           <div style={{ maxWidth: "85%", color: "#2E303D" }}>
-            No, this package only includes stand-alone digital or printed
-            materials for email, social media, and print. We can also design
-            graphics for your website, like article images, or banners and
-            headers - but not any structural or layout changes to your website.
-            And we will only design for you, not for your clients.
+            This package includes graphic design for email, social media,
+            website and print. It does not include any motion graphics work or
+            website layout design (only specific graphics like banners or post
+            covers are included). In addition, packages will only apply to one
+            client - this pricing is not for agencies. Some exclusions may apply
+            - asking is always a good idea.
           </div>
           <input type="radio" name="vkl" id="vkl6" />
           <label style={{ color: "#2E303D" }} htmlFor="vkl6">

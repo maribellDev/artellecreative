@@ -15,7 +15,7 @@ export function Servicemarketing() {
         </p>
         <div className={style.images}>
           <div className={style.imageright}>
-            <Link href={"/pricing"}>
+            <Link href={"/services/email-design/"}>
               <a>
                 <div className={style.imsquare}>
                   <Image src={image1} alt="" />
@@ -26,7 +26,7 @@ export function Servicemarketing() {
             </Link>
           </div>
           <div className={style.imageleft}>
-            <Link href={"/pricing"}>
+            <Link href={"/services/digital-&-print-design/"}>
               <a>
                 <div className={style.imsquare}>
                   <Image src={image2} alt="" />

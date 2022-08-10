@@ -65,7 +65,7 @@ export default function Toolsweb() {
             </p>
           </div>
           <div className={style.tool}>
-            <h4>On-demand or flat fee</h4>
+            <h4>On-Demand or Flat Fee</h4>
             <p
               style={{
                 fontSize: "16px",

@@ -6,7 +6,7 @@ import Action from "../../Components/Action";
 import { Footer } from "../../Components/Footer";
 import Layout from "../../Components/Layout";
 import Toolsweb from "../../Components/webmaintanence/Toolsweb";
-import Reviews from "../../Components/webmaintanence/Reviews";
+// import Reviews from "../../Components/webmaintanence/Reviews";
 import { Howitworks } from "../../Components/webmaintanence/Howitworks";
 import { Gallerypackage } from "../../Components/webmaintanence/Gallerypackage";
 import * as React from "react";
@@ -36,7 +36,7 @@ export default function Websitepackages() {
         <Toolsweb></Toolsweb>
       </section>
       <Howitworks />
-      <Reviews />
+      {/* <Reviews /> */}
       <Gallerypackage />
       <Answers></Answers>
       <section>

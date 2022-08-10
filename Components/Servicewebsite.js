@@ -16,7 +16,7 @@ export function Servicewebsite() {
         </p>
         <div className={style.images}>
           <div className={style.imageright}>
-            <Link href={"/pricing"}>
+            <Link href={"services/website-packages/"}>
               <a>
                 <div className={style.imsquare}>
                   <Image className={style.im} src={image1} alt="" />
@@ -27,7 +27,7 @@ export function Servicewebsite() {
             </Link>
           </div>
           <div className={style.imageleft}>
-            <Link href={"/pricing"}>
+            <Link href={"/services/brand-logo-design-packages/"}>
               <a>
                 <div className={style.imsquare}>
                   <Image className={style.im} src={image2} alt="" />

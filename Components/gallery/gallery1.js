@@ -38,8 +38,8 @@ export function Gallery1() {
         <p className={style.text}>
           We help companies look their best. Have a look at our work.
         </p>
-        <div className={style.categories}>
-          {/* <div>
+        {/* <div className={style.categories}>
+        <div>
             <button
               data-fancybox="gallery"
               data-src="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109613/NT-full_oarpnz.jpg"
@@ -47,7 +47,7 @@ export function Gallery1() {
             >
               All Categories
             </button>
-          </div> */}
+          </div> 
           <div>
             <button
               data-fancybox="gallery-1"
@@ -87,7 +87,7 @@ export function Gallery1() {
               Product Photography
             </button>
           </div>
-        </div>
+        </div>  */}
         <Fancybox>
           <div className={style.gallerypackage}>
             <div className={style.part1}>
