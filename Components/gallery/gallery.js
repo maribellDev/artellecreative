@@ -33,20 +33,12 @@ import img23 from "../../public/gallery/Thrive_StyleGuide.jpg";
 import img24 from "../../public/gallery/ThriveWomensConference.jpg";
 import img25 from "../../public/gallery/vday_block.gif";
 import Fancybox from "./fancybox.js";
-import { display } from "@mui/system";
 
 export function Gallery() {
-  const showall = () => {
-    const array = ["mozzarella", "gouda", "cheddar"];
-    array.sort();
-    console.log(array);
-    alert("Great Shot!");
-  };
-
   return (
     <>
       <div className={style.container}>
-        <h2>My work</h2>
+        <h2>Our work</h2>
         <p className={style.text}>
           We help companies look their best. Have a look at our work.
         </p>

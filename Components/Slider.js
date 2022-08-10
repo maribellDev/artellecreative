@@ -78,52 +78,27 @@ export default function Slider() {
           }}
         >
           <SwiperSlide>
-            <Link href={"/gallery"}>
-              <a>
-                {" "}
-                <Image
-                  className={styles.imageSlide}
-                  class={styles.images}
-                  src={slide1}
-                  alt="slide1"
-                />
-              </a>
-            </Link>
+            <Image
+              className={styles.imageSlide}
+              class={styles.images}
+              src={slide1}
+              alt="slide1"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Link href={"/shuda-properties"}>
-              <a>
-                <Image src={slide2} className={styles.images} alt="slide2" />
-              </a>
-            </Link>
+            <Image src={slide2} className={styles.images} alt="slide2" />
           </SwiperSlide>
           <SwiperSlide>
-            <Link href={"/nomadtechy"}>
-              <a>
-                <Image src={slide3} className={styles.images} alt="slide3" />
-              </a>
-            </Link>
+            <Image src={slide3} className={styles.images} alt="slide3" />
           </SwiperSlide>
           <SwiperSlide>
-            <Link href={"/nomadtechy"}>
-              <a>
-                <Image src={slide4} className={styles.images} alt="slide4" />
-              </a>
-            </Link>
+            <Image src={slide4} className={styles.images} alt="slide4" />
           </SwiperSlide>
           <SwiperSlide>
-            <Link href={"/nomadtechy"}>
-              <a>
-                <Image src={slide5} className={styles.images} alt="slide5" />
-              </a>
-            </Link>
+            <Image src={slide5} className={styles.images} alt="slide5" />
           </SwiperSlide>
           <SwiperSlide>
-            <Link href={"/nomadtechy"}>
-              <a>
-                <Image src={slide6} className={styles.images} alt="slide6" />
-              </a>
-            </Link>
+            <Image src={slide6} className={styles.images} alt="slide6" />
           </SwiperSlide>
         </Swiper>
       </div>

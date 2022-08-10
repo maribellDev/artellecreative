@@ -28,7 +28,9 @@ export default function Reviews() {
                 ></Image>
               </div> */}
               <div>
-                <p className={style.textright}>Jen S.</p>
+                <p style={{ paddingLeft: "0" }} className={style.textright}>
+                  Jen S.
+                </p>
               </div>
             </div>
           </div>

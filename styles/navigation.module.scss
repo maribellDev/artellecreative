@@ -9,104 +9,85 @@
   position: relative;
   .menu {
     position: relative;
-  }
-  .navigulwork {
-    width: 152px;
-    background: #ffffff;
-    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    position: absolute;
-    z-index: 10;
-    top: 50px;
-    left: 45px;
-    .navwork {
-      padding: 16px 31px 16px 27px;
-      li {
-        line-height: 34px;
-        letter-spacing: 0em;
-        text-align: left;
+    .servbut {
+      &:hover {
+        .navigul {
+          display: block;
+          background: #ffffff;
+          box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.1);
+          border-radius: 5px;
+          position: absolute;
+          z-index: 10;
+          display: flex;
+          flex-direction: row;
+          top: 30px;
+          left: -280px;
+          .navserv1 {
+            padding-left: 27px;
+            padding-bottom: 27px;
+          }
+          .navserv2 {
+            padding-right: 27px;
+            padding-bottom: 27px;
+          }
+
+          a {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0em;
+          }
+          h3 {
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 33px;
+            letter-spacing: 0.08em;
+            text-align: left;
+            color: #db8e76;
+          }
+        }
       }
     }
-  }
-  .navigul {
-    background: #ffffff;
-    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    position: absolute;
-    z-index: 10;
-    display: flex;
-    flex-direction: row;
-    top: 50px;
-    left: -280px;
-    .navserv1 {
-      padding-left: 27px;
-      padding-bottom: 27px;
+    .workon {
+      &:hover {
+        .navigulwork {
+          display: block;
+          width: 152px;
+          background: #ffffff;
+          box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.1);
+          border-radius: 5px;
+          position: absolute;
+          z-index: 10;
+          top: 30px;
+          left: 45px;
+          .navwork {
+            padding: 16px 31px 16px 27px;
+            li {
+              line-height: 34px;
+              letter-spacing: 0em;
+              text-align: left;
+            }
+          }
+        }
+      }
     }
-    .navserv2 {
-      padding-right: 27px;
-      padding-bottom: 27px;
+    .orange {
+      &:hover {
+        color: rgba(219, 142, 118, 1);
+      }
+      &:active {
+        color: rgba(220, 180, 118, 1);
+      }
     }
 
-    a {
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 28px;
-      letter-spacing: 0em;
+    .navigulwork {
+      display: none;
     }
-    h3 {
-      font-size: 12px;
-      font-weight: 700;
-      line-height: 33px;
-      letter-spacing: 0.08em;
-      text-align: left;
-      color: #db8e76;
+    .navigul {
+      display: none;
     }
-  }
-
-  a {
-    &:hover {
-      color: rgba(219, 142, 118, 1);
-    }
-    &:active {
-      color: rgba(220, 180, 118, 1);
-    }
-  }
-
-  .menu input {
-    display: none;
-  }
-  .menu > :not(input):not(label) {
-    overflow: hidden;
-    height: 0;
-    margin: 0;
-    padding: 0;
-    border-top-style: none;
-    transition: 0.5s;
-  }
-  .menu > label {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    cursor: pointer;
-
-    // &::after {
-    //   content: url(../public/icons/answerclose.svg); /* Выводим плюс */
-    //   float: right; /* Размещаем по правому краю */
-    // }
-  }
-  .menu > :checked + label + * {
-    overflow: hidden;
-    height: auto;
-  }
-  .menu > :checked + label {
-    cursor: default;
-    // &::after {
-    //   content: url(../public/icons/answeropen.svg); /* Выводим плюс */
-    //   float: right; /* Размещаем по правому краю */
-    // }
   }
 }
-
 @media (max-width: 768px) {
   .navbar {
     height: 78px;
@@ -116,3 +97,123 @@
     }
   }
 }
+
+// меню с переключением см. navbar.js
+// .navbar {
+//   height: 104px;
+//   max-width: 1286px;
+//   margin: 0 auto;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   padding: 0 20px;
+//   position: relative;
+//   .menu {
+//     position: relative;
+//   }
+//   .navigulwork {
+//     width: 152px;
+//     background: #ffffff;
+//     box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.1);
+//     border-radius: 5px;
+//     position: absolute;
+//     z-index: 10;
+//     top: 50px;
+//     left: 45px;
+//     .navwork {
+//       padding: 16px 31px 16px 27px;
+//       li {
+//         line-height: 34px;
+//         letter-spacing: 0em;
+//         text-align: left;
+//       }
+//     }
+//   }
+//   .navigul {
+//     background: #ffffff;
+//     box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.1);
+//     border-radius: 5px;
+//     position: absolute;
+//     z-index: 10;
+//     display: flex;
+//     flex-direction: row;
+//     top: 50px;
+//     left: -280px;
+//     .navserv1 {
+//       padding-left: 27px;
+//       padding-bottom: 27px;
+//     }
+//     .navserv2 {
+//       padding-right: 27px;
+//       padding-bottom: 27px;
+//     }
+
+//     a {
+//       font-size: 14px;
+//       font-weight: 400;
+//       line-height: 28px;
+//       letter-spacing: 0em;
+//     }
+//     h3 {
+//       font-size: 12px;
+//       font-weight: 700;
+//       line-height: 33px;
+//       letter-spacing: 0.08em;
+//       text-align: left;
+//       color: #db8e76;
+//     }
+//   }
+
+//   a {
+//     &:hover {
+//       color: rgba(219, 142, 118, 1);
+//     }
+//     &:active {
+//       color: rgba(220, 180, 118, 1);
+//     }
+//   }
+
+//   .menu input {
+//     display: none;
+//   }
+//   .menu > :not(input):not(label) {
+//     overflow: hidden;
+//     height: 0;
+//     margin: 0;
+//     padding: 0;
+//     border-top-style: none;
+//     transition: 0.5s;
+//   }
+//   .menu > label {
+//     overflow: hidden;
+//     white-space: nowrap;
+//     text-overflow: ellipsis;
+//     cursor: pointer;
+
+//     // &::after {
+//     //   content: url(../public/icons/answerclose.svg); /* Выводим плюс */
+//     //   float: right; /* Размещаем по правому краю */
+//     // }
+//   }
+//   .menu > :checked + label + * {
+//     overflow: hidden;
+//     height: auto;
+//   }
+//   .menu > :checked + label {
+//     cursor: default;
+//     // &::after {
+//     //   content: url(../public/icons/answeropen.svg); /* Выводим плюс */
+//     //   float: right; /* Размещаем по правому краю */
+//     // }
+//   }
+// }
+
+// @media (max-width: 768px) {
+//   .navbar {
+//     height: 78px;
+
+//     .menu {
+//       display: none;
+//     }
+//   }
+// }
