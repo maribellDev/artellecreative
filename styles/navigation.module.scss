@@ -13,6 +13,10 @@
       &:hover {
         .navigul {
           display: block;
+          opacity: 0;
+          animation: show 0.8s 1;
+          animation-fill-mode: forwards;
+          transition: 1s;
           background: #ffffff;
           box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.1);
           border-radius: 5px;
@@ -60,6 +64,20 @@
           z-index: 10;
           top: 30px;
           left: 45px;
+          opacity: 0;
+          animation: show 1.2s 1;
+          animation-fill-mode: forwards;
+          animation-delay: 0.1s;
+          transition: 1s;
+          @keyframes show {
+            0% {
+              opacity: 0;
+            }
+
+            100% {
+              opacity: 1;
+            }
+          }
           .navwork {
             padding: 16px 31px 16px 27px;
             li {
@@ -72,9 +90,11 @@
       }
     }
     .orange {
+      transition: ease-in-out 0.2s;
       &:hover {
         color: rgba(219, 142, 118, 1);
       }
+      transition: ease-in-out 0.2s;
       &:active {
         color: rgba(220, 180, 118, 1);
       }
@@ -82,9 +102,26 @@
 
     .navigulwork {
       display: none;
+
+      a {
+        transition: ease-in-out 0.2s;
+        &:hover {
+          color: #db8e76;
+          transition: ease-in-out 0.2s;
+        }
+      }
     }
+
     .navigul {
       display: none;
+
+      a {
+        transition: ease-in-out 0.2s;
+        &:hover {
+          color: #db8e76;
+          transition: ease-in-out 0.2s;
+        }
+      }
     }
   }
 }
