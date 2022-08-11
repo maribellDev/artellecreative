@@ -62,12 +62,12 @@
       border-radius: 10px;
       width: 298px;
       height: auto;
-      // transition: 1s; /* Время эффекта */
+      transition: 1s; /* Время эффекта */
       display: block;
     }
-    // img:hover {
-    //   transform: scale(1.1);
-    // }
+    img:hover {
+      transform: scale(1.1);
+    }
   }
   .btnServices {
     margin: 0 auto;

@@ -29,6 +29,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/gallery.js"
+    ],
+    "/services/email-design": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/services/email-design.js"
     ]
   },
   "ampFirstPages": []
