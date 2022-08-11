@@ -26,7 +26,7 @@ export function Navbar() {
           <span
             style={{
               paddingRight: "20px",
-              marginLeft: "4px",
+              marginLeft: "10px",
               marginRight: "10px",
             }}
           >
