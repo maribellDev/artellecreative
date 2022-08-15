@@ -31,22 +31,20 @@ export default function Contact() {
         <div className={style.container}>
           <div className={style.getit}>
             <h1>Get in touch</h1>
-            <p>
-              We’d love to chat. Let’s start by scheduling a quick call to talk
-              about your project.
-            </p>
+            <p>Reach to us and we’ll get right back to you!</p>
 
             <p>
-              Alternatively, you can always email us at&nbsp;
+              Alternatively, you can always email us at
               <a
                 href="mailto:
                 hello@artellecreative.com"
               >
                 hello@artellecreative.com.
               </a>
+              Or call or text at 772-206-0480.
             </p>
 
-            <div className={style.photo}>
+            {/* <div className={style.photo}>
               <div className={style.photoImage}>
                 <Image src={Photo} alt="" />
               </div>
@@ -58,7 +56,7 @@ export default function Contact() {
                   Visual designer and strategist
                 </p>
               </div>
-            </div>
+            </div> */}
             <p className={style.follow} style={{ fontSize: "24px" }}>
               Follow along
             </p>
