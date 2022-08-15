@@ -13,6 +13,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
           />
+          <meta property="og:image" content="../public/art.jpg"></meta>
         </Head>
         <body>
           <Main />

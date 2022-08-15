@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
     </Script>
     <Script
       type="text/javascript"
-      src="//static.klaviyo.com/onsite/js/klaviyo.js?company_id=YtnfYs"
+      src={`"//static.klaviyo.com/onsite/js/klaviyo.js?company_id=YtnfYs"`}
     ></Script>
   </Script>;
 
