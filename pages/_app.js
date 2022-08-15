@@ -27,12 +27,11 @@ function MyApp({ Component, pageProps }) {
 
   gtag("config", "G-S7QWMT71TD");`}
     </Script>
-    <Script
-      type="text/javascript"
-      src={`"//static.klaviyo.com/onsite/js/klaviyo.js?company_id=YtnfYs"`}
-    ></Script>
   </Script>;
-
+  <Script
+    type="text/javascript"
+    src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=YtnfYs"
+  ></Script>;
   return <Component {...pageProps} />;
 }
 

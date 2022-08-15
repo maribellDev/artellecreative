@@ -16,7 +16,7 @@ import retainer from "../public/img/pricing/6-design_retainer.jpg";
 export default function Pricing() {
   return (
     <Layout
-      title="Our work"
+      title="Pricing - Artelle Creative"
       keywords="Web development, web design, web development in florida, 
        websites for small business, professional websitesfolio Artellecreative website"
       description="Overview of our creative services and pricing."
