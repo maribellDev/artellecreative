@@ -35,12 +35,14 @@ export default function Contact() {
 
             <p>
               Alternatively, you can always email us at
+              <br />
               <a
                 href="mailto:
                 hello@artellecreative.com"
               >
-                hello@artellecreative.com.
+                hello@artellecreative.com
               </a>
+              <br />
               Or call or text at 772-206-0480.
             </p>
 
