@@ -14,13 +14,11 @@ import * as React from "react";
 export default function Websitepackages() {
   return (
     <Layout
-      title="Artelle Creative - Crafting websites, lasting branding identities, and memorable content"
-      keywords="web development, web design, web development in florida, 
-    web design in Florida, websites, 
-    branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
+      title="Email Design - Artelle Creative"
+      keywords="Email Design, web design, web development in florida, 
+    web design in Florida, websites, branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
     good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
-      description="We make purposeful websites that look and work great.We design and develop websites, create unique logos, 
-      brand identities and marketing materials."
+      description="On-brand, beautifully designed, conversion-optimized marketing emails and flows."
     >
       <Head>
         <meta charSet="UTF-8"></meta>

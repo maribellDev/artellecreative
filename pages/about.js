@@ -12,14 +12,10 @@ import { Aboutinsta } from "../Components/Aboutinsta";
 export default function About() {
   return (
     <Layout
-      title="We are a studio of creatives - Artelle Creative"
-      keywords="web development, web design, web development in florida, 
-      web design in Florida, websites, 
-      branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
-      good websites, 
-      affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
-      description="Artelle Creative is a creative studio focused on design and development, 
-      dedicated to creating websites that drive results and look the part."
+      title="About - Artelle Creative"
+      keywords="web development, web design, web development in florida, web design in Florida, websites, branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
+      good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
+      description="Artelle Creative is a design &amp; development studio building websites, designing logo &amp; brand identities, and marketing materials."
     >
       <Navbar />
 

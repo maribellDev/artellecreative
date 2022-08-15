@@ -16,7 +16,7 @@ export function Firstscreen() {
               New Business Website &amp; Branding Packages
             </h1>
             <p>
-              The complete package to get launch your business. Website design,
+              The complete package to launch your business. Website design,
               branding, and marketing materials all in one.
             </p>
 

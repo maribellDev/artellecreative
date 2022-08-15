@@ -8,14 +8,13 @@ import Post2 from "../public/post/Blog01.jpg";
 import Post3 from "../public/post/Blog02.jpg";
 import Post1 from "../public/post/Blog03.jpg";
 import Layout from "../Components/Layout";
-import Action from "../Components/Action";
 
 export default function Blog() {
   return (
     <Layout
-      title="Latest stories, insights and ideas - Artelle Creative"
+      title="Blog - Artelle Creative"
       keywords="posts blog Artelle creative web development"
-      description="Our blog"
+      description="Latest stories, insights, and ideas of Artelle Creative."
     >
       <div>
         <Head />

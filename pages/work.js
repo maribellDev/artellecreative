@@ -11,13 +11,13 @@ import Layout from "../Components/Layout";
 export default function Work() {
   return (
     <Layout
-      title="Featured case studies - Artelle Creative"
-      keywords="web development, web design, web development in florida, 
+      title="Case Studies - Artelle Creative"
+      keywords="case Studies, web development, web design, web development in florida, 
       web design in Florida, websites, 
       branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
       good websites, 
       affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
-      description="Design studio crafting websites and lasting branding identities."
+      description="Featured website and branding projects."
     >
       <Head></Head>
       <Navbar />

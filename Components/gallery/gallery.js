@@ -40,12 +40,12 @@ export function Gallery() {
       <div className={style.container}>
         <h2>Our work</h2>
         <p className={style.text}>
-          We help companies look their best. Have a look at our work.
+          We help companies look their best. Take a look at our work.
         </p>
         {/* <div className={style.categories}>
           <div>
             <button onClick={showall}>All Categories</button>
-          </div>
+          </div>Take a look at our work.
           <div>
             <button>Websites</button>
           </div>

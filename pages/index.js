@@ -9,7 +9,7 @@ import Icon3 from "../public/icons/icon3.gif";
 import { Answers } from "../Components/Answers";
 import Action from "../Components/Action";
 import { Footer } from "../Components/Footer";
-import { Blog } from "../Components/Blog";
+
 import Slider from "../Components/Slider";
 import Layout from "../Components/Layout";
 import Tools from "../Components/Tools";
@@ -19,12 +19,10 @@ export default function Home() {
   return (
     <Layout
       title="Artelle Creative - Crafting websites, lasting branding identities, and memorable content"
-      keywords="web development, web design, web development in florida, 
-    web design in Florida, websites, 
+      keywords="web development, web design, web development in florida, web design in Florida, websites, 
     branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
     good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
-      description="We make purposeful websites that look and work great.We design and develop websites, create unique logos, 
-      brand identities and marketing materials."
+      description="Artelle Creative is a creative studio based in Port St. Lucie, FL. We craft websites, branding identities, and marketing materials for e-commerce and service-based businesses."
     >
       <Head>
         <meta charSet="UTF-8"></meta>

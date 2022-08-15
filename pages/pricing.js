@@ -12,17 +12,14 @@ import { Servicemarketing } from "../Components/Servicemarketing";
 import { Servicephoto } from "../Components/Servicesphoto";
 import Action from "../Components/Action";
 import retainer from "../public/img/pricing/6-design_retainer.jpg";
-import { useSpring, animated } from "react-spring";
 
 export default function Pricing() {
-  const props = useSpring({ to: { opacity: 1 }, from: { opacity: 0 } });
-
   return (
     <Layout
-      title="Artelle Creative"
+      title="Our work"
       keywords="Web development, web design, web development in florida, 
        websites for small business, professional websitesfolio Artellecreative website"
-      description=""
+      description="Overview of our creative services and pricing."
     >
       <Head></Head>
       <Navbar />
@@ -43,10 +40,10 @@ export default function Pricing() {
                 <Image
                   src={business}
                   className={style.business}
-                  alt="business package"
+                  alt="business packages"
                 />
               </div>
-              <h3 style={{ textAlign: "center" }}>New Business Package</h3>
+              <h3 style={{ textAlign: "center" }}>New Business Packages</h3>
               <p
                 style={{
                   textAlign: "center",

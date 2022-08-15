@@ -11,9 +11,7 @@ import Layout from "../Components/Layout";
 export default function Article3() {
   return (
     <Layout
-      title="What makes for an effective website? - Artelle Creative
-
-      "
+      title="What makes for an effective website? - Artelle Creative"
       keywords="posts blog Artelle creative web development"
       description="Our blog"
     >
