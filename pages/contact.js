@@ -14,14 +14,10 @@ export default function Contact() {
   return (
     <Layout
       style={{ backgroundColor: "#F7F7FA" }}
-      title="We’d love to chat. Get in touch and let's build things together - Artelle Creative"
-      keywords="web development, web design, web development in florida, 
-      web design in Florida, websites, 
-      branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
-      good websites, 
-      affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
-      description="We make purposeful websites for small businesses.
-      Contact us today and we will create an effective tool for your business."
+      title="Contact - Artelle Creative"
+      keywords="web development, web design, web development in florida, web design in Florida, websites, branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
+      good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
+      description="Reach out to us and we'll get right back to you."
     >
       <Head></Head>
       <div style={{ backgroundColor: "rgba(247, 247, 250, 1)" }}>
@@ -40,7 +36,7 @@ export default function Contact() {
                 href="mailto:
                 hello@artellecreative.com"
               >
-                hello@artellecreative.com
+                hello@artellecreative.com.
               </a>
               <br />
               Or call or text at 772-206-0480.
