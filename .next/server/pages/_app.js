@@ -59,12 +59,12 @@ function MyApp({ Component , pageProps  }) {
   gtag("js", new Date());
 
   gtag("config", "G-S7QWMT71TD");`
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
+                type: "text/javascript",
+                src: "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=YtnfYs"
             })
         ]
-    });
-    /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
-        type: "text/javascript",
-        src: "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=YtnfYs"
     });
     return(/*#__PURE__*/ jsx_runtime_.jsx(Component, {
         ...pageProps

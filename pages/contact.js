@@ -78,8 +78,8 @@ export default function Contact() {
             </div>
           </div>
           <div className={style.calendar}>
-            <div class="klaviyo-form-TxGBQV"></div>
-            {/* <InlineWidget url="https://calendly.com/artellecreative/discoverycall?hide_event_type_details=1&hide_gdpr_banner=1&month=2022-03" /> */}
+            {/* <div class="klaviyo-form-TxGBQV"></div> */}
+            <InlineWidget url="https://calendly.com/artellecreative/discoverycall?hide_event_type_details=1&hide_gdpr_banner=1&month=2022-03" />
           </div>
         </div>
       </div>
