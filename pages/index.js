@@ -30,7 +30,6 @@ export default function Home() {
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
-        <meta property="og:image" content="../public/art.jpg"></meta>
       </Head>
 
       <Navbar />
