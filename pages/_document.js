@@ -25,7 +25,10 @@ export default class MyDocument extends Document {
           />
           <meta property="og:url" content="https://artellecreative.com" />
           <meta property="og:locale" content="en_EN" />
-          <meta property="og:image" content="../public/art.jpg" />
+          <meta
+            property="og:image"
+            content="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660722611/art_lqiyda.jpg"
+          />
           <meta property="og:image:width" content="300" />
           <meta property="og:image:height" content="185" />
         </Head>

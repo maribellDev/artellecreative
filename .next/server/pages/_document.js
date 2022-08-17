@@ -35,6 +35,42 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1__["default"] {
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                             rel: "stylesheet",
                             href: "https://fonts.googleapis.com/icon?family=Material+Icons"
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                            property: "og:type",
+                            content: "website"
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                            property: "og:site_name",
+                            content: "Artelle creative"
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                            property: "og:title",
+                            content: "Artelle Creative - Crafting websites, lasting branding identities, and memorable content"
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                            property: "og:description",
+                            content: "We make purposeful websites that look and work great.We design and develop websites, create unique logos, brand identities and marketing materials."
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                            property: "og:url",
+                            content: "https://artellecreative.com"
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                            property: "og:locale",
+                            content: "en_EN"
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                            property: "og:image",
+                            content: "../public/art.jpg"
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                            property: "og:image:width",
+                            content: "300"
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                            property: "og:image:height",
+                            content: "185"
                         })
                     ]
                 }),
