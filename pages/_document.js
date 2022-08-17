@@ -13,6 +13,21 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
           />
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="Artelle creative" />
+          <meta
+            property="og:title"
+            content="Artelle Creative - Crafting websites, lasting branding identities, and memorable content"
+          />
+          <meta
+            property="og:description"
+            content="We make purposeful websites that look and work great.We design and develop websites, create unique logos, brand identities and marketing materials."
+          />
+          <meta property="og:url" content="https://artellecreative.com" />
+          <meta property="og:locale" content="en_EN" />
+          <meta property="og:image" content="../public/art.jpg" />
+          <meta property="og:image:width" content="300" />
+          <meta property="og:image:height" content="185" />
         </Head>
         <body>
           <Main />
