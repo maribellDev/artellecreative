@@ -4,6 +4,7 @@ import Logo from "../public/logo/Logo-up.svg";
 import Image from "next/image";
 import img from "../public/icons/menuimg.svg";
 import React from "react";
+import { style } from "@mui/system";
 
 export function Navadapt() {
   return (
@@ -20,6 +21,7 @@ export function Navadapt() {
         <label className={styles.menuIcon} forhtml={styles.menuBtn}>
           <span className={styles.navicon}></span>
         </label>
+
         <ul className={styles.menu}>
           <input type="checkbox" name="on" id="serv" className={styles.serv} />
           <label className={styles.label} htmlFor="serv">

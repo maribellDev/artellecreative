@@ -78,12 +78,7 @@ export default function Slider() {
           }}
         >
           <SwiperSlide>
-            <Image
-              className={styles.imageSlide}
-              class={styles.images}
-              src={slide1}
-              alt="slide1"
-            />
+            <Image className={styles.imageSlide} src={slide1} alt="slide1" />
           </SwiperSlide>
           <SwiperSlide>
             <Image src={slide2} className={styles.images} alt="slide2" />
