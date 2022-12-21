@@ -15,19 +15,17 @@ export function Aboutus() {
               <h2>Ana Shuda</h2>
               <p className={styles.profession}>Lead Designer</p>
               <p className={styles.description}>
-                With over six years of designing for e-commerce, IT, and real
-                estate brands, Ana incorporates liveliness and delight into her
-                work, striking a balance between purpose-driven design and
-                playful appeal.
-                <br />
-                <br /> Ana is both the lead designer and the self-proclaimed
-                “introverted people-person” behind Artelle Creative - and you
-                can expect to work with her throughout the entire design
-                process.
-                <br />
-                <br /> During her free time, she spends time outdoors and uses
-                her experiences as creative fuel for her work. She enjoys
-                documenting her adventures and sharing them with the world.
+                With nearly a decade of experience designing for e-commerce and
+                traditional brands, I use design to help companies stand out and
+                optimize their websites, branding, and marketing. <br />
+                <br /> Early in my career, I joined a creative studio and worked
+                with clients in the health and wellness industry, later moving
+                on to work for an e-commerce company as part of the in-house
+                design and marketing team. Eventually, taking the leap to start
+                Artelle Creative and partner with fantastic companies near and
+                far. <br />
+                <br /> During my free time, I enjoy spending time outdoors and
+                use my hobbies as creative fuel for my work.
               </p>
             </div>
             <div style={{ width: "317px" }} className={style.aboutphoto}>
@@ -39,14 +37,14 @@ export function Aboutus() {
               <Image src={maria} alt="developer" />
             </div>
             <div className={styles.aboutselftext}>
-              <h2>Maria Bel</h2>
+              <h2>Maria</h2>
               <p className={styles.profession}>Lead Developer</p>
               <p className={styles.description}>
-                Maria is an experienced web developer with a knack for solving
-                technical problems. She has worked with clients in health and
-                wellness, cosmetology, IT and other fields. <br />
-                <br /> Outside of development, she enjoys reading books and
-                teaching her oldest son coding.
+                Being an experienced web developer with a knack for solving
+                technical problems, I’ve worked with clients in medical fields,
+                IT, real estate and other professional industries. <br />
+                <br /> Outside of development, I enjoy travelling, reading books
+                and teaching my son coding.
               </p>
             </div>
           </div>

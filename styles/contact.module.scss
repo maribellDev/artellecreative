@@ -3,17 +3,23 @@
   background-color: #f7f7fa;
   .container {
     max-width: 1110px;
-    padding: 100px 80px;
+    min-height: 900px;
     margin: 0 auto;
+    padding: 100px 16px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     .getit {
       max-width: 441px;
+
+      h1 {
+        line-height: 68px;
+        margin-bottom: 39px;
+      }
       p {
         font-size: 16px;
         line-height: 24px;
-        padding-bottom: 10px;
+        margin-bottom: -10px;
       }
       .photo {
         display: flex;
@@ -28,40 +34,28 @@
           margin-right: 15px;
         }
       }
-      .follow {
-        margin-top: 90px;
-      }
-
-      .social {
-        .insta {
-          margin-right: 19px;
-        }
-      }
     }
     .calendar {
-      width: 409px;
-      height: 591px;
+      width: 484px;
+      padding: 5px;
+      border: 1px solid #2e303c;
+      border-radius: 16px;
     }
   }
 }
 @media (max-width: 900px) {
   .contact {
     .container {
+      padding-top: 70px;
       flex-direction: column;
       align-items: center;
-      padding-right: 20px;
-      padding-left: 20px;
 
-      .getit {
-        .photo {
-          margin: 59px 0 70px;
-        }
-      }
       .calendar {
-        margin-top: 40px;
+        margin-top: 60px;
         width: 431px;
-        margin-bottom: 50px;
+        height: 770px;
         text-align: center;
+        padding: 8px;
       }
     }
   }
@@ -69,16 +63,14 @@
 @media (max-width: 450px) {
   .contact {
     .container {
-      padding-bottom: 50px;
-      .social,
-      .follow {
-        display: none;
+      .getit {
+        h1 {
+          line-height: 48px;
+        }
       }
-
       .calendar {
         width: 292px;
         padding-top: 0;
-        margin: 0 0 0 -25px;
       }
     }
   }

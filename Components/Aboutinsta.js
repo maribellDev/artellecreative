@@ -1,8 +1,8 @@
 import Image from "next/image";
 //import style from "../styles/home.module.scss";
 import styles from "../styles/aboutinsta.module.scss";
-import img from "../public/img/aboutinsta.png";
-import Link from "next/link";
+import img from "../public/img/aboutinsta.jpg";
+
 export function Aboutinsta() {
   return (
     <>
@@ -35,9 +35,12 @@ export function Aboutinsta() {
             </p>
             <p className={styles.linkinsta}>
               {" "}
-              <Link href={"/about"}>
+              <a
+                href={"https://www.instagram.com/artellecreative/"}
+                target="_blank"
+              >
                 <a>See what we’re up to</a>
-              </Link>
+              </a>
             </p>
           </div>
         </div>

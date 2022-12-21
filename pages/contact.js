@@ -2,12 +2,11 @@ import Head from "next/head";
 import Image from "next/image";
 import Insta from "../public/icons/instagram.svg";
 import Facebook from "../public/icons/facebook.svg";
-import Photo from "../public/post/ana.png";
 import { Footer } from "../Components/Footer";
 import { Navbar } from "../Components/Navbar";
 import style from "../styles/contact.module.scss";
 import React from "react";
-import { InlineWidget } from "react-calendly";
+import Script from "next/script";
 import Layout from "../Components/Layout";
 
 export default function Contact() {
@@ -26,36 +25,18 @@ export default function Contact() {
       <div className={style.contact}>
         <div className={style.container}>
           <div className={style.getit}>
-            <h1>Get in touch</h1>
-            <p>Reach to us and we’ll get right back to you!</p>
-
+            <h1>Have a project in mind?</h1>
+            <p>Fill out the form or send us an email at</p>
             <p>
-              Alternatively, you can always email us at
-              <br />
               <a
                 href="mailto:
                 hello@artellecreative.com"
               >
                 hello@artellecreative.com.
               </a>
-              <br />
-              Or call or text at 772-206-0480.
             </p>
 
-            {/* <div className={style.photo}>
-              <div className={style.photoImage}>
-                <Image src={Photo} alt="" />
-              </div>
-              <div className={style.photoname}>
-                <p>
-                  <span style={{ fontWeight: "600" }}>
-                    Ana Shuda <br />
-                  </span>
-                  Visual designer and strategist
-                </p>
-              </div>
-            </div> */}
-            <p className={style.follow} style={{ fontSize: "24px" }}>
+            {/* <p className={style.follow} style={{ fontSize: "24px" }}>
               Follow along
             </p>
             <div className={style.social}>
@@ -75,11 +56,19 @@ export default function Contact() {
                   <Image src={Facebook} alt="Logo" />
                 </span>
               </a>
-            </div>
+            </div> */}
           </div>
           <div className={style.calendar}>
-            {/* <div class="klaviyo-form-TxGBQV"></div> */}
-            <InlineWidget url="https://calendly.com/artellecreative/discoverycall?hide_event_type_details=1&hide_gdpr_banner=1&month=2022-03" />
+            <iframe
+              src="https://app.hellobonsai.com/f/a83cc4348918c80?embed=true&hide_header=true"
+              style={{
+                width: "100%",
+                height: "100%",
+                border: "none",
+                minHeight: "600px",
+                scroll: "none",
+              }}
+            ></iframe>
           </div>
         </div>
       </div>
