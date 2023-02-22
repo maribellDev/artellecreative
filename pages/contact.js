@@ -1,12 +1,12 @@
 import Head from "next/head";
-import Image from "next/image";
-import Insta from "../public/icons/instagram.svg";
-import Facebook from "../public/icons/facebook.svg";
+// import Image from "next/image";
+// import Insta from "../public/icons/instagram.svg";
+// import Facebook from "../public/icons/facebook.svg";
 import { Footer } from "../Components/Footer";
 import { Navbar } from "../Components/Navbar";
 import style from "../styles/contact.module.scss";
 import React from "react";
-import Script from "next/script";
+
 import Layout from "../Components/Layout";
 
 export default function Contact() {

@@ -42,26 +42,7 @@ export function Gallery() {
         <p className={style.text}>
           We help companies look their best. Take a look at our work.
         </p>
-        {/* <div className={style.categories}>
-          <div>
-            <button onClick={showall}>All Categories</button>
-          </div>Take a look at our work.
-          <div>
-            <button>Websites</button>
-          </div>
-          <div>
-            <button>Logo &amp; Branding</button>
-          </div>
-          <div>
-            <button>Email Design</button>
-          </div>
-          <div>
-            <button>Marketing Materials</button>
-          </div>
-          <div>
-            <button>Product Photography</button>
-          </div>
-        </div> */}
+
         <Fancybox>
           <div className={style.gallerypackage}>
             <div className={style.part1}>

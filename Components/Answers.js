@@ -114,6 +114,16 @@ export function Answers() {
             <a href="/about/" style={{ textDecoration: "underline" }}>
               here.
             </a>
+            &#160; We're also on DesignRush &#8208;&#160;
+            <a
+              style={{ textDecoration: "underline" }}
+              href={
+                "https://www.designrush.com/agency/profile/artelle-creative"
+              }
+              target="_blanc"
+            >
+              see our profile.
+            </a>
           </div>
           <input type="radio" name="vkl" id="vkl7" />
           <label style={{ color: "#2E303D" }} htmlFor="vkl7">

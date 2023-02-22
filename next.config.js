@@ -4,8 +4,10 @@ module.exports = {
     dirs: ["pages", "utils"], // Only run ESLint on the 'pages' and 'utils' directories during production builds (next build)
   },
   images: {
+    domains: ["images.ctfassets.net"],
     loader: "akamai",
     path: "",
+    urlImports: ["https://cdn.contentful.com"],
   },
   assetPrefix: "/",
   trailingSlash: true,
