@@ -7,7 +7,7 @@ module.exports = {
     domains: ["images.ctfassets.net"],
     loader: "akamai",
     path: "",
-    urlImports: ["https://cdn.contentful.com"],
+    // urlImports: ["https://cdn.contentful.com"],
   },
   assetPrefix: "/",
   trailingSlash: true,
