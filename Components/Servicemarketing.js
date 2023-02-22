@@ -21,7 +21,7 @@ export function Servicemarketing() {
                   <Image src={image1} alt="" />
                 </div>
                 <h3>Email Design</h3>
-                <p className={style.price}>Starting at $100/email</p>
+                <p className={style.price}>Starting at $150/email</p>
               </a>
             </Link>
           </div>

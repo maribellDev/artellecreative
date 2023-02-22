@@ -29,16 +29,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/pricing.js"
-    ],
-    "/services/design-retainer": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/services/design-retainer.js"
-    ],
-    "/services/website-maintanence": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/services/website-maintanence.js"
     ]
   },
   "ampFirstPages": []

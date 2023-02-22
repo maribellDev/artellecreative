@@ -21,7 +21,7 @@ export function Servicedevelopment() {
                   <Image src={image1} alt="" />
                 </div>
                 <h3>Website Support</h3>
-                <p className={style.price}>Starting at $200</p>
+                <p className={style.price}>Starting at $300</p>
               </a>
             </Link>
           </div>
