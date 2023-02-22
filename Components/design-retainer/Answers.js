@@ -79,13 +79,6 @@ export function Answers() {
             client - this pricing is not for agencies. Some exclusions may apply
             - asking is always a good idea.
           </div>
-          <input type="radio" name="vkl" id="vkl6" />
-          <label style={{ color: "#2E303D" }} htmlFor="vkl6">
-            Who keeps the source files?
-          </label>
-          <div style={{ maxWidth: "85%", color: "#2E303D" }}>
-            If needed for later editing, we can provide the source files.
-          </div>
         </div>
       </div>
     </>

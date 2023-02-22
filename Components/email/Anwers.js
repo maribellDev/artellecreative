@@ -27,10 +27,8 @@ export function Answers() {
             What's your pricing for email design?
           </label>
           <div style={{ maxWidth: "85%", color: "#2E303D" }}>
-            Depending on whether you need a single email template or ongoing
-            email design, we can work on specific pricing for your needs.
-            Generally, prices for Klaviyo email templates are between $150 -
-            $200 per email and image-based emails start at $100.
+            Our pricing starts at $150 and depends on different factors. Reach
+            out for specific pricing.
           </div>
           <input type="radio" name="vkl" id="vkl2" />
           <label style={{ color: "#2E303D" }} htmlFor="vkl2">

@@ -11,7 +11,7 @@ export function Firstscreen() {
       <section className={mainstyle.sectionAll}>
         <div id={mainstyle.block} className={mainstyle.blockmain}>
           <div style={{ maxWidth: "350px" }} className={mainstyle.textmain}>
-            <p className={pricing.packageprice}>Starting at $200/month</p>
+            <p className={pricing.packageprice}>Starting at $300/month</p>
             <h1 style={{ fontSize: "32px" }}>Ongoing Website Support</h1>
             <p>
               Ongoing website support, analytics monitoring, and

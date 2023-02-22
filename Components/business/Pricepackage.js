@@ -21,15 +21,12 @@ export default function Pricepackage() {
               <ul>
                 <li>Website w/ up to 3 Pages</li>
                 <li>Custom Design &amp; Development</li>
-                <li>Discovery Consultation via Zoom</li>
-                <li>Copywriting</li>
+                <li>Discovery Consultation via Zoom</li> <li>Copywriting</li>
                 <li>Foundational SEO</li>
                 <li>Primary Logo Design + Variations</li>
                 <li>1 Brand Material</li>
                 <li>Color Palette and Fonts</li>
-                <li>Social Media Banner</li>
                 <li>One Page Style Guide Document</li>
-                <li>Google Drive Folder With All Files</li>
               </ul>
             </div>
             <hr width="100%" size="1" color="#FFF4E4" />
@@ -55,14 +52,11 @@ export default function Pricepackage() {
                 <li>Website w/ up to 6 Pages</li>
                 <li>Custom Design &amp; Development</li>
                 <li>Discovery Consultation via Zoom</li>
-                <li>Copywriting</li>
                 <li>Foundational SEO</li>
                 <li>Primary Logo Design + Variations</li>
-                <li>2 Brand Material</li>
                 <li>Full Stationery Suite Design</li>
-                <li>Full Social Media Suite Design</li>
+                <li>Social Media Banner</li>
                 <li>Extensive Style Guide Document</li>
-                <li>Google Drive Folder With All Files</li>
               </ul>
             </div>
             <hr width="100%" size="1" color="#FFF4E4" />
@@ -87,14 +81,10 @@ export default function Pricepackage() {
                 <li>Website w/ up to 12 Pages</li>
                 <li>Custom Design &amp; Development</li>
                 <li>Discovery Consultation via Zoom</li>
-                <li>Copywriting</li>
                 <li>Foundational SEO</li>
                 <li>Primary Logo Design + Variations</li>
-                <li>3 Brand Material</li>
-                <li>Full Stationery Suite Design</li>
-                <li>Full Social Media Suite Design</li>
+                <li>Social Media Banner</li>
                 <li>Extensive Style Guide Document</li>
-                <li>+ 2 Weeks of Unlimited Design Support</li>
               </ul>
             </div>
             <hr width="100%" size="1" color="#FFF4E4" />

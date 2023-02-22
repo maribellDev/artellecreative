@@ -95,7 +95,7 @@ export default function Toolsweb() {
                 lineHeight: "24px",
               }}
             >
-              Most email designs can be completed within 3 business days.
+              Quick turnaround on most designs.
             </p>
           </div>
         </div>

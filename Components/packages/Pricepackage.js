@@ -24,12 +24,10 @@ export default function Pricepackage() {
                 <li>Complete Design &amp; Development</li>
                 <li>Discovery Consultation via Zoom</li>
                 <li>Responsive Mobile Development</li>
-                <li>Copywriting</li>
                 <li>Foundational SEO</li>
                 <li>Google Analytics Integration</li>
                 <li>Hosting &amp; Domain for 1 year</li>
-                <li>Post-Launch Training</li>
-                <li>7 Days of Post-Launch Support</li>
+                <li>Basic Post-Launch Support</li>
               </ul>
             </div>
             <hr width="100%" size="1" color="#FFF4E4" />
@@ -54,12 +52,10 @@ export default function Pricepackage() {
                 <li>Complete Design &amp; Development</li>
                 <li>Discovery Consultation via Zoom</li>
                 <li>Responsive Mobile Development</li>
-                <li>Copywriting</li>
                 <li>Foundational SEO</li>
                 <li>Google Analytics Integration</li>
                 <li>Hosting &amp; Domain for 1 year</li>
-                <li>Post-Launch Training</li>
-                <li>14 Days of Post-Launch Support</li>
+                <li>Basic Post-Launch Support</li>
               </ul>
             </div>
             <hr width="100%" size="1" color="#FFF4E4" />
@@ -85,12 +81,11 @@ export default function Pricepackage() {
                 <li>Complete Design &amp; Development</li>
                 <li>Discovery Consultation via Zoom</li>
                 <li>Responsive Mobile Development</li>
-                <li>Copywriting</li>
                 <li>Foundational SEO</li>
                 <li>Google Analytics Integration</li>
                 <li>Hosting &amp; Domain for 1 year</li>
                 <li>Post-Launch Training</li>
-                <li>30 Days of Post-Launch Support</li>
+                <li>Basic Post-Launch Support</li>
               </ul>
             </div>
             <hr width="100%" size="1" color="#FFF4E4" />

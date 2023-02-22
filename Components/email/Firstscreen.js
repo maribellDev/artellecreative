@@ -11,7 +11,7 @@ export function Firstscreen() {
       <section className={mainstyle.sectionAll}>
         <div id={mainstyle.block} className={mainstyle.blockmain}>
           <div style={{ maxWidth: "350px" }} className={mainstyle.textmain}>
-            <p className={pricing.packageprice}>Starting at $100/email</p>
+            <p className={pricing.packageprice}>Starting at $150/email</p>
             <h1 style={{ fontSize: "32px" }}>Email Design</h1>
             <p>
               Send on-brand, beautifully designed, conversion-optimized

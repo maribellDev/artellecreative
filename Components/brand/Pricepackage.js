@@ -18,12 +18,10 @@ export default function Pricepackage() {
             <hr width="100%" size="1" color="#FFF4E4" />
             <div className={style.ulclass}>
               <ul>
+                <li>Discovery Consultation via Zoom</li>
                 <li>Primary Logo Design + Variations</li>
-                <li>1 Brand Material</li>
                 <li>Color Palette and Fonts</li>
-                <li>Social Media Banner</li>
                 <li>One Page Style Guide Document</li>
-                <li>Google Drive Folder With All Files</li>
                 <li>-</li>
                 <li>-</li>
                 <li>-</li>
@@ -52,10 +50,8 @@ export default function Pricepackage() {
                 <li>Discovery Consultation via Zoom</li>
                 <li>Primary Logo Design + Variations</li>
                 <li>Full Stationery Suite Design</li>
-                <li>2 Brand Materials</li>
                 <li>Color Palette and Fonts</li>
                 <li>Social Media Banner</li>
-                <li>6 Social Media Post Designs</li>
                 <li>Extensive Style Guide Document</li>
                 <li>-</li>
                 <li>-</li>

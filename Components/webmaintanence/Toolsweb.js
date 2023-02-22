@@ -81,7 +81,7 @@ export default function Toolsweb() {
                 lineHeight: "24px",
               }}
             >
-              We will provide monthly website recommendations for improving user
+              We will provide routine website recommendations for improving user
               experience, conversion rate, and more.
             </p>
           </div>

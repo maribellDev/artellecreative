@@ -89,14 +89,14 @@ export default function Toolsweb() {
             </p>
           </div>
           <div className={style.tool}>
-            <h4>3-Day Turnaround</h4>
+            <h4>Fast Turnaround</h4>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              3-day turnaround on most designs.
+              Quick turnaround on most designs.
             </p>
           </div>
         </div>

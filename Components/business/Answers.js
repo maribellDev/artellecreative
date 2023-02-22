@@ -22,17 +22,6 @@ export function Answers() {
           a good fit.
         </p>
         <div className={style.horizontalclick}>
-          <input type="radio" name="vkl" id="vkl1" />
-          <label style={{ color: "#2E303D" }} htmlFor="vkl1">
-            How will we stay organized?
-          </label>
-          <div style={{ maxWidth: "85%", color: "#2E303D" }}>
-            At the beginning of the project, we will set you up with a dedicated
-            project board that will outline the timeline and outstanding tasks.
-            The board allows for commenting and submitting feedback and is a
-            great way to stay on the same page about everything that's happening
-            with your project.
-          </div>
           <input type="radio" name="vkl" id="vkl2" />
           <label style={{ color: "#2E303D" }} htmlFor="vkl2">
             What if I need something not covered in the packages?
@@ -42,19 +31,6 @@ export function Answers() {
             just for you.
           </div>
 
-          <input
-            className={style.shortLabel}
-            type="radio"
-            name="vkl"
-            id="vkl3"
-          />
-          <label
-            style={{ color: "#2E303D" }}
-            className={style.shortLabel}
-            htmlFor="vkl3"
-          >
-            What's the typical timeline?
-          </label>
           <div style={{ maxWidth: "85%", color: "#2E303D" }}>
             It typically takes 6-10 weeks for a project to be completed,
             depending on the package selected.

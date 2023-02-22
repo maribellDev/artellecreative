@@ -31,37 +31,7 @@ export function Answers() {
             Brand &amp; Logo Design Packages, as well as the Website Design
             Packages.
           </div>
-          <input type="radio" name="vkl" id="vkl2" />
-          <label style={{ color: "#2E303D" }} htmlFor="vkl2">
-            How long does the design process take?
-          </label>
-          <div style={{ maxWidth: "85%", color: "#2E303D" }}>
-            Typically 2-4 weeks, depending on the package. E-commerce projects
-            that involve product photography can take longer. The base package
-            can take as little as 2 weeks. And most fall somewhere in the
-            middle.
-          </div>
 
-          <input
-            className={style.shortLabel}
-            type="radio"
-            name="vkl"
-            id="vkl3"
-          />
-          <label
-            style={{ color: "#2E303D" }}
-            className={style.shortLabel}
-            htmlFor="vkl3"
-          >
-            How will we stay organized?
-          </label>
-          <div style={{ maxWidth: "85%", color: "#2E303D" }}>
-            At the beginning of the project, we will set you up with a dedicated
-            project board that will outline the timeline and outstanding tasks.
-            The board allows for commenting and submitting feedback and is a
-            great way to stay on the same page about everything that's happening
-            with your project.
-          </div>
           <input type="radio" name="vkl" id="vkl4" />
           <label style={{ color: "#2E303D" }} htmlFor="vkl4">
             How many rounds of edits do I get?
@@ -76,10 +46,10 @@ export function Answers() {
             How much will my e-commerce branding project cost?
           </label>
           <div style={{ maxWidth: "85%", color: "#2E303D" }}>
-            Because there are many factors in e-commerce that vary one company
-            to another, like the amount of products, type of product photos,
-            types of email templates and more, we encourage you to reach out to
-            us so we can build a custom pricing package based on your needs.
+            Because there are many factors that vary one company to another,
+            like the amount of products, type of product photos, types of email
+            templates and more, we encourage you to reach out to us so we can
+            build a custom pricing package based on your needs.
           </div>
           <input type="radio" name="vkl" id="vkl6" />
           <label style={{ color: "#2E303D" }} htmlFor="vkl6">

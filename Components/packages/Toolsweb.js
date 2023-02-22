@@ -72,8 +72,7 @@ export default function Toolsweb() {
                 lineHeight: "24px",
               }}
             >
-              We take care of all your content needs with content questionnaires
-              to help us organize content and write engaging website copy.
+              We will work with you on writing content for your website
             </p>
           </div>
           <div className={style.tool}>
