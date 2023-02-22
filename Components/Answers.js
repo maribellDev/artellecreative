@@ -114,7 +114,7 @@ export function Answers() {
             <a href="/about/" style={{ textDecoration: "underline" }}>
               here.
             </a>
-            &#160; We're also on DesignRush &#8208;&#160;
+            &#160;We're also on DesignRush&#160;
             <a
               style={{ textDecoration: "underline" }}
               href={
