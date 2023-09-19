@@ -9,7 +9,7 @@ export default function PostCard({ blogPage }) {
     <div>
       <div className={style.post}>
         <div className={style.blogImage}>
-          <a className="hover:underline">{title}</a>
+          
 
           <img
             src={"https:" + thumbnail.fields.file.url}
