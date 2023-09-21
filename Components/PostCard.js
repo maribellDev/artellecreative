@@ -12,7 +12,7 @@ export default function PostCard({ blogPage }) {
           
 
           <img
-            src={"https:" + thumbnail.fields.file.url}
+            src={"https:" + thumbnail?.fields?.file?.url}
             width={424}
             height={248}
             alt="strategy"
