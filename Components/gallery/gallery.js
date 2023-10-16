@@ -1,10 +1,5 @@
 import Image from "next/image";
-// import Link from "next/link";
-// import lightGallery from 'lightgallery';
 
-// // Plugins
-// import lgThumbnail from 'lightgallery/plugins/thumbnail'
-// import lgZoom from 'lightgallery/plugins/zoom'
 
 import style from "../../styles/gallery.module.scss";
 import img1 from "../../public/gallery/MG1.jpg";
