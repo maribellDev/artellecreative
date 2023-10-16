@@ -41,8 +41,9 @@ export default function Work({ works }) {
       <Navbar />
 
       <div className={style.mainname}>
-        <h2 className={style.hHeader}>Latest projects we worked on</h2>
-        <p style={{ fontSize: "16px" }}>See our featured case studies.</p>
+       <p style={{ marginBottom: "-20px",letterSpacing: "1.4px", fontWeight: "700", textAlign: "left", fontSize: "14px" }}>OUR WORK</p>
+        <h1 id="headerWorkpage" className={style.hHeader}>Website &#38; Branding</h1>
+        
         {works.map((ourWork) => (
                 <WorkCard ourWork={ourWork} key={ourWork.sys.id} />
               ))}
