@@ -20,6 +20,7 @@
     "@mui/material": "^5.8.4",
     "@mui/styled-engine-sc": "^5.8.0",
     "contentful": "^9.3.2",
+    "contentful-image": "^1.0.1",
     "contentful-management": "^10.29.1",
     "encodeuricomponent-tag": "^1.0.1",
     "fancybox": "^3.0.1",
