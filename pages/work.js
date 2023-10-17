@@ -1,11 +1,8 @@
 import Head from "next/head";
 import { Footer } from "../Components/Footer";
 import { Navbar } from "../Components/Navbar";
-import { Maximus } from "../Components/Maximus";
 import style from "/styles/work.module.scss";
-import { Shudaproperties } from "../Components/Shudaproperties";
-import { Nomad } from "../Components/Nomad";
-import { Blog } from "../Components/Blog";
+
 import Layout from "../Components/Layout";
 import WorkCard from "../Components/WorkCard";
 import { createClient } from "contentful";
@@ -49,10 +46,7 @@ export default function Work({ works }) {
               ))}
       </div>
   
-      <Shudaproperties></Shudaproperties>
-      <Maximus></Maximus>
-      <Nomad></Nomad>
-      <Blog></Blog>
+    
       <Footer />
     </Layout>
   );
