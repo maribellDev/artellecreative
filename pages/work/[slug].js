@@ -85,12 +85,7 @@ export default function ourWorkDetails({ourWork}) {
                 ></img>
                 </div>
 
-          <div className={style.blog}>
-           
-         
-          
-          </div>
-          {/* <Image className={style.photo} src={Image2} alt="" /> */}
+        
           <div className={style.blog}>
             
       
