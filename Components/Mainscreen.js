@@ -1,7 +1,7 @@
 import Image from "next/image";
 import style from "../styles/home.module.scss";
 import mainstyle from "../styles/mainscreen.module.scss";
-import Imagemain from "../public/img/mainimage.png";
+import Imagemain from "../public/img/mainimage.gif";
 import { Animation } from "./Animation";
 import Link from "next/link";
 

@@ -7,12 +7,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 import Image from "next/image";
-import slide1 from "../public/slider/1-branding-website-MG-920.jpg";
-import slide2 from "../public/slider/2-product-photos-920.jpg";
-import slide3 from "../public/slider/3-branding-website-design-920.jpg";
-import slide4 from "../public/slider/4-email-design-920.jpg";
-import slide5 from "../public/slider/5-branding-website-920.jpg";
-import slide6 from "../public/slider/6-artelle-branding-920.jpg";
+import slide1 from "../public/slider/4slide.jpg";
+import slide2 from "../public/slider/5slide.jpg";
+import slide3 from "../public/slider/6slide.jpg";
+import slide4 from "../public/slider/1slide.jpg";
+import slide5 from "../public/slider/2slide.jpg";
+import slide6 from "../public/slider/3slide.jpg";
 import styles from "../styles/slider.module.scss";
 
 export default function Slider() {
@@ -78,22 +78,22 @@ export default function Slider() {
           }}
         >
           <SwiperSlide>
-            <Image className={styles.imageSlide} src={slide1} alt="slide1" />
+          <Link href={"/work/broad/"}><Image className={styles.imageSlide} src={slide1} alt="slide1" /></Link>
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={slide2} className={styles.images} alt="slide2" />
+          <Link href={"/work/aas-logistics/"}><Image src={slide2} className={styles.images} alt="slide2" /></Link>
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={slide3} className={styles.images} alt="slide3" />
+          <Link href={"/work/ntc/"}><Image src={slide3} className={styles.images} alt="slide3" /></Link>
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={slide4} className={styles.images} alt="slide4" />
+          <Link href={"/work/scuttlegov/"}><Image src={slide4} className={styles.images} alt="slide4" /></Link>
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={slide5} className={styles.images} alt="slide5" />
+          <Link href={"/work/nomad/"}><Image src={slide5} className={styles.images} alt="slide5" /></Link>
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={slide6} className={styles.images} alt="slide6" />
+          <Link href={"/work/little-hunter/"}><Image src={slide6} className={styles.images} alt="slide6" /></Link>
           </SwiperSlide>
         </Swiper>
       </div>
