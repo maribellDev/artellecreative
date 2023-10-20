@@ -464,6 +464,14 @@ export function Gallery() {
                     <Image classname={style.img} src={img48} alt="" />
                   </a>
                 </div>
+                {/* <div className={style.item}>
+                  <a
+                    data-fancybox="gallery"
+                    href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1697743009/Artelle%20gallery/DBB-1_vgjqxi.jpg"
+                  >
+                    <Image classname={style.img} src={img38} alt="" />
+                  </a>
+                </div> */}
               </div>
             </div>
           </div>
