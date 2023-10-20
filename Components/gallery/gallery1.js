@@ -1,168 +1,96 @@
+import { useState } from 'react';
+import Image from "next/image";
+import img1 from '../../public/CT-1.jpg';
+import img2 from '../../public/CT-2.jpg';
+import img3 from '../../public/CT-3.jpg';
+import img4 from '../../public/CT-4.jpg';
 
-// import style from "../../styles/gallery.module.scss";
-// import Fancybox from "./fancybox.js";
+export function Gallery1() {
+  const [selectedImage, setSelectedImage] = useState(null);
+  const images = [img1, img2, img3, img4]; // Используйте импортированные изображения
 
-// import { createClient } from "contentful";
+  const openImage = (index) => {
+    setSelectedImage(images[index]);
+  };
 
-// const client = createClient({
-//   space: process.env.CONTENTFUL_SPACE_ID,
-//   accessToken: process.env.CONTENTFUL_ACCESS_KEY,
-// });
-// export const getStaticPaths = async () => {
-//   const res = await client.getEntries({
-//     content_type: "gallery",
-//   });
-//   const paths = res.items.map((item) => {
-//     return {
-//       params: { slug: item.fields.slug },
-//     };
-//   });
-//   return {
-//     paths,
-//     fallback: true,
-//   };
-// };
+  const closeImage = () => {
+    setSelectedImage(null);
+  };
 
+  return (
+    <div>
+      <div className="gallery">
+        {images.map((image, index) => (
+          <div key={index} onClick={() => openImage(index)}>
+            <Image
+              src={image}
+              alt={`Image ${index}`}
+            
+             
+            />
 
-// export const getStaticProps = async ({ params }) => {
-//   const { items } = await client.getEntries({
-//     content_type: "gallery",
-//     "fields.slug": params.slug,
-//   });
-//   if (!items.length) {
-//     return {
-//       redirect: {
-//         destination: "/",
-//         permanent: false,
-//       },
-//     };
-//   }
+          </div>
+        ))}
+      </div>
+      {selectedImage && (
+        <div className="modal" onClick={closeImage}>
+         <div className="close">&#10006;</div> 
+          <Image
+          className="image_full"
+            src={selectedImage}
+            alt="Selected Image"
+            layout="fill"
+            objectFit="contain"
+           
+          />
+        </div>
+        )  }
 
-//   return {
-//     props: {
-//       gallery: items[0],
-//     },
-//   };
-// };
+      <style jsx>
+        {`
+          .gallery {
+            max-width: 1280px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 26px;
+          }
 
+          .gallery div {
+            cursor: pointer;
+          }
 
-
-// export default function Gallery1({ gallery }) {
-//   const {imgGallery } = gallery.fields;
-//   return (
-//     <>
-//       <div className={style.container}>
-//         <h2>Our work</h2>
-//         <p className={style.text}>
-//           We help companies look their best. Take a look at our work.
-//         </p>
-
-//         <Fancybox>
-//           <div className={style.gallerypackage}>
-//             <div className={style.part1}>
-//               <div className={style.col1}>
-//                 <div className={style.item}>
-//                   <a
-//                     data-fancybox="gallery"
-//                     href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109611/EmailDesign5_wxnegk.jpg"
-//                   >
-//                    <div className={style.photo_many}>
-//                 {imgGallery.map((image, index ) => (
-//         <img key={index} src={"https:" +  image?.fields?.file?.url} alt={title} 
-//         width={image?.fields?.file.details.image.width}
-//         />
-//       ))}
+          .modal {
+            position: fixed;
+            padding: 20px;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           
+          }
           
-//           </div>
-       
-//                   </a>
-//                 </div>
-
-//                 <div className={style.item}>
-//                   <a
-//                     data-fancybox="gallery"
-//                     href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109613/NT-gif_hfuknj.gif"
-//                   >
-                 
-//                   </a>
-//                 </div>
-
-//                 <div className={style.item}>
-//                   <a
-//                     data-fancybox="gallery"
-//                     href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109611/BakingKit2_wo4jce.jpg"
-//                   >
-                   
-//                   </a>
-//                 </div>
-
-//                 <div className={style.item}>
-//                   <a
-//                     data-fancybox="gallery"
-//                     href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109611/EmailDesign3_yci188.jpg"
-//                   >
-                   
-//                   </a>
-//                 </div>
-
-//                 <div className={style.item}>
-//                   <a
-//                     data-fancybox="gallery"
-//                     href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109611/BabyKtan_wdkm8p.jpg"
-//                   >
-                    
-//                   </a>
-//                 </div>
-
-//                 <div className={style.item}>
-//                   <a
-//                     data-fancybox="gallery"
-//                     href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109612/MG2_dbfu83.jpg"
-//                   >
-                    
-//                   </a>
-//                 </div>
-//               </div>
-//               <div className={style.col2}>
-//                 <div className={style.item}>
-//                   <a
-//                     data-fancybox="gallery"
-//                     href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109612/myphoto1_xrw2ix.jpg"
-//                   >
-                  
-//                   </a>
-//                 </div>
-
-//               </div>
-//               </div>
-//             <div className={style.part2}>
-//               <div className={style.col3}>
-//                 <div className={style.item}>
-//                   <a
-//                     data-fancybox="gallery"
-//                     href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109613/Thrive_StyleGuide_nbqcfl.jpg"
-//                   >
-                  
-//                   </a>
-//                 </div>
-
-              
-//               </div>
-//               <div className={style.col4}>
-//                 <div className={style.item}>
-//                   <a
-//                     data-fancybox="gallery"
-//                     href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1659109612/360block_lsnl5y.gif"
-//                   >
-                    
-//                   </a>
-//                 </div>
-              
-//               </div>
-//             </div>
-//           </div>
-//         </Fancybox>
-//       </div>
-//     </>
-//   );
-// }
+          .modal .close{
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            margin: 20px;
+            font-size: 28px;
+            cursor: pointer;
+            padding 10px;
+            color:white;
+          }
+          .modal .image_full{
+            margin:20px;
+          }
+          
+        `}
+      </style>
+    </div>
+  );
+}

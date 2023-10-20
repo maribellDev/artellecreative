@@ -1,4 +1,4 @@
-import { Autoplay, Navigation } from "swiper";
+import { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 
@@ -24,7 +24,6 @@ export default function Slider() {
       <p
         style={{
           fontSize: "14px",
-
           paddingBottom: "70px",
           textAlign: "center",
         }}
@@ -44,21 +43,26 @@ export default function Slider() {
           style={{
             "--swiper-navigation-color": "#B6BAD7",
           }}
-          modules={[Navigation, Autoplay]}
+          modules={[ Autoplay]}
           centeredSlides={true}
-          speed={1000}
+          speed={1200}
           autoplay={{
-            delay: 5000,
+            delay: 4500,
             disableOnInteraction: false,
           }}
-          navigation={{
-            clickable: true,
-            /* nextEl: ".swiperButtonPrev",
-            prevEl: ".swiperButtonNext", */
-          }}
+          // navigation={{
+          //   clickable: true,
+          //   /* nextEl: ".swiperButtonPrev",
+          //   prevEl: ".swiperButtonNext", */
+          // }}
           className={styles.mySwiper}
           loop={true}
           breakpoints={{
+            2000:{
+              spaceBetween: 140,
+              slidesPerView: 3.5,
+            
+            },
             1445: {
               spaceBetween: 140,
               slidesPerView: 2,
@@ -78,7 +82,7 @@ export default function Slider() {
           }}
         >
           <SwiperSlide>
-          <Link href={"/work/broad/"}><Image className={styles.imageSlide} src={slide1} alt="slide1" /></Link>
+          <Link href={"/work/broad/"}><Image className={styles.images} src={slide1} alt="slide1" /></Link>
           </SwiperSlide>
           <SwiperSlide>
           <Link href={"/work/aas-logistics/"}><Image src={slide2} className={styles.images} alt="slide2" /></Link>

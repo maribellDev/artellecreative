@@ -1,20 +1,13 @@
-/* .swiperNavigation {
-  .swiperButtonPrev {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-  }
-} */
+.App {
+    // max-width: 1445px;
+    margin: 0 auto;
+}
 
 .images {
     border-radius: 10px;
+    width: 650.8px!important;
+    height: 439.3px!important;
     cursor: pointer;
-}
-
-.imageSlide {
-    width: "624px";
-    height: "351px";
-    border-radius: 10px;
 }
 
 .swiper-button-prev,
@@ -25,8 +18,7 @@
 
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
-    right: 22%;
-    left: auto;
+    display: none;
 }
 
 @media (max-width: 950px) {
