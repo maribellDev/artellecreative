@@ -56,7 +56,7 @@ export function Gallerypackage() {
           </div>
         </div>
         <div className={style.btnServices}>
-          <Link href="/">
+        <Link href="/contact">
             <a style={{ paddingRight: "0px", color: "white" }}>
               <button className={styles.dark}>Get Started </button>
             </a>

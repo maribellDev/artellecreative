@@ -25,15 +25,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/pricing": [
+    "/contact": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/pricing.js"
+      "static/chunks/pages/contact.js"
     ],
-    "/services/brand-logo-design-packages": [
+    "/services/new-business-packages": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/services/brand-logo-design-packages.js"
+      "static/chunks/pages/services/new-business-packages.js"
+    ],
+    "/services/website-maintanence": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/services/website-maintanence.js"
     ]
   },
   "ampFirstPages": []
