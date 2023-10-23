@@ -58,10 +58,13 @@ export function Gallery() {
   return (
     <>
       <div className={style.container}>
-        <h2>Our work</h2>
-        <p className={style.text}>
-          We help companies look their best. Take a look at our work.
-        </p>
+       
+        <div className={style.mainname}>
+       <p style={{ marginBottom: "-9px",letterSpacing: "1.4px", fontWeight: "700", textAlign: "left", fontSize: "14px" }}>OUR WORK</p>
+        <h1 id="headerWorkpage" className={style.hHeader}>Marketing Design</h1>
+        
+      
+      </div>
 
         <Fancybox>
           <div className={style.gallerypackage}>

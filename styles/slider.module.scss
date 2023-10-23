@@ -5,34 +5,7 @@
 
 .images {
     border-radius: 10px;
-    width: 650.8px!important;
-    height: 439.3px!important;
+    // width: 650.8px!important;
+    // height: 439.3px!important;
     cursor: pointer;
-}
-
-.swiper-button-prev,
-.swiper-rtl .swiper-button-next {
-    left: 22%;
-    right: auto;
-}
-
-.swiper-button-next,
-.swiper-rtl .swiper-button-prev {
-    display: none;
-}
-
-@media (max-width: 950px) {
-    .swiper-button-prev {
-        left: 12%;
-    }
-    .swiper-button-next {
-        right: 12%;
-    }
-}
-
-@media (max-width: 500px) {
-    .swiper-button-prev,
-    .swiper-button-next {
-        display: none;
-    }
 }

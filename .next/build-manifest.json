@@ -25,20 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/contact": [
+    "/gallery": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/contact.js"
+      "static/chunks/pages/gallery.js"
     ],
-    "/services/new-business-packages": [
+    "/work": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/services/new-business-packages.js"
-    ],
-    "/services/website-maintanence": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/services/website-maintanence.js"
+      "static/chunks/pages/work.js"
     ]
   },
   "ampFirstPages": []
