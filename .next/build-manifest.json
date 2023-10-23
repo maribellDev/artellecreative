@@ -15,11 +15,6 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,10 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/work/[slug]": [
+    "/pricing": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/work/[slug].js"
+      "static/chunks/pages/pricing.js"
+    ],
+    "/services/brand-logo-design-packages": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/services/brand-logo-design-packages.js"
     ]
   },
   "ampFirstPages": []
