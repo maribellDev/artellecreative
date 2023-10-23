@@ -65,8 +65,8 @@ export default function PostDetails({ blogPage }) {
       <div className={style.postsall}>
         <div className={style.postscontainer}>
           <div className={style.headerauthor}>
-            <h1 style={{ textAlign: "left" }}>{title}</h1>
-            <div className={style.author}>
+            <h1 style={{ textAlign: "left", marginBottom:"45px" }}>{title}</h1>
+             {/* <div className={style.author}>
               <div className={style.photoImage}>
                 <img
                   alt=""
@@ -84,7 +84,7 @@ export default function PostDetails({ blogPage }) {
                   {data}
                 </p>
               </div>
-            </div>
+            </div>  */}
           </div>
           <div className={style.photo}>
             <img
