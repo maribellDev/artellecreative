@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 import Image from "next/image";
-import slide1 from "../public/slider/4slide.jpg";
+import slide1 from "../public/slider/4slide.png";
 import slide2 from "../public/slider/5slide.jpg";
 import slide3 from "../public/slider/6slide.jpg";
 import slide4 from "../public/slider/1slide.jpg";
