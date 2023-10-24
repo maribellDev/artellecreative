@@ -115,12 +115,12 @@ export function Navbar() {
             <div className={styles.navwork}>
               <Link href={"/work"}>
                 <a>
-                  <li>Case Studies</li>
+                  <li>Website &amp; Branding</li>
                 </a>
               </Link>
-              <Link href={"/gallery"}>
+              <Link href={"/marketing-design"}>
                 <a>
-                  <li>Our Work</li>
+                  <li>Marketing Design</li>
                 </a>
               </Link>
             </div>

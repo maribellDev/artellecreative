@@ -28,7 +28,7 @@ export default function Slider() {
           textAlign: "center",
         }}
       >
-        <Link href={"/gallery"}>
+        <Link href={"/marketing-design"}>
           <a>
             <span
               style={{ fontSize: "14px", borderBottom: "#2790d1 solid 1px" }}
@@ -82,7 +82,7 @@ export default function Slider() {
           }}
         >
           <SwiperSlide>
-          <Link href={"/work/broad/"}><Image className={styles.images} src={slide1} alt="slide1" /></Link>
+          <Link href={"/work/broad-fit-financial/"}><Image className={styles.images} src={slide1} alt="slide1" /></Link>
           </SwiperSlide>
           <SwiperSlide>
           <Link href={"/work/aas-logistics/"}><Image src={slide2} className={styles.images} alt="slide2" /></Link>
@@ -94,7 +94,7 @@ export default function Slider() {
           <Link href={"/work/scuttlegov/"}><Image src={slide4} className={styles.images} alt="slide4" /></Link>
           </SwiperSlide>
           <SwiperSlide>
-          <Link href={"/work/nomad/"}><Image src={slide5} className={styles.images} alt="slide5" /></Link>
+          <Link href={"/work/nomadtechy/"}><Image src={slide5} className={styles.images} alt="slide5" /></Link>
           </SwiperSlide>
           <SwiperSlide>
           <Link href={"/work/little-hunter/"}><Image src={slide6} className={styles.images} alt="slide6" /></Link>
