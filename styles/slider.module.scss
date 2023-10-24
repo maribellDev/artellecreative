@@ -8,26 +8,3 @@
     width: 650.8px!important;
     cursor: pointer;
 }
-
-.mySlider {
-    overflow: hidden;
-}
-
-.sliderTrack {
-    display: flex;
-    transition: transform 1.2s ease-in-out;
-    gap: 115px
-}
-
-.slide {
-    flex: 0 0 50%;
-    /* Half the width of the container */
-    padding: 0 15px;
-    /* Adjust padding as needed */
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    /* Maintain the slide's height */
-}

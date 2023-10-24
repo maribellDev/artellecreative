@@ -42,6 +42,7 @@ export default function Slider() {
         <Swiper
           style={{
             "--swiper-navigation-color": "#B6BAD7",
+          
           }}
           modules={[ Autoplay]}
           centeredSlides={true}
