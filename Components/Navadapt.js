@@ -91,16 +91,16 @@ export function Navadapt() {
           </label>
 
           <div className={styles.navwork}>
-            <Link href={"/work"}>
-              <a>
-                <li>Case Studies</li>
-              </a>
-            </Link>
-            <Link href={"/gallery"}>
-              <a>
-                <li>Our Work</li>
-              </a>
-            </Link>
+          <Link href={"/work"}>
+                <a>
+                  <li>Website &amp; Branding</li>
+                </a>
+              </Link>
+              <Link href={"/marketing-design"}>
+                <a>
+                  <li>Marketing Design</li>
+                </a>
+              </Link>
           </div>
           <li className={styles.navLi}>
             <Link href="/pricing">
