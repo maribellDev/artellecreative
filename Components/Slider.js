@@ -1,11 +1,16 @@
-import { Autoplay } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
+
+
+import  { Autoplay, Navigation } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import Link from "next/link";
+
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
+import '../styles/slider.module.scss';
+
 import Image from "next/image";
 import slide1 from "../public/slider/4slide.jpg";
 import slide2 from "../public/slider/5slide.jpg";
@@ -16,6 +21,7 @@ import slide6 from "../public/slider/3slide.jpg";
 import styles from "../styles/slider.module.scss";
 
 export default function Slider() {
+ 
   return (
     <div className={styles.App}>
       <h2 style={{ margin: "0px auto", textAlign: "center", width: "85%" }}>
@@ -44,18 +50,18 @@ export default function Slider() {
             "--swiper-navigation-color": "#B6BAD7",
           
           }}
-          modules={[ Autoplay]}
+          modules={[ Autoplay, Navigation]}
           centeredSlides={true}
           speed={1200}
           autoplay={{
             delay: 4500,
             disableOnInteraction: false,
+          
           }}
-          // navigation={{
-          //   clickable: true,
-          //   /* nextEl: ".swiperButtonPrev",
-          //   prevEl: ".swiperButtonNext", */
-          // }}
+          navigation= {{
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          }}
           className={styles.mySwiper}
           loop={true}
           breakpoints={{
@@ -101,7 +107,44 @@ export default function Slider() {
           <Link href={"/work/little-hunter/"}><Image src={slide6} className={styles.images} alt="slide6" /></Link>
           </SwiperSlide>
         </Swiper>
+        <style jsx>{`
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+ left: 22%;
+ right: auto;
+ color:#B6BAD7;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+ content: "prev";
+ color:#B6BAD7;
+}
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+ right: 22%;
+ left: auto;
+ color:#B6BAD7;
+}
+
+@media (max-width: 950px) {
+.swiper-button-prev {
+left: 12%;}
+ .swiper-button-next {
+ right: 12%;
+ }
+}
+@media (max-width: 759px) {
+ .swiper-button-prev,
+.swiper-button-next {
+ display: none;
+ }
+}
+`}</style>
+        <div className="swiper-button-prev"></div>
+  <div className="swiper-button-next"></div>
       </div>
     </div>
   );
 }
+

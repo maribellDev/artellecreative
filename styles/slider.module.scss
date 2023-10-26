@@ -1,10 +1,28 @@
 .App {
     // max-width: 1445px;
     margin: 0 auto;
-}
-
-.images {
-    border-radius: 10px;
-    cursor: pointer;
-    height: 440px;
+    .images {
+        border-radius: 10px;
+        cursor: pointer;
+        height: 440px;
+    }
+    /* Стили для стрелки "Назад" */
+    .carouselContainer {
+        position: relative;
+        .swiper-button-prev {
+            position: absolute;
+            left: 22%;
+            /* Расположите слева с отступом */
+            z-index: 10;
+            /* Чтобы стрелка была поверх слайдера */
+        }
+        /* Стили для стрелки "Вперед" */
+        .swiper-button-next {
+            position: absolute;
+            right: 22%;
+            /* Расположите справа с отступом */
+            z-index: 10;
+            /* Чтобы стрелка была поверх слайдера */
+        }
+    }
 }

@@ -44,6 +44,7 @@
         "react-spring": "^9.4.5",
         "sass": "^1.49.9",
         "styled-components": "^5.3.5",
+        "styled-jsx": "^5.1.2",
         "swiper": "^8.0.6",
         "tagmanager": "^1.0.0",
         "url-loader": "^4.1.1"
