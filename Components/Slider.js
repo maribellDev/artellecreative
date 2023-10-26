@@ -114,17 +114,15 @@ export default function Slider() {
  left: 22%;
  right: auto;
  color:#B6BAD7;
+
 }
-.swiper-button-prev:after,
-.swiper-rtl .swiper-button-next:after {
- content: "prev";
- color:#B6BAD7;
-}
+
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
  right: 22%;
  left: auto;
  color:#B6BAD7;
+
 }
 
 @media (max-width: 950px) {
@@ -139,7 +137,18 @@ left: 12%;}
 .swiper-button-next {
  display: none;
  }
+
 }
+@media (min-width: 2000px) {
+  .swiper-button-prev {
+  left: 34%;
+  }
+
+   .swiper-button-next {
+   right: 34%;
+  
+   }
+  }
 `}</style>
         <div className="swiper-button-prev"></div>
   <div className="swiper-button-next"></div>
