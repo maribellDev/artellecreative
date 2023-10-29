@@ -10,12 +10,11 @@ export default function PostCard({ blogPage }) {
       <div className={style.post}>
         <div className={style.blogImage}>
           
-
           <img
             src={"https:" + thumbnail?.fields?.file?.url}
-            width={424}
-            height={248}
+     
             alt="strategy"
+            id={style.imagesize}
           ></img>
         </div>
 
@@ -32,3 +31,4 @@ export default function PostCard({ blogPage }) {
     </div>
   );
 }
+
