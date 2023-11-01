@@ -5,6 +5,7 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build && next export",
+        "postbuild": "next-sitemap",
         "prestart": "npm run export",
         "start": "npm run start",
         "lint": "next lint"
@@ -24,13 +25,14 @@
         "contentful-management": "^10.29.1",
         "encodeuricomponent-tag": "^1.0.1",
         "fancybox": "^3.0.1",
+        "fs": "^0.0.1-security",
         "fslightbox-react": "^1.6.2-2",
         "iconsax-react": "^0.0.8",
         "klaviyo-client": "^2.3.0",
         "lightgallery": "^2.5.0",
         "moment": "^2.29.4",
         "next": "12.1.0",
-
+        "next-sitemap": "^4.2.3",
         "prop-types": "^15.8.1",
         "react": "^17.0.2",
         "react-awesome-lightbox": "^1.8.1",
