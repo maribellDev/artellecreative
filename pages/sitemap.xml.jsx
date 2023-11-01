@@ -5,14 +5,14 @@ const Sitemap = () => {
 };
 
 export const getServerSideProps = async ({ res }) => {
-  const BASE_URL = "http://artellecreative";
+  const BASE_URL = "https://artellecreative";
 
   const staticPaths = fs
     .readdirSync("pages")
     .filter((staticPage) => {
       return ![
         "api",
-        "product",
+        "policy",
         "_app.js",
         "_document.js",
         "404.js",
@@ -54,3 +54,4 @@ export const getServerSideProps = async ({ res }) => {
 };
 
 export default Sitemap;
+// http://localhost:3000/sitemap.xml
