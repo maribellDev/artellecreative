@@ -4,6 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap:
-
-https://artellecreative.com/sitemap.xml
+Sitemap: https://artellecreative.com/sitemap.xml
