@@ -1,8 +1,6 @@
 User-agent: Googlebot
 Disallow: /nogooglebot/
-/404/
-/policy/
-/api/
+
 
 
 User-agent: *
