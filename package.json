@@ -30,6 +30,7 @@
         "lightgallery": "^2.5.0",
         "moment": "^2.29.4",
         "next": "12.1.0",
+
         "prop-types": "^15.8.1",
         "react": "^17.0.2",
         "react-awesome-lightbox": "^1.8.1",
