@@ -42,7 +42,7 @@ export default function Home() {
             <div
               style={{ width: "80px", marginRight: "auto", marginLeft: "auto" }}
             >
-              <Image src={Icon1} alt=" webdesign" />
+              <Image src={Icon1} alt="icon1" />
             </div>
             <h3>
               Website Design <br />+ Development
@@ -55,7 +55,7 @@ export default function Home() {
             <div
               style={{ width: "80px", marginRight: "auto", marginLeft: "auto" }}
             >
-              <Image src={Icon2} alt="logo design" />
+              <Image src={Icon2} alt="icon2" />
             </div>
             <h3 className={style.header3}>
               Brand &amp; Logo <br />
@@ -69,7 +69,7 @@ export default function Home() {
             <div
               style={{ width: "80px", marginRight: "auto", marginLeft: "auto" }}
             >
-              <Image src={Icon3} alt="merketing design" />
+              <Image src={Icon3} alt="icon3" />
             </div>
             <h3>
               Marketing
