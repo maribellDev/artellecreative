@@ -89,22 +89,22 @@ export default function Slider() {
           }}
         >
           <SwiperSlide>
-          <Link href={"/work/broad-fit-financial/"}><Image className={styles.images} src={slide1} alt="slide1" /></Link>
+          <Link href={"/work/broad-fit-financial/"}><Image className={styles.images} src={slide1} alt="branding and website" /></Link>
           </SwiperSlide>
           <SwiperSlide>
-          <Link href={"/work/aas-logistics/"}><Image src={slide2} className={styles.images} alt="slide2" /></Link>
+          <Link href={"/work/aas-logistics/"}><Image src={slide2} className={styles.images} alt="webdesign" /></Link>
           </SwiperSlide>
           <SwiperSlide>
-          <Link href={"/work/ntc/"}><Image src={slide3} className={styles.images} alt="slide3" /></Link>
+          <Link href={"/work/ntc/"}><Image src={slide3} className={styles.images} alt="shopify development" /></Link>
           </SwiperSlide>
           <SwiperSlide>
-          <Link href={"/work/scuttlegov/"}><Image src={slide4} className={styles.images} alt="slide4" /></Link>
+          <Link href={"/work/scuttlegov/"}><Image src={slide4} className={styles.images} alt="wordpress development" /></Link>
           </SwiperSlide>
           <SwiperSlide>
-          <Link href={"/work/nomadtechy/"}><Image src={slide5} className={styles.images} alt="slide5" /></Link>
+          <Link href={"/work/nomadtechy/"}><Image src={slide5} className={styles.images} alt="webdesign and branding" /></Link>
           </SwiperSlide>
           <SwiperSlide>
-          <Link href={"/work/little-hunter/"}><Image src={slide6} className={styles.images} alt="slide6" /></Link>
+          <Link href={"/work/little-hunter/"}><Image src={slide6} className={styles.images} alt="design website" /></Link>
           </SwiperSlide>
         </Swiper>
         <style jsx>{`

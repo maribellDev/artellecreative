@@ -19,9 +19,6 @@ export default function Home() {
   return (
     <Layout
       title="Artelle Creative - Web Design, Branding, and Content"
-      keywords="web development, web design, web development in florida, web design in Florida, websites, 
-    branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
-    good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
       description="Artelle Creative is a creative studio based in Port St. Lucie, FL. We craft websites, branding identities, and marketing materials for e-commerce and service-based businesses."
     >
       <Head>
@@ -45,7 +42,7 @@ export default function Home() {
             <div
               style={{ width: "80px", marginRight: "auto", marginLeft: "auto" }}
             >
-              <Image src={Icon1} alt="design" />
+              <Image src={Icon1} alt=" webdesign" />
             </div>
             <h3>
               Website Design <br />+ Development
@@ -58,7 +55,7 @@ export default function Home() {
             <div
               style={{ width: "80px", marginRight: "auto", marginLeft: "auto" }}
             >
-              <Image src={Icon2} alt="design" />
+              <Image src={Icon2} alt="logo design" />
             </div>
             <h3 className={style.header3}>
               Brand &amp; Logo <br />
@@ -72,7 +69,7 @@ export default function Home() {
             <div
               style={{ width: "80px", marginRight: "auto", marginLeft: "auto" }}
             >
-              <Image src={Icon3} alt="design" />
+              <Image src={Icon3} alt="merketing design" />
             </div>
             <h3>
               Marketing
