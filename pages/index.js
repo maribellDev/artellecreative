@@ -18,13 +18,14 @@ import Link from "next/link";
 export default function Home() {
   return (
     <Layout
-      title="Artelle Creative - Crafting websites, lasting branding identities, and memorable content"
+      title="Artelle Creative - Web Design, Branding, and Content"
       keywords="web development, web design, web development in florida, web design in Florida, websites, 
     branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
     good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
       description="Artelle Creative is a creative studio based in Port St. Lucie, FL. We craft websites, branding identities, and marketing materials for e-commerce and service-based businesses."
     >
       <Head>
+      <link rel="canonical" href="https://artellecreative.com/"></link>
         <meta charSet="UTF-8"></meta>
         <meta
           name="viewport"
