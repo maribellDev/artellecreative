@@ -32,7 +32,7 @@ export function Footer() {
               <h3>Follow along</h3>
               <div className={style.social}>
                 <a
-                  href={"https://www.instagram.com/artellecreative/"}
+                  href={"https://www.instagram.com/artellecreative/"} rel="nofollow"
                   target="_blanc"
                 >
                   <span className={style.insta}>
@@ -41,7 +41,7 @@ export function Footer() {
                 </a>
 
                 <a
-                  href={"https://www.facebook.com/ArtelleCreative"}
+                  href={"https://www.facebook.com/ArtelleCreative"} rel="nofollow"
                   target="_blanc"
                 >
                   <span className={style.facebook}>

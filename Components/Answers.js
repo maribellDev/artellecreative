@@ -119,7 +119,7 @@ export function Answers() {
               style={{ textDecoration: "underline" }}
               href={
                 "https://www.designrush.com/agency/profile/artelle-creative"
-              }
+              } rel="nofollow"
               target="_blanc"
             >
               see our profile.

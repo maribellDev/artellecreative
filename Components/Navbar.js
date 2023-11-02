@@ -35,7 +35,7 @@ export function Navbar() {
           {/* <div className={styles.onmenu} style={{ paddingRight: "30px" }}> */}
           <div className={styles.navigul}>
             <div className={styles.navserv1}>
-              <h3>PACKAGES</h3>
+              <span className={styles.li_first}>PACKAGES</span>
               <Link href={"/services/website-packages"}>
                 <a>
                   <li>Website Packages</li>
@@ -64,7 +64,7 @@ export function Navbar() {
               }}
             ></div>
             <div className={styles.navserv2}>
-              <h3>SERVICES</h3>
+            <span className={styles.li_first}>SERVICES</span>
               <Link href={"/services/email-design"}>
                 <a>
                   <li>Email Design</li>
