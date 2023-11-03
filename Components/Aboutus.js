@@ -29,12 +29,12 @@ export function Aboutus() {
               </p>
             </div>
             <div style={{ width: "317px" }} className={style.aboutphoto}>
-              <Image src={ana} className={style.aboutphoto} alt="designer" />
+              <Image src={ana} className={style.aboutphoto} alt="our team designer" />
             </div>
           </div>
           <div className={styles.aboutcardsleft}>
             <div style={{ width: "317px" }} className={style.aboutphoto}>
-              <Image src={maria} alt="developer" />
+              <Image src={maria} alt="our team developer" />
             </div>
             <div className={styles.aboutselftext}>
               <h2>Maria</h2>

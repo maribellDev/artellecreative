@@ -12,7 +12,7 @@ export function Aboutinsta() {
             <Image
               style={{ maxWidth: "425px" }}
               src={img}
-              alt="instagram-foto"
+              alt="instagram-photo"
             />
           </div>
 
