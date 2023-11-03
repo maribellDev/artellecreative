@@ -12,15 +12,16 @@ import { Aboutinsta } from "../Components/Aboutinsta";
 export default function About() {
   return (
     <Layout
-      title="About - Artelle Creative"
-      keywords="web development, web design, web development in florida, web design in Florida, websites, branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
-      good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
-      description="Artelle Creative is a design &amp; development studio building websites, designing logo &amp; brand identities, and marketing materials."
+      title="Learn more about us - Artelle Creative"
+      description="Learn about our talented team and the values that drive Artelle Creative"
+  
     >
+    <Head> <link rel="canonical" href="https://artellecreative.com/about"></link></Head>
       <Navbar />
 
       <div className={style.aboutmain}>
         <div className={style.container1}>
+          <h1 style={{padding:"0 16px", textAlign:"center"}}>About Artelle creative</h1>
           <div className={style.who}>
             <h2>
               We are creative studio, working hard, growing and evolving right

@@ -38,6 +38,7 @@ export function Aboutinsta() {
               <a
                 href={"https://www.instagram.com/artellecreative/"}
                 target="_blank"
+                rel="nofollow"
               >
                 <a>See what we’re up to</a>
               </a>
