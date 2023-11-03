@@ -35,7 +35,7 @@ export default function About() {
 
         <div className={style.principles}>
           <div className={style.principImage}>
-            <Image src={Image2} alt="about us" />
+            <Image src={Image2} alt="circle" />
           </div>
           <div className={style.principtext}>
             <div className={style.blocktext}>
