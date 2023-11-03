@@ -8,7 +8,7 @@ export function Servicedevelopment() {
   return (
     <>
       <div className={style.block}>
-        <h2>Web Development</h2>
+        <h2>Website Development</h2>
         <p className={style.text}>
           Hourly or flat rate website editing, maintanence, and monitoring and
           website development from existing design files.
@@ -18,7 +18,7 @@ export function Servicedevelopment() {
             <Link href={"/services/website-maintanence/"}>
               <a>
                 <div className={style.imsquare}>
-                  <Image src={image1} alt="" />
+                  <Image src={image1} alt="support" />
                 </div>
                 <h3>Website Support</h3>
                 <p className={style.price}>Starting at $300</p>
@@ -29,7 +29,7 @@ export function Servicedevelopment() {
             <Link href={"/services/web-development/"}>
               <a>
                 <div className={style.imsquare}>
-                  <Image src={image2} alt="" />
+                  <Image src={image2} alt="house for rent" />
                 </div>
                 <h3>Web Development</h3>
                 <p className={style.price}>Reach out for pricing</p>

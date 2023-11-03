@@ -18,7 +18,7 @@ export function Servicephoto() {
             <Link href={"/services/product-photos-&-videos/"}>
               <a>
                 <div className={style.imsquare}>
-                  <Image className={style.im} src={image1} alt="" />
+                  <Image className={style.im} src={image1} alt="photo" />
                 </div>
                 <h3>Product Photography</h3>
                 <p className={style.price}>Starting at $50</p>
@@ -29,7 +29,7 @@ export function Servicephoto() {
             <Link href={"/services/product-photos-&-videos/"}>
               <a>
                 <div className={style.imsquare}>
-                  <Image className={style.im} src={image2} alt="" />
+                  <Image className={style.im} src={image2} alt="photo2" />
                 </div>
                 <h3>Video</h3>
                 <p className={style.price}>Starting at $100</p>

@@ -96,9 +96,7 @@ export default function Home() {
       <section>
         <Tools></Tools>
       </section>
-
       <Answers></Answers>
-
       <section>
         <Action></Action>
       </section>

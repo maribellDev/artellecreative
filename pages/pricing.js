@@ -16,12 +16,11 @@ import retainer from "../public/img/pricing/6-design_retainer.jpg";
 export default function Pricing() {
   return (
     <Layout
-      title="Pricing - Artelle Creative"
-      keywords="Web development, web design, web development in florida, 
-       websites for small business, professional websitesfolio Artellecreative website"
-      description="Overview of our creative services and pricing."
+      title="Pricing Website and Branding at Artelle Creative"
+     
+      description="Experience our flexible pricing and transparency in our web design, web development and branding services. Find out about our competitive rates and various service packages to help turn your vision into reality. Contact us today to discuss your needs and receive a custom quote!"
     >
-      <Head></Head>
+      <Head> <link rel="canonical" href="https://artellecreative.com/pricing"></link></Head>
       <Navbar />
 
       <div className={style.services}>
@@ -65,7 +64,7 @@ export default function Pricing() {
 
         <div className={style.block}>
           <h2>Design Retainer</h2>
-          <p className={style.text}>
+          <p className={style.text}>development
             On-going design support at a flat monthly rate. Includes social
             media posts design, email design, website assets design, campaign
             design, and more.
@@ -74,10 +73,10 @@ export default function Pricing() {
             <a>
               <div style={{ marginTop: "68px", padding: "0 10px 0 10px" }}>
                 <div className={style.im}>
-                  <Image className={style.im} src={retainer} alt="" />
+                  <Image className={style.im} src={retainer} alt="brochure" />
                 </div>
               </div>
-              <h3 style={{ textAlign: "center" }}>Design Retainer</h3>
+              <h3 style={{ textAlign: "center" }}>Design</h3>
               <p
                 style={{
                   fontSize: "14px",

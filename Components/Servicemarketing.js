@@ -18,7 +18,7 @@ export function Servicemarketing() {
             <Link href={"/services/email-design/"}>
               <a>
                 <div className={style.imsquare}>
-                  <Image src={image1} alt="" />
+                  <Image src={image1} alt="marketing brochure" />
                 </div>
                 <h3>Email Design</h3>
                 <p className={style.price}>Starting at $150/email</p>
@@ -29,7 +29,7 @@ export function Servicemarketing() {
             <Link href={"/services/digital-&-print-design/"}>
               <a>
                 <div className={style.imsquare}>
-                  <Image src={image2} alt="" />
+                  <Image src={image2} alt="microgreen" />
                 </div>
                 <h3>Digital &amp; Print Materials</h3>
                 <p className={style.price}>Starting at $250</p>
