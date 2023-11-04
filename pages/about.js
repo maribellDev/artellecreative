@@ -21,7 +21,7 @@ export default function About() {
 
       <div className={style.aboutmain}>
         <div className={style.container1}>
-          <h1 style={{padding:"0 16px", textAlign:"center"}}>About Artelle creative</h1>
+          <h1 style={{padding:"0 16px", textAlign:"center"}}>About Artelle Сreative</h1>
           <div className={style.who}>
             <h2>
               We are creative studio, working hard, growing and evolving right
