@@ -12,7 +12,7 @@ import { Aboutinsta } from "../Components/Aboutinsta";
 export default function About() {
   return (
     <Layout
-      title="Exploring Artelle Creative: Unveiling Our Team, Values, and Inspiring Journey"
+      title="Exploring Artelle Creative: Our Team and Values"
       description="Discover the inspiring team behind Artelle Creative, where our dedicated individuals, driven by a shared commitment to creativity and excellence, shape our unique approach to solving your creative needs."
   
     >
@@ -31,7 +31,7 @@ export default function About() {
         </div>
       </div>
       <div className={style.nameabout}>
-        <h2>Why work with us</h2>
+        <h2>Why work with Artelle Creative</h2>
 
         <div className={style.principles}>
           <div className={style.principImage}>
