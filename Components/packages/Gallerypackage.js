@@ -20,37 +20,37 @@ export function Gallerypackage() {
           <div className={style.part1}>
             <div className={style.col1}>
               <div className={style.item}>
-                <Image classname={style.img} src={img1} alt="" />
+                <Image classname={style.img} src={img1} alt="microgreen" />
               </div>
               <div className={style.item}>
-                <Image classname={style.img} src={img2} alt="" />
+                <Image classname={style.img} src={img2} alt="website screen" />
               </div>
             </div>
 
             <div className={style.col2}>
               <div className={style.item}>
-                <Image classname={style.img} src={img3} alt="" />
+                <Image classname={style.img} src={img3} alt="nt commerce" />
               </div>
               <div className={style.item}>
-                <Image classname={style.img} src={img4} alt="" />
+                <Image classname={style.img} src={img4} alt="brand colors" />
               </div>
             </div>
           </div>
           <div className={style.part2}>
             <div className={style.col3}>
               <div className={style.item}>
-                <Image classname={style.img} src={img5} alt="" />
+                <Image classname={style.img} src={img5} alt="rent website" />
               </div>
               <div className={style.item}>
-                <Image classname={style.img} src={img6} alt="" />
+                <Image classname={style.img} src={img6} alt="logo design" />
               </div>
             </div>
             <div className={style.col4}>
               <div className={style.item}>
-                <Image src={img7} alt="" />
+                <Image src={img7} alt="it consulting" />
               </div>
               <div className={style.item}>
-                <Image src={img8} alt="" />
+                <Image src={img8} alt="marketing" />
               </div>
             </div>
           </div>
