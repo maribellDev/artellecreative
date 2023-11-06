@@ -23,7 +23,7 @@ export function Gallerypackage() {
                 <Image classname={style.img} src={img1} alt="microgreen" />
               </div>
               <div className={style.item}>
-                <Image classname={style.img} src={img2} alt="website screen" />
+                <Image classname={style.img} src={img2} alt="screen" />
               </div>
             </div>
 
@@ -32,17 +32,17 @@ export function Gallerypackage() {
                 <Image classname={style.img} src={img3} alt="nt commerce" />
               </div>
               <div className={style.item}>
-                <Image classname={style.img} src={img4} alt="brand colors" />
+                <Image classname={style.img} src={img4} alt="colors" />
               </div>
             </div>
           </div>
           <div className={style.part2}>
             <div className={style.col3}>
               <div className={style.item}>
-                <Image classname={style.img} src={img5} alt="rent website" />
+                <Image classname={style.img} src={img5} alt="rent" />
               </div>
               <div className={style.item}>
-                <Image classname={style.img} src={img6} alt="logo design" />
+                <Image classname={style.img} src={img6} alt="Company NT" />
               </div>
             </div>
             <div className={style.col4}>
