@@ -15,10 +15,7 @@ export default function Websitesupport() {
   return (
     <Layout
       title="Ongoing Website Support - Artelle Creative"
-      keywords="ongoing Website Support, web development, web design, web development in florida, 
-    web design in Florida, websites, 
-    branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
-    good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
+    
       description="Ongoing website support, analytics monitoring, and recommendations."
     >
       <Head>
@@ -27,6 +24,7 @@ export default function Websitesupport() {
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
+        <link rel="canonical" href="https://artellecreative.com/services/maintanence/"></link>
       </Head>
 
       <Navbar />

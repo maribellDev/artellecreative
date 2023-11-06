@@ -11,13 +11,11 @@ import { Howitworks } from "../../Components/email/Howitworks";
 import { Gallerypackage } from "../../Components/email/Gallerypackage";
 import * as React from "react";
 
-export default function Websitepackages() {
+export default function Email() {
   return (
     <Layout
       title="Email Design - Artelle Creative"
-      keywords="Email Design, web design, web development in florida, 
-    web design in Florida, websites, branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
-    good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
+    
       description="On-brand, beautifully designed, conversion-optimized marketing emails and flows."
     >
       <Head>
@@ -26,6 +24,7 @@ export default function Websitepackages() {
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
+        <link rel="canonical" href="https://artellecreative.com/services/email-design/"></link>
       </Head>
 
       <Navbar />

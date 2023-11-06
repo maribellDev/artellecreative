@@ -12,14 +12,11 @@ import { Howitworks } from "../../Components/business/Howitworks";
 import { Gallerypackage } from "../../Components/business/Gallerypackage";
 import * as React from "react";
 
-export default function Websitepackages() {
+export default function Newwebsitepackages() {
   return (
     <Layout
       title="New Business Website &amp; Branding Packages - Artelle Creative"
-      keywords="web development, web design, web development in florida, 
-    web design in Florida, websites, 
-    branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
-    good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
+     
       description="The complete package to get launch your business. Website design, branding, and marketing materials all in one."
     >
       <Head>
@@ -28,6 +25,7 @@ export default function Websitepackages() {
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
+        <link rel="canonical" href="https://artellecreative.com/services/new-business-packages/"></link>
       </Head>
 
       <Navbar />

@@ -11,13 +11,11 @@ import { Howitworks } from "../../Components/digital/Howitworks";
 import { Gallerypackage } from "../../Components/digital/Gallerypackage";
 import * as React from "react";
 
-export default function Websitepackages() {
+export default function Digital() {
   return (
     <Layout
       title="Digital and Print Design - Artelle Creative"
-      keywords="digital and Print Design, web development, web design, web development in florida, 
-    web design in Florida, websites, branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
-    good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
+     
       description="Digital and printed marketing materials for social media, direct mail, email, and web."
     >
       <Head>
@@ -26,6 +24,7 @@ export default function Websitepackages() {
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
+        <link rel="canonical" href="https://artellecreative.com/services/digital-&-print-design/"></link>
       </Head>
 
       <Navbar />

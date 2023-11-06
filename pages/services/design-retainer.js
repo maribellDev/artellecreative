@@ -11,13 +11,11 @@ import { Howitworks } from "../../Components/design-retainer/Howitworks";
 import { Gallerypackage } from "../../Components/design-retainer/Gallerypackage";
 import * as React from "react";
 
-export default function Websitepackages() {
+export default function Retainer() {
   return (
     <Layout
       title="Ongoing Design Support - Artelle Creative"
-      keywords="ongoing Design Support, web development, web design, web development in florida, web design in Florida, websites, 
-    branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
-    good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
+   
       description="Design retainer for ongoing marketing needs."
     >
       <Head>
@@ -26,6 +24,9 @@ export default function Websitepackages() {
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
+          <link rel="canonical" href="https://artellecreative.com/services/design-retainer/"></link>
+        
+
       </Head>
 
       <Navbar />

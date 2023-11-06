@@ -16,9 +16,7 @@ export default function Brandlogo() {
   return (
     <Layout
       title="Brand &amp; Logo Design Packages - Artelle Creative"
-      keywords="web development, web design, web development in florida, 
-    web design in Florida, websites, branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
-    good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
+    
       description="Differentiate your business with brand and logo design."
     >
       <Head>
@@ -27,6 +25,7 @@ export default function Brandlogo() {
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
+       <link rel="canonical" href="https://artellecreative.com/services/brand-logo-design-packages/"></link>
       </Head>
       <Navbar />
       <Firstscreen />

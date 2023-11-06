@@ -15,9 +15,7 @@ export default function Productphoto() {
   return (
     <Layout
       title="Product Photos &amp; Videos - Artelle Creative"
-      keywords="product Photos, Product videos, web development, web design, web development in florida, 
-    web design in Florida, websites, branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
-    good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
+     
       description="Small item product photography for ecommerce."
     >
       <Head>
@@ -26,6 +24,7 @@ export default function Productphoto() {
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
+        <link rel="canonical" href="https://artellecreative.com/services/product-photos-&-videos/"></link>
       </Head>
 
       <Navbar />

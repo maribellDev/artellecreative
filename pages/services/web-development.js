@@ -15,10 +15,7 @@ export default function Webdevelopment() {
   return (
     <Layout
       title="Web Development - Artelle Creative"
-      keywords="web development, web design, web development in florida, 
-    web design in Florida, websites, 
-    branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
-    good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
+      
       description="Website development from existing design files."
     >
       <Head>
@@ -27,6 +24,7 @@ export default function Webdevelopment() {
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
+        <link rel="canonical" href="https://artellecreative.com/services/web-development/"></link>
       </Head>
 
       <Navbar />
