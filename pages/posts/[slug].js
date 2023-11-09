@@ -57,10 +57,19 @@ export default function PostDetails({ blogPage }) {
     blogPage?.fields || {};
 
   if (!blogPage) return <div>Loading...</div>;
-
+  const canonicalUrl = `https://artellecreative.com/posts/${blogPage.fields.slug}`;
   return (
     <Layout title="blog" keywords="posts" description="Our blog">
-      <Head />
+      <Head>
+        <meta charSet="UTF-8"></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
+         
+         <link rel="canonical" href={canonicalUrl} />
+
+      </Head>
       <Navbar />
       <div className={style.postsall}>
         <div className={style.postscontainer}>

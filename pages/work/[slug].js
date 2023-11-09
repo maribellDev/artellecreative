@@ -6,6 +6,7 @@ import Action from "/Components/Action";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import Layout from "/Components/Layout";
 import Link from "next/link";
+import Head from 'next/head';
 
 
 const client = createClient({
@@ -50,12 +51,11 @@ export const getStaticProps = async ({ params }) => {
 };
 
 
-
 export default function ourWorkDetails({ourWork}) {
   const { mainImage, title, bodyText, img2, img3, solutionText, metaDescription, kindOfCase, addImage, review } = ourWork?.fields || {};
 
   if (!ourWork) return <div>Loading...</div>;
-
+  const canonicalUrl = `https://artellecreative.com/work/${ourWork.fields.slug}`;
   return (
     <Layout
       title={title}
@@ -63,7 +63,16 @@ export default function ourWorkDetails({ourWork}) {
      websites for small business, professional websitesfolio Artellecreative website"
       description={metaDescription}
     >
-     
+      <Head>
+        <meta charSet="UTF-8"></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
+         
+         <link rel="canonical" href={canonicalUrl} />
+
+      </Head>
       <Navbar />
       <div className={style.postsall}>
         <div className={style.postscontainer}>
