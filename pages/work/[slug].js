@@ -55,12 +55,11 @@ export default function ourWorkDetails({ourWork}) {
   const { mainImage, title, bodyText, img2, img3, solutionText, metaDescription, kindOfCase, addImage, review } = ourWork?.fields || {};
 
   if (!ourWork) return <div>Loading...</div>;
+  const pageTitle=`Our latest work - company ${title}`;
   const canonicalUrl = `https://artellecreative.com/work/${ourWork.fields.slug}`;
   return (
     <Layout
-      title={title}
-      keywords="Web development, web design, web development in florida, 
-     websites for small business, professional websitesfolio Artellecreative website"
+      title={pageTitle}
       description={metaDescription}
     >
       <Head>
@@ -72,7 +71,7 @@ export default function ourWorkDetails({ourWork}) {
          
          <link rel="canonical" href={canonicalUrl} />
 
-      </Head>
+      </Head>``
       <Navbar />
       <div className={style.postsall}>
         <div className={style.postscontainer}>
