@@ -26,15 +26,10 @@ export const getStaticProps = async () => {
 export default function Work({ works }) {
   return (
     <Layout
-      title="Case Studies - Artelle Creative"
-      keywords="case Studies, web development, web design, web development in florida, 
-      web design in Florida, websites, 
-      branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
-      good websites, 
-      affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
-      description="Featured website and branding projects."
+      title="Case Studies and Latest Work - Artelle Creative"
+      description="Explore distinctive websites and branding projects crafted by Artelle Creative web development studio. Immerse yourself in our portfolio, where each project is a blend of technical expertise and creative innovation. Our web solutions reflect your uniqueness, and captivate your target audience."
     >
-      <Head></Head>
+      <Head> <link rel="canonical" href="https://artellecreative.com/work/"></link></Head>
       <Navbar />
 
       <div className={style.mainname}>
