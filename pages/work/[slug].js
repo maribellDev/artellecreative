@@ -55,10 +55,7 @@ export default function ourWorkDetails({ourWork}) {
   const { mainImage, title, bodyText, img2, img3, solutionText, metaDescription, kindOfCase, addImage, review } = ourWork?.fields || {};
 
   if (!ourWork) return <div>Loading...</div>;
-  const mainImageAlt = title ? title : "Alternative Text";
-  const img2Alt = title ? title : "Alternative Text";
-  const img3Alt = title ? title : "Alternative Text";
-  const addImageAlt = title ? title : "Alternative Text";
+
   const pageTitle=`Our latest work - company ${title}`;
   const canonicalUrl = `https://artellecreative.com/work/${ourWork.fields.slug}`;
   return (
@@ -90,7 +87,7 @@ export default function ourWorkDetails({ourWork}) {
         
             <div className={style.main_image}>
           <img
-                  alt={mainImageAlt}
+                   alt={mainImage?.fields?.description}
                   src={"https:" + mainImage?.fields?.file?.url}
                   width={mainImage?.fields?.file.details.image.width}
                
@@ -106,7 +103,7 @@ export default function ourWorkDetails({ourWork}) {
           </div>
           <div className={style.photo}>
           <img
-                  alt={img2Alt}
+                  alt={img2?.fields?.description}
                   src={"https:" + img2?.fields?.file?.url}
                   width={img2?.fields?.file.details.image.width}
                  
@@ -114,7 +111,7 @@ export default function ourWorkDetails({ourWork}) {
           </div>
           <div className={style.photo}>
           <img
-                   alt={img3Alt}
+                  alt={img3?.fields?.description}
                   src={"https:" + img3?.fields?.file?.url}
                   width={img3?.fields?.file.details.image.width}
                  
@@ -128,7 +125,7 @@ export default function ourWorkDetails({ourWork}) {
           </div>
           <div className={style.photo_many}>
                 {addImage.map((image, index ) => (
-        <img key={index}  alt={addImageAlt} src={"https:" +  image?.fields?.file?.url} 
+        <img key={index}  alt={image?.fields?.description || `Image ${index + 1}`} src={"https:" +  image?.fields?.file?.url} 
         width={image?.fields?.file.details.image.width}
         />
       ))}
