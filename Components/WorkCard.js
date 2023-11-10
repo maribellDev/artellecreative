@@ -23,7 +23,7 @@ export default function WorkCard({ ourWork, isImageLeft }) {
           <Link href={`/work/${slug}`}>
             <a>
               <img
-                alt=""
+                alt={thumbnail?.fields?.description}
                 src={"https:" + thumbnail?.fields?.file?.url}
                 width={thumbnail?.fields?.file.details.image.width}
               />
