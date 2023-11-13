@@ -28,12 +28,12 @@ export const getStaticProps = async () => {
 export default function Blog({ posts }) {
   return (
     <Layout
-      title="Blog - Artelle Creative"
-      keywords="posts blog Artelle creative web development"
-      description="Latest stories, insights, and ideas of Artelle Creative."
+      title="Latest Insights and Ideas - Artelle Creative"
+      description="Find out more about our process and approach. Learn about what makes a good website or branding and see our latest company news and announcements."
     >
       <div>
-        <Head />
+        <Head></Head>
+        
         <Navbar />
         <div className={style.sectionblog}>
           <div className={style.containerblog}>

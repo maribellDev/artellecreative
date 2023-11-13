@@ -26,8 +26,8 @@ export const getStaticProps = async () => {
 export default function Work({ works }) {
   return (
     <Layout
-      title="Case Studies and Latest Work - Artelle Creative"
-      description="Explore distinctive websites and branding projects crafted by Artelle Creative web development studio. Immerse yourself in our portfolio, where each project is a blend of technical expertise and creative innovation. Our web solutions reflect your uniqueness, and captivate your target audience."
+      title="Our Latest Website and Branding Projects - Artelle Creative"
+      description="Explore websites and branding projects designed and developed by Artelle Creative. Browse our portfolio and see how we combine creative intuition with technical capabilities in each project."
     >
       <Head> <link rel="canonical" href="https://artellecreative.com/work/"></link></Head>
       <Navbar />

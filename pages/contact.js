@@ -18,7 +18,9 @@ export default function Contact() {
       good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
       description="Reach out to us and we'll get right back to you."
     >
-      <Head></Head>
+      <Head>
+      <link rel="canonical" href="https://artellecreative.com/contact/"></link>
+      </Head>
       <div style={{ backgroundColor: "rgba(247, 247, 250, 1)" }}>
         <Navbar />
       </div>

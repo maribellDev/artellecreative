@@ -16,11 +16,11 @@ import retainer from "../public/img/pricing/6-design_retainer.jpg";
 export default function Pricing() {
   return (
     <Layout
-      title="Pricing Website and Branding at Artelle Creative"
+      title="Pricing and Packages for Websites and Branding - Artelle Creative"
      
-      description="Experience our flexible pricing and transparency in our web design, web development and branding services. Find out about our competitive rates and various service packages to help turn your vision into reality. Contact us today to discuss your needs and receive a custom quote!"
+      description="Transparent and flexible pricing for website design, development, branding, and other creative services. Competitive rates and service packages to help turn your brand vision into reality. Contact us today to discuss your needs and receive a custom quote."
     >
-      <Head> <link rel="canonical" href="https://artellecreative.com/pricing"></link></Head>
+      <Head> <link rel="canonical" href="https://artellecreative.com/blog/"></link></Head>
       <Navbar />
 
       <div className={style.services}>

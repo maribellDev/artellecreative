@@ -18,8 +18,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <Layout
-      title="Artelle Creative - Web Design, Branding, and Content"
-      description="Artelle Creative is a creative studio based in Port St. Lucie, FL. We craft websites, branding identities, and marketing materials for e-commerce and service-based businesses."
+      title="Artelle Creative - Web Design and Development, Branding, and Marketing Design"
+      description="We craft websites, branding identities, and marketing materials for e-commerce and service-based businesses. User-friendly, on-brand, and eye-catching websites are our specialty."
     >
       <Head>
       <link rel="canonical" href="https://artellecreative.com/"></link>

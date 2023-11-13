@@ -12,8 +12,8 @@ import { Aboutinsta } from "../Components/Aboutinsta";
 export default function About() {
   return (
     <Layout
-      title="Exploring Artelle Creative: Our Team and Values"
-      description="Discover the inspiring team behind Artelle Creative, where our dedicated individuals, driven by a shared commitment to creativity and excellence, shape our unique approach to solving your creative needs."
+      title="Our Team and Core Values - Artelle Creative"
+      description="Get to know the team behind Artelle Creative. Driven by a shared commitment to creativity and functionality, we shape our unique approach to solving your creative needs."
   
     >
     <Head> <link rel="canonical" href="https://artellecreative.com/about"></link></Head>

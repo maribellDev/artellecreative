@@ -12,11 +12,9 @@ import styles from "../styles/gallery.module.scss";
 export default function Gallerypage() {
   return (
     <Layout
-      title="Our work - Artelle Creative"
-      keywords="Our work, gallery of works, web development, web design, web development in florida, 
-      web design in Florida, websites, branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
-      good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
-      description="We make purposeful websites for small businesses."
+      title="Marketing Design Inspiration - Artelle Creative"
+     
+      description="Browse our recent eye-catching designs for marketing, including e-commerce promotional campaigns, advertisement design, email campaigns and product photography. "
     >
       <Head></Head>
 
