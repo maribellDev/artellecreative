@@ -13,10 +13,9 @@ export default function Contact() {
   return (
     <Layout
       style={{ backgroundColor: "#F7F7FA" }}
-      title="Contact - Artelle Creative"
-      keywords="web development, web design, web development in florida, web design in Florida, websites, branding, graphic design, logo design, websites for small business, Artelle Creative studio Florida, 
-      good websites, affordable websites, artelle creative, artelle websites, artelle designs, professional websites"
-      description="Reach out to us and we'll get right back to you."
+      title="Contact us to start a project - Artelle Creative"
+     
+      description="Connect with Artelle Creative - your partner in design and web development. Unlock doors to innovative and creative solutions for your online presence. Let's discuss your project today."
     >
       <Head>
       <link rel="canonical" href="https://artellecreative.com/contact/"></link>

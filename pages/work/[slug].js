@@ -72,7 +72,7 @@ export default function ourWorkDetails({ourWork}) {
          
          <link rel="canonical" href={canonicalUrl} />
 
-      </Head>``
+      </Head>
       <Navbar />
       <div className={style.postsall}>
         <div className={style.postscontainer}>
