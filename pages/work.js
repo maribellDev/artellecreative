@@ -27,7 +27,7 @@ export default function Work({ works }) {
   return (
     <Layout
       title="Our Latest Website and Branding Projects - Artelle Creative"
-      description="Explore websites and branding projects designed and developed by Artelle Creative. Browse our portfolio and see how we combine creative intuition with technical capabilities in each project."
+      description="Explore our latest website and branding projects designed and developed by Artelle Creative. Browse our portfolio and see how we combine creative intuition with technical capabilities in each project."
     >
       <Head> <link rel="canonical" href="https://artellecreative.com/work/"></link></Head>
       <Navbar />
