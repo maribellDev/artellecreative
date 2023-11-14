@@ -14,9 +14,8 @@ import * as React from "react";
 export default function Webdevelopment() {
   return (
     <Layout
-      title="Web Development - Artelle Creative"
-      
-      description="Website development from existing design files."
+      title="Website Development Project - Artelle Creative"
+      description="Hire us for website development from existing design files. Great if you have a design but need a developer to implement it or if you have an existing website that needs to be transferred and rebuilt on a different platform."
     >
       <Head>
         <meta charSet="UTF-8"></meta>

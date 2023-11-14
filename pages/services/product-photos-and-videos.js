@@ -14,9 +14,8 @@ import * as React from "react";
 export default function Productphoto() {
   return (
     <Layout
-      title="Product Photos &amp; Videos - Artelle Creative"
-     
-      description="Small item product photography for ecommerce."
+      title="Product Photos and Videos - Artelle Creative"
+      description="Small item product photography for e-commerce. Eye-catching, engaging product photography that elevates your marketing and sales. Professional, studio photography including white or colored backgrounds, styling with props, a hand model, and more."
     >
       <Head>
         <meta charSet="UTF-8"></meta>
@@ -24,7 +23,7 @@ export default function Productphoto() {
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
-        <link rel="canonical" href="https://artellecreative.com/services/product-photos-&-videos/"></link>
+        <link rel="canonical" href="https://artellecreative.com/services/product-photos-and-videos/"></link>
       </Head>
 
       <Navbar />

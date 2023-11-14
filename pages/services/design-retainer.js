@@ -16,7 +16,7 @@ export default function Retainer() {
     <Layout
       title="Ongoing Design Support - Artelle Creative"
    
-      description="Design retainer for ongoing marketing needs."
+      description="Design retainer for ongoing marketing needs. Ongoing design for email marketing, social media, advertising, and promotional campaigns. Great or e-commerce and traditional brands."
     >
       <Head>
         <meta charSet="UTF-8"></meta>

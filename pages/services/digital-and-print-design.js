@@ -15,8 +15,7 @@ export default function Digital() {
   return (
     <Layout
       title="Digital and Print Design - Artelle Creative"
-     
-      description="Digital and printed marketing materials for social media, direct mail, email, and web."
+      description="Digital and printed marketing materials for social media, direct mail, email, and web. Advertise your business with printed brochures, digital ads, packaging inserts, sales collateral, and more."
     >
       <Head>
         <meta charSet="UTF-8"></meta>
@@ -24,7 +23,7 @@ export default function Digital() {
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
-        <link rel="canonical" href="https://artellecreative.com/services/digital-&-print-design/"></link>
+        <link rel="canonical" href="https://artellecreative.com/services/digital-and-print-design/"></link>
       </Head>
 
       <Navbar />

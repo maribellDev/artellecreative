@@ -15,8 +15,7 @@ export default function Websitesupport() {
   return (
     <Layout
       title="Ongoing Website Support - Artelle Creative"
-    
-      description="Ongoing website support, analytics monitoring, and recommendations."
+      description="Ongoing website monitoring, including analytics and performance. Get monthly website improvement recommendations in areas of performance, user experience, navigation and more."
     >
       <Head>
         <meta charSet="UTF-8"></meta>

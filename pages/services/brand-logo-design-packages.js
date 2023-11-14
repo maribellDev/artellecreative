@@ -15,9 +15,9 @@ import * as React from "react";
 export default function Brandlogo() {
   return (
     <Layout
-      title="Brand &amp; Logo Design Packages - Artelle Creative"
+      title="Brand and Logo Design Packages - Artelle Creative"
     
-      description="Differentiate your business with brand and logo design."
+      description="Elevate your brand with Artelle Creative's Brand and Logo Design Packages. Tailored solutions that include a full suite of uniquely branded assets most businesses need to get started."
     >
       <Head>
         <meta charSet="UTF-8"></meta>

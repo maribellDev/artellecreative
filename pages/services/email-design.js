@@ -14,9 +14,8 @@ import * as React from "react";
 export default function Email() {
   return (
     <Layout
-      title="Email Design - Artelle Creative"
-    
-      description="On-brand, beautifully designed, conversion-optimized marketing emails and flows."
+      title="Email Design for E-commerce Marketing - Artelle Creative"
+      description="On-brand, beautifully designed, conversion-optimized marketing emails and flows. Send the types of emails you want to receive - engaging and sales-driven emails all-in-one."
     >
       <Head>
         <meta charSet="UTF-8"></meta>

@@ -15,9 +15,8 @@ import * as React from "react";
 export default function Newwebsitepackages() {
   return (
     <Layout
-      title="New Business Website &amp; Branding Packages - Artelle Creative"
-     
-      description="The complete package to get launch your business. Website design, branding, and marketing materials all in one."
+      title="New Business Website and Branding Packages - Artelle Creative"
+      description="The complete design package to get your business launched. Website design and development, branding, and marketing materials all in one."
     >
       <Head>
         <meta charSet="UTF-8"></meta>
