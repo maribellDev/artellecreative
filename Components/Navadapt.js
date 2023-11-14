@@ -55,7 +55,7 @@ export function Navadapt() {
                 <li>Email Design</li>
               </a>
             </Link>
-            <Link href={"/services/digital-&-print-design"}>
+            <Link href={"/services/digital-and-print-design"}>
               <a>
                 <li> Digital &amp; Print Design</li>
               </a>
@@ -75,7 +75,7 @@ export function Navadapt() {
                 <li>Web Development</li>
               </a>
             </Link>
-            <Link href={"/services/product-photos-&-videos"}>
+            <Link href={"/services/product-photos-and-videos"}>
               <a>
                 <li>Product Photos &amp; Videos</li>
               </a>
