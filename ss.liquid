@@ -1,0 +1,178 @@
+<!DOCTYPE html> {% if cart.item_count > 0 %}
+<div class="cart">
+
+    <div class="cart_h1">
+        <div class="container_cart">
+            <h1>My Cart</h1>
+        </div>
+    </div>
+    <div class="container padding_none">
+       
+        <div class="product_column">
+            <form action="/cart" method="post" novalidate>
+                {% for item in cart.items %}
+
+                <div class="my-div">
+
+                    <div class="block_flex_cart">
+
+                        <div class="col1">
+
+
+                            <a href="{{ item.url | within: collections.all }}">
+                                <img src="{{ item | img_url: 'medium' }}" alt="{{ item.title | escape }}">
+                            </a>
+
+                        </div>
+                        <div class="col2">
+                            <div class="cart_title">
+                                <a href="{{ item.url }}">{{ item.product.title }}</a>
+                            </div>
+                            <div class="quantity-control">
+                                {{ current_variant.price | money }}
+
+                                <button onclick="decrementValue()" class="quantity-button minus white">-</button>
+
+                                <input type="number" id="updates_{{ item.key }}" value="{{ item.quantity }}" name="updates[]" class="quantity-input white" min="0" readonly>
+
+
+                                <button onclick="incrementValue()" class="quantity-button plus white">+</button>
+                            </div>
+                        </div>
+
+                        <div class="col3">
+                            <div class="cart_price">
+                                {% if item.original_line_price != item.line_price %} {{ item.original_line_price | money }}{% endif %}
+                          
+                            </div>
+                            <div class="col2_2">
+                                <a href="/cart/change?line={{ forloop.index }}&amp;quantity=0"><u>Remove</u></a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                        {% endfor %}
+                    <div class="cart_col2 ">
+
+                        <div class="cart_2_row none_border">
+                            <div>
+                                <!-- {% if item.original_line_price != item.line_price %} {{ item.original_line_price | money }} {% endif %} {{ item.line_price | money }} {% for discount in item.discounts %} {{ discount.title }}{% endfor %} -->
+  {% if item.original_line_price != item.line_price %}
+  {{ item.original_line_price | money }}
+  {% endif %}
+  {{ item.line_price | money_with_code_discount: item.discounts }} 
+    {% for discount in item.discounts %}
+  {{ discount.title }}
+   {% endfor %}
+                                <h5>Subtotal</h5>
+                            </div>
+                            <div>
+                                <p>{{ cart.total_price | money }}</p>
+                            </div>
+                        </div>
+
+                        <div class="cart_2_row shipping_cart">
+                            <div>
+                                <h5>Shipping</h5>
+                            </div>
+                            <div>
+                                <p>TBD</p>
+                            </div>
+                        </div>
+
+                        <div class="cart_2_row none_border">
+                            <div>
+                              
+                                <h5>Subtotal</h5>
+                            </div>
+                            <div id="cartSubtotal" class="orange_p">
+                                {% if item.original_line_price != item.line_price %} {{ item.original_line_price | money }} {% endif %} {{ item.line_price | money }} {% for discount in item.discounts %} {{ discount.title }}{% endfor %}
+                                {{ cart.total_price | money }}
+                            </div>
+                        </div>
+
+                        <div class="cart_discount">
+
+                            <input id="discount" type="text" name="discount" placeholder="Discount code">
+                            <div>
+                                <a href="#" id="applyDiscount">
+                                    <p>Apply</p>
+                                </a>
+                          
+                           
+                            </div>
+                        </div>
+                        <p id="discountMessage"></p>
+                        <!-- <button class="large_orange_button" type="submit" name="update">Update</button> -->
+                        <button class="cart_button_checkout cart_button" type="submit" name="checkout">Checkout</button>
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+     
+  
+
+    {% else %}
+    <div class="container">
+        <p class="cart_empty">Cart is empty</p>
+
+    </div>
+    {% endif %}
+</div>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const minusButtons = document.querySelectorAll('.minus');
+        const plusButtons = document.querySelectorAll('.plus');
+        const quantityInputs = document.querySelectorAll('.quantity-input');
+
+        for (let i = 0; i < minusButtons.length; i++) {
+            minusButtons[i].addEventListener('click', function() {
+                let currentValue = parseInt(quantityInputs[i].value);
+                if (currentValue > 1) {
+                    quantityInputs[i].value = currentValue - 1;
+                }
+            });
+        }
+
+        for (let i = 0; i < plusButtons.length; i++) {
+            plusButtons[i].addEventListener('click', function() {
+                let currentValue = parseInt(quantityInputs[i].value);
+                quantityInputs[i].value = currentValue + 1;
+            });
+        }
+    });
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const applyDiscountButton = document.getElementById('applyDiscount');
+    const discountCodeInput = document.getElementById('discount');
+    const cartSubtotal = document.getElementById('cartSubtotal');
+    const discountMessage = document.getElementById('discountMessage');
+
+    applyDiscountButton.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        const code = discountCodeInput.value;
+   
+        if (code === 'NTC100TESTER' || code === 'STARSHIP5' || code === 'SPACELINK10' || code === 'WETHANKYOU7') {
+
+            // let currentSubtotal = parseFloat(cartSubtotal.innerText.replace(/\D/g, ''));
+            // const discount = currentSubtotal * 0.001;
+            // cartSubtotal.innerText = (currentSubtotal - discount).toFixed(2);
+
+            // Added code to display a message
+            discountMessage.innerHTML = 'Discount applied!';
+        } else {
+            // Added code to display an error message
+            discountMessage.innerHTML = 'Invalid discount code.';
+        }
+    });
+});
+        
+</script>
+        
