@@ -55,7 +55,7 @@ export function Footer() {
             <h3>Company</h3>
             <ul className={style.menufooter}>
               <li style={{ paddingBottom: "10px" }}>
-                <Link href={"/gallery"}>
+                <Link href={"/work"}>
                   <a>Work</a>
                 </Link>
               </li>
