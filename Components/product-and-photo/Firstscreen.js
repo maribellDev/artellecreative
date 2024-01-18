@@ -11,7 +11,7 @@ export function Firstscreen() {
       <section className={mainstyle.sectionAll}>
         <div id={mainstyle.block} className={mainstyle.blockmain}>
           <div style={{ maxWidth: "350px" }} className={mainstyle.textmain}>
-            <p className={pricing.packageprice}>Starting at $50/photo</p>
+            {/* <p className={pricing.packageprice}>Starting at $50/photo</p> */}
             <h1 style={{ fontSize: "32px" }}>Product Photos &amp; Videos</h1>
             <p>
               Show off your products with attractive images shot for e-commerce.
