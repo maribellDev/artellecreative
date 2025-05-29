@@ -15,17 +15,10 @@ export function Aboutus() {
               <h2>Ana Shuda</h2>
               <p className={styles.profession}>Lead Designer</p>
               <p className={styles.description}>
-                With nearly a decade of experience designing for e-commerce and
-                traditional brands, I use design to help companies stand out and
-                optimize their websites, branding, and marketing. <br />
-                <br /> Early in my career, I joined a creative studio and worked
-                with clients in the health and wellness industry, later moving
-                on to work for an e-commerce company as part of the in-house
-                design and marketing team. Eventually, taking the leap to start
-                Artelle Creative and partner with fantastic companies near and
-                far. <br />
-                <br /> During my free time, I enjoy spending time outdoors and
-                use my hobbies as creative fuel for my work.
+              With over 10 years of experience designing for marketing, websites and branding, I’ve had the privilege of partnering with businesses in health & fitness, beauty, fashion & apparel, pet products, home decor and more.  <br />
+                <br /> I believe that design is a language — when done right, it helps brands earn trust and communicate with their customer base. <br />
+                <br />To me, there’s nothing much more satisfying that seeing a brand put great care into how it presents itself—and that’s what I work for.
+
               </p>
             </div>
             <div style={{ width: "317px" }} className={style.aboutphoto}>
