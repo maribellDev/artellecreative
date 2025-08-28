@@ -10,94 +10,77 @@ export default function Tools() {
           style={{
             marginBottom: "0px",
             paddingTop: "80px",
+            paddingBottom:"40px"
           }}
         >
           How we work
         </h2>
-        <p
-          style={{
-            marginRight: "20px",
-            marginLeft: "20px",
-            textAlign: "center",
-            marginBottom: "50px",
-            fontSize: "16px",
-            lineHeight: "24px",
-          }}
-        >
-          Let’s start off on the right foot.
-        </p>
+       
         <div className={style.tools}>
           <div className={style.tool}>
-            <h4>Consistent process</h4>
+            <h3>Design with purpose</h3>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              We have a consistent and tested process for everything. And when
-              the process works - so does the outcome.
+              Eye-catching, on-brand design that engages your customers and helps grow your business.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Transparent pricing</h4>
+            <h3>Easy collaboration</h3>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Clear and predictable pricing for most projects. No matter the
-              size or revenue of your business, our pricing stays the same.
+              Access design mockups via a link and leave comments exactly where you want updates, making changes and revisions simple.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Flexible approach</h4>
+            <h3>Flexible fees</h3>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Whether you need help with a single project or looking for a
-              long-term partnership, we can work with a project of any size.
+              Whether it’s a long-term partnership, a one-off project, or something in between — we’ll find a fee structure that works.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>1-on-1 communication</h4>
+            <h3>On schedule</h3>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              Ana will stay in communication with you throughout the whole
-              project, answering any questions and making sure everything is
-              covered.
+              We work on your timeline and adjust priorities to meet deadlines, doing our best to support fast-paced teams.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>Design strategy</h4>
+            <h3>Making assets work</h3>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              We'll work closely with you to understand your goals and design
-              something you and your audience needs.
+              We work creatively with what you provide—maximizing your existing photography, graphics, and brand assets to deliver great results.
             </p>
           </div>
           <div className={style.tool}>
-            <h4>All needs covered</h4>
+            <h3>Your tools, or ours</h3>
             <p
               style={{
                 fontSize: "16px",
                 lineHeight: "24px",
               }}
             >
-              We got all your creative needs covered from new business website
-              and brading to ongoing marketing design needs.
+              We’re flexible and can work with the project management tools your team already uses—or we can recommend ours.
             </p>
           </div>
         </div>

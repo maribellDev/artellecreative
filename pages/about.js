@@ -7,7 +7,7 @@ import { Navbar } from "../Components/Navbar";
 import style from "../styles/about.module.scss";
 import Layout from "../Components/Layout";
 import { Aboutus } from "../Components/Aboutus";
-import { Aboutinsta } from "../Components/Aboutinsta";
+import Action from "../Components/Action";
 
 export default function About() {
   return (
@@ -24,8 +24,7 @@ export default function About() {
           <h1 style={{padding:"0 16px", textAlign:"center"}}>About Artelle Creative</h1>
           <div className={style.who}>
             <h2>
-              We are creative studio, working hard, growing and evolving right
-              alongside the companies we work with.
+              We are a lean creative studio, working hard, growing and evolving right alongside the companies we work with.
             </h2>
           </div>
         </div>
@@ -39,33 +38,29 @@ export default function About() {
           </div>
           <div className={style.principtext}>
             <div className={style.blocktext}>
-              <h3>Transparent pricing</h3>
+              <h3>We Get Ecom</h3>
               <p>
-                We offer clear and predictable pricing for most projects. No
-                matter the size or revenue of your business, our pricing stays
-                the same.
+                We’ve worked with DTC ecommerce brands across different industries and know the secret sauce for great design that drives conversions.
               </p>
             </div>
             <div className={style.blocktext}>
-              <h3>Streamlined process</h3>
+              <h3>Lean By Design</h3>
               <p>
-                Whether you’re looking for an ongoing partnership or
-                collaboration on a single project, we work effectively and
-                efficiently without unnecessary meetings and back-and-forths.
+                We're a two-person team — design and development working together from day one. We see the work through beginning to end.
               </p>
             </div>
             <div className={style.blocktext}>
-              <h3>All creative needs covered</h3>
+              <h3>No Radio Silence</h3>
               <p>
-                No need to manage multiple freelancers. We got all your creative
-                needs covered and are available when you need us.
+                Keeping you in the loop from start to finish — clear updates & quick same-day replies.
               </p>
             </div>
           </div>
         </div>
       </div>
       <Aboutus />
-      <Aboutinsta />
+     <Action/>
+     <section></section>
       <Footer />
     </Layout>
   );

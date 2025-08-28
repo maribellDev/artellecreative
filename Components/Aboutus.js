@@ -15,8 +15,8 @@ export function Aboutus() {
               <h2>Ana Shuda</h2>
               <p className={styles.profession}>Lead Designer</p>
               <p className={styles.description}>
-              With over 10 years of experience designing for marketing, websites and branding, I’ve had the privilege of partnering with businesses in health & fitness, beauty, fashion & apparel, pet products, home decor and more.  <br />
-                <br /> I believe that design is a language — when done right, it helps brands earn trust and communicate with their customer base. <br />
+              With over 10 years of experience designing for marketing, websites and branding, I’ve had the privilege of partnering with businesses in health & fitness, beauty, fashion & apparel, pet products, home decor and more.<br />
+                <br /> I believe that design is a language — when done right, it helps brands earn trust and communicate with their customer base.<br />
                 <br />To me, there’s nothing much more satisfying that seeing a brand put great care into how it presents itself—and that’s what I work for.
 
               </p>
@@ -33,11 +33,8 @@ export function Aboutus() {
               <h2>Maria</h2>
               <p className={styles.profession}>Lead Developer</p>
               <p className={styles.description}>
-                Being an experienced web developer with a knack for solving
-                technical problems, I’ve worked with clients in medical fields,
-                IT, real estate and other professional industries. <br />
-                <br /> Outside of development, I enjoy travelling, reading books
-                and teaching my son coding.
+                As an experienced web developer, I tackle technical challenges and turn design mock-ups into smooth, reliable websites. Over the years, I’ve partnered with clients in healthcare, IT, ecommerce, real estate, and more, helping them build sites that are both user-friendly and technically solid <br />
+                <br /> My goal is to create websites that not only work flawlessly but also help businesses grow and connect meaningfully with their customers.
               </p>
             </div>
           </div>

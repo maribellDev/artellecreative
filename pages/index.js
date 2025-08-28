@@ -6,7 +6,7 @@ import Image from "next/image";
 import Icon1 from "../public/icons/icon1.gif";
 import Icon2 from "../public/icons/icon2.gif";
 import Icon3 from "../public/icons/icon3.gif";
-import { Answers } from "../Components/Answers";
+
 import Action from "../Components/Action";
 import { Footer } from "../Components/Footer";
 
@@ -35,7 +35,7 @@ export default function Home() {
       <Mainscreen />
       <section className={style.sectionService}>
         <h2 style={{ paddingTop: "80px" }}>
-          Creative partners for businesses at any stage
+          The perfect fit for growing brands.
         </h2>
         <div className={style.allservices}>
           <div className={style.service}>
@@ -96,7 +96,7 @@ export default function Home() {
       <section>
         <Tools></Tools>
       </section>
-      <Answers></Answers>
+      
       <section>
         <Action></Action>
       </section>

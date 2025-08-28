@@ -1,15 +1,16 @@
-
 module.exports = {
   reactStrictMode: true,
+
   eslint: {
-    dirs: ["pages", "utils"], // Only run ESLint on the 'pages' and 'utils' directories during production builds (next build)
+    dirs: ["pages", "utils"], // проверка ESLint только в этих папках
   },
+
   images: {
-    domains: ["images.ctfassets.net"],
+    domains: ["images.ctfassets.net", "res.cloudinary.com"], // добавлен Cloudinary
     loader: "akamai",
-    path: "",
-    // urlImports: ["https://cdn.contentful.com"],
+    path: "", // ты используешь кастомный loader — пусть остаётся, если он нужен
   },
+
   assetPrefix: "/",
   trailingSlash: true,
 };

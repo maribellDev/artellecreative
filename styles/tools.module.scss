@@ -1,37 +1,37 @@
 .toolall {
-  background: #fff4e4;
-  padding-bottom: 80px;
-
-  .tools {
-    max-width: 1440px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    justify-content: center;
-    .tool {
-      width: 16em;
-      margin: 0 3.5em;
-      h4 {
-        color: #db8e76;
-      }
-    }
-  }
-  .btnServices {
-    text-align: center;
-    margin-top: 40px;
-  }
-}
-@media (max-width: 500px) {
-  .toolall {
+    background: #fff4e4;
+    padding-bottom: 80px;
     .tools {
-      justify-content: flex-start;
-      margin: 0 20px;
-      .tool {
-        margin: 0;
-        width: auto;
-      }
+        max-width: 1440px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+        .tool {
+            width: 16em;
+            margin: 0 3.5em;
+            h3 {
+                color: #db8e76;
+            }
+        }
     }
-  }
+    .btnServices {
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .toolall {
+        .tools {
+            justify-content: flex-start;
+            margin: 0 20px;
+            .tool {
+                margin: 0;
+                width: auto;
+            }
+        }
+    }
 }

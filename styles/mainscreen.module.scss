@@ -1,85 +1,89 @@
 .blockmain {
-  max-width: 1280px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0 auto 88px auto;
-  padding: 0 20px;
-  .imagemain {
-    max-width: 606px;
-
-    img {
-      border-radius: 20px;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto 88px auto;
+    padding: 0 20px;
+    .imagemain {
+        max-width: 606px;
+        img {
+            border-radius: 20px;
+        }
     }
-  }
-
-  .textmain {
-    text-align: left;
-    height: 430px;
-    width: 600px;
-    p {
-      margin: 0;
-      padding-bottom: 28px;
-      line-height: 27px;
-      max-width: 450px;
+    .textmain {
+        text-align: left;
+        height: 430px;
+        width: 600px;
+        p {
+            margin: 0;
+            padding-bottom: 28px;
+            line-height: 27px;
+            max-width: 450px;
+        }
     }
-  }
 }
+
 //Firstscreen
 #block {
-  max-height: 400px;
+    max-height: 400px;
 }
-@media (max-width: 1040px) {
-  .blockmain {
-    flex-direction: column;
-    margin-top: -150px;
-    .textmain {
-      height: auto;
-      margin-bottom: 50px;
+
+@media (max-width: 1220px) {
+    .blockmain {
+        flex-direction: column;
+        margin-top: -150px;
+        .textmain {
+            height: auto;
+            margin-bottom: 50px;
+        }
     }
-  }
-  #block {
-    max-height: fit-content;
-    height: auto;
-    margin-top: 0px;
-  }
+    #block {
+        max-height: fit-content;
+        height: auto;
+        margin-top: 0px;
+    }
 }
+
 //Firstscreen
 @media (max-width: 750px) {
-  .blockmain {
-    margin-top: -50px;
-  }
+    .blockmain {
+        margin-top: -50px;
+    }
 }
+
 @media (max-width: 768px) {
-  .blockmain {
-    .textmain {
-      width: 600px;
+    .blockmain {
+        .textmain {
+            width: 600px;
+        }
     }
-  }
 }
+
 @media (max-width: 600px) {
-  .blockmain {
-    .textmain {
-      width: 100%;
-      min-width: 320px;
+    .blockmain {
+        .textmain {
+            width: 100%;
+            min-width: 320px;
+        }
     }
-  }
 }
 
 @media (max-width: 550px) {
-  .sectionAll {
-    .header1 {
-      font-size: 2.34em;
-      line-height: 45px;
+    .sectionAll {
+        .header1 {
+            font-size: 2.34em;
+            line-height: 45px;
+        }
     }
-  }
 }
+
 @media (max-width: 600px) {
-  .blockmain {
-    .textmain {
-      h1 {
-        font-size: 38px;
-      }
+    .blockmain {
+        .textmain {
+            h1 {
+                font-size: 38px;
+            }
+        }
     }
-  }
 }
