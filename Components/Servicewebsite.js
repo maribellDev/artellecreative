@@ -16,7 +16,7 @@
 //         </p>
 //         <div className={style.images}>
 //           <div className={style.imageright}>
-//             <Link href={"services/website-packages/"}>
+//            
 //               <a>
 //                 <div className={style.imsquare}>
 //                   <Image className={style.im} src={image1} alt="IT-consulting" />
