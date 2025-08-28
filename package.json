@@ -3,11 +3,12 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
+
         "dev": "next dev",
-
-
-        "start": "npm run start",
+        "build": "next build",
+        "start": "next start",
         "lint": "next lint"
+
     },
     "dependencies": {
         "@contentful/react-apps-toolkit": "^1.2.15",
