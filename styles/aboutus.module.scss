@@ -1,93 +1,92 @@
 .aboutinfo {
-  padding: 0 16px 0 16px;
-  max-width: 986px;
-  margin: 0 auto 82px auto;
-  //   h2 {
-  //     margin-bottom: 82px;
-  //   }
-  .aboutcards {
-    .aboutcardsleft {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: 190px;
+    padding: 0 16px 0 16px;
+    max-width: 986px;
+    margin: 0 auto 82px auto;
+    //   h2 {
+    //     margin-bottom: 82px;
+    //   }
+    .aboutcards {
+        .aboutcardsleft {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 190px;
+        }
+        .aboutphoto {
+            width: 230px;
+            height: 576px;
+        }
+        .aboutselftext {
+            max-width: 436px;
+            h2 {
+                margin-top: 0;
+                text-align: left;
+                margin-bottom: 0;
+            }
+            .profession {
+                margin-top: 0;
+                font-style: italic;
+            }
+            .description {
+                font-size: 16px;
+            }
+        }
     }
-    .aboutphoto {
-      width: 230px;
-      height: 576px;
+    .aboutcardsright {
+        margin-bottom: 52px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .aboutphoto {
+            width: 317px;
+            height: 576px;
+        }
+        .aboutselftext {
+            max-width: 436px;
+            h2 {
+                margin-top: 0px;
+                text-align: left;
+                margin-bottom: 0;
+            }
+            .profession {
+                margin-top: 0;
+                font-style: italic;
+            }
+            .description {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
     }
-    .aboutselftext {
-      max-width: 436px;
-      h2 {
-        margin-top: 0;
-        text-align: left;
-        margin-bottom: 0;
-      }
-      .profession {
-        margin-top: 0;
-        font-style: italic;
-      }
-      .description {
-        font-size: 16px;
-      }
-    }
-  }
-  .aboutcardsright {
-    margin-bottom: 52px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    .aboutphoto {
-      width: 317px;
-      height: 576px;
-    }
-    .aboutselftext {
-      max-width: 436px;
-      h2 {
-        margin-top: 0px;
-        text-align: left;
-        margin-bottom: 0;
-      }
-      .profession {
-        margin-top: 0;
-        font-style: italic;
-      }
-      .description {
-        font-size: 16px;
-        line-height: 24px;
-      }
-    }
-  }
 }
 
 @media (max-width: 1000px) {
-  .aboutinfo {
-    .aboutcards {
-      .aboutcardsright {
-        flex-direction: column-reverse;
-        max-width: 436px;
-        margin: 0 auto;
-        .aboutselftext {
-          h2 {
-            margin-top: 20px;
-            padding-left: 0;
-          }
+    .aboutinfo {
+        .aboutcards {
+            .aboutcardsright {
+                flex-direction: column-reverse;
+                max-width: 436px;
+                margin: 0 auto;
+                .aboutselftext {
+                    h2 {
+                        margin-top: 20px;
+                        padding-left: 0;
+                    }
+                }
+            }
+            .aboutcardsleft {
+                flex-direction: column;
+                max-width: 436px;
+                margin: 100px auto 102px auto;
+                .aboutselftext {
+                    h2 {
+                        margin-top: 20px;
+                        padding-left: 0;
+                    }
+                }
+            }
         }
-      }
-
-      .aboutcardsleft {
-        flex-direction: column;
-        max-width: 436px;
-        margin: 100px auto 102px auto;
-        .aboutselftext {
-          h2 {
-            margin-top: 20px;
-            padding-left: 0;
-          }
-        }
-      }
     }
-  }
 }
