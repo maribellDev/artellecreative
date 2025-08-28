@@ -4,7 +4,7 @@ import Insta from "../public/icons/instagram-icon.svg";
 import Facebook from "../public/icons/facebook-icon.svg";
 import style from "../styles/footer.module.scss";
 import Logo from "../public/logo/Logo-footer.svg";
-import Form from "./Form";
+
 
 export function Footer() {
   return (
@@ -13,8 +13,7 @@ export function Footer() {
         <div className={style.footermain}>
           <div className={style.form}>
             <h3>Join the list</h3>
-            <Form />
-
+            
             <div className={style.logofooter}>
               <Link href={"/"}>
                 <a>
@@ -56,24 +55,16 @@ export function Footer() {
             <ul className={style.menufooter}>
               <li style={{ paddingBottom: "10px" }}>
                 <Link href={"/work"}>
-                  <a>Work</a>
+                  <a>Portfolio</a>
                 </Link>
               </li>
-              <li style={{ paddingBottom: "10px" }}>
-                <Link href={"/pricing"}>
-                  <a>Pricing</a>
-                </Link>
-              </li>
+             
               <li style={{ paddingBottom: "10px" }}>
                 <Link href={"/about"}>
                   <a>About</a>
                 </Link>
               </li>
-              {/* <li style={{ paddingBottom: "10px" }}>
-                <Link href={"/blog"}>
-                  <a>Blog</a>
-                </Link>
-              </li> */}
+             
               <li>
                 <Link href={"/contact"}>
                   <a>Contact</a>

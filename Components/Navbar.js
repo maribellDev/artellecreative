@@ -54,11 +54,7 @@ export function Navbar() {
             About
           </a>
         </Link>
-        {/* <Link href={"/blog"}>
-          <a className={styles.orange} style={{ paddingRight: "30px" }}>
-            Blog
-          </a>
-        </Link> */}
+       
         <Link href={"/contact"}>
           <a
             className={styles.orange}

@@ -53,11 +53,7 @@ export function Navadapt() {
               <a>About</a>
             </Link>
           </li>
-          {/* <li className={styles.navLi}>
-            <Link href="/blog">
-              <a>Blog</a>
-            </Link>
-          </li> */}
+        
           <li className={styles.navLi}>
             <Link href="/contact">
               <a>Contact</a>
