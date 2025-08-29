@@ -44,7 +44,7 @@ export default function Home() {
               Website Design <br />+ Development
             </h3>
             <p className={style.small}>
-              We design and build engaging websites from start to finish.
+              Engaging, great-looking websites that reflect your brand, connect with your audience, and help drive growth.
             </p>
           </div>
           <div className={style.service}>
@@ -63,7 +63,7 @@ export default function Home() {
               Design
             </h3>
             <p className={style.small}>
-              Memorable branding identity and assets to match.
+              Purposeful logo and brand identity design that builds stronger customer connections and elevates your brand.
             </p>
           </div>
           <div className={style.service}>
@@ -83,7 +83,7 @@ export default function Home() {
               Design
             </h3>
             <p className={style.small}>
-              Marketing materials designed for social media, email, or print.
+              Designing assets for email, social, print, and web to support and scale your marketing and sales efforts.
             </p>
           </div>
         </div>

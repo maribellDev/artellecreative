@@ -13,7 +13,7 @@ export default function Tools() {
             paddingBottom:"40px"
           }}
         >
-          How we work
+          On brand. On time. On target.
         </h2>
        
         <div className={style.tools}>

@@ -9,7 +9,7 @@ export function Footer() {
       <footer className={style.footer}>
         <div className={style.footermain}>
           <div className={style.form}>
-            <h3>Join the list</h3>
+           
             
             <div className={style.logofooter}>
               <Link href={"/"}>
