@@ -1,16 +1,21 @@
-module.exports = {
+// next.config.js
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
 
   eslint: {
-    dirs: ["pages", "utils"], // проверка ESLint только в этих папках
+    dirs: ["pages", "utils"],
   },
 
   images: {
-    domains: ["images.ctfassets.net", "res.cloudinary.com"], // добавлен Cloudinary
+    domains: ["images.ctfassets.net", "res.cloudinary.com"],
     loader: "akamai",
-    path: "", // ты используешь кастомный loader — пусть остаётся, если он нужен
+    path: "",
   },
 
   assetPrefix: "/",
-   trailingSlash: false,
+  trailingSlash: false,
+  distDir: "build",
 };
+
+module.exports = nextConfig;
