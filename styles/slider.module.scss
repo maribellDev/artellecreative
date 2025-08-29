@@ -1,28 +1,24 @@
 .App {
-    // max-width: 1445px;
     margin: 0 auto;
-    .images {
-        border-radius: 10px;
-        cursor: pointer;
-        height: 440px;
-    }
-    /* Стили для стрелки "Назад" */
     .carouselContainer {
         position: relative;
-        .swiper-button-prev {
-            position: absolute;
-            left: 22%;
-            /* Расположите слева с отступом */
-            z-index: 10;
-            /* Чтобы стрелка была поверх слайдера */
+        .swiper-slide {
+            padding: 0 10px; // отступ между слайдами
+            box-sizing: border-box;
         }
-        /* Стили для стрелки "Вперед" */
+        .images {
+            border-radius: 10px;
+            cursor: pointer;
+            width: 100%;
+            height: auto; // адаптивная высота
+            max-height: 440px;
+            object-fit: cover;
+            display: block;
+        }
+        .swiper-button-prev,
         .swiper-button-next {
-            position: absolute;
-            right: 22%;
-            /* Расположите справа с отступом */
             z-index: 10;
-            /* Чтобы стрелка была поверх слайдера */
+            color: #b6bad7;
         }
     }
 }
