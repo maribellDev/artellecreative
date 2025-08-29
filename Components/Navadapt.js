@@ -10,7 +10,7 @@ export function Navadapt() {
         <Link href={"/"}>
           <a>
             <span className={styles.logo}>
-              <img src="logo/Logo-up.svg" alt="Logo" width={230} height={34} />
+              <img src="/logo/Logo-up.svg" alt="Logo" width={230} height={34} />
             </span>
           </a>
         </Link>

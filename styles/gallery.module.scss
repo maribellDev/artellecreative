@@ -1,31 +1,40 @@
-.galleryGrid {
-    max-width: 1260px;
-    margin: 0 auto;
-    column-count: 2; // 2 колонки на маленьких экранах
-    column-gap: 22px;
-    @media (min-width: 1024px) {
-        column-count: 4; // 4 колонки на больших экранах
-    }
-}
-
-.galleryItem {
-    break-inside: avoid; // не рвать картинку
-    margin-bottom: 22px; // отступ между картинками по вертикали
-    border-radius: 10px;
-    overflow: hidden;
-    display: inline-block; // важно для column layout
-    width: 100%;
-}
-
-.image {
-    width: 100%;
-    height: auto; // сохраняем пропорции
-    display: block;
-    border-radius: 10px;
-    transition: transform 0.5s ease;
-    filter: brightness(0.95);
-}
-
-.galleryItem:hover .image {
-    transform: scale(1.05);
-}
+            .mainname {
+                text-align: center;
+                padding-top: 72px;
+                padding-left: 20px;
+                padding-right: 20px;
+                max-width: 1280px;
+                margin: 0 auto;
+            }
+            
+            .galleryGrid {
+                max-width: 1260px;
+                margin: 0 auto;
+                column-count: 2; // 2 колонки на маленьких экранах
+                column-gap: 22px;
+                @media (min-width: 1024px) {
+                    column-count: 4; // 4 колонки на больших экранах
+                }
+            }
+            
+            .galleryItem {
+                break-inside: avoid; // не рвать картинку
+                margin-bottom: 22px; // отступ между картинками по вертикали
+                border-radius: 10px;
+                overflow: hidden;
+                display: inline-block; // важно для column layout
+                width: 100%;
+            }
+            
+            .image {
+                width: 100%;
+                height: auto; // сохраняем пропорции
+                display: block;
+                border-radius: 10px;
+                transition: transform 0.5s ease;
+                filter: brightness(0.95);
+            }
+            
+            .galleryItem:hover .image {
+                transform: scale(1.05);
+            }

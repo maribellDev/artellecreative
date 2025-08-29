@@ -19,7 +19,7 @@ export default function Gallerypage() {
       <Head></Head>
 
       <Navbar />
-       {/* <Gallery1 />  */}
+     
       <Gallery />
 
       <section className={styles.section}>
