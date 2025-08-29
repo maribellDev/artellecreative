@@ -1,10 +1,7 @@
 import Link from "next/link";
-import Image from "next/image";
-import Logo from "../public/logo/Logo-up.svg";
 import styles from "../styles/navigation.module.scss";
 import style from "../styles/home.module.scss";
 import { Navadapt } from "../Components/Navadapt";
-import img from "../public/icons/menuimg.svg";
 
 export function Navbar() {
   return (
@@ -13,7 +10,7 @@ export function Navbar() {
         <Link href={"/"}>
           <a>
             <span className={styles.logo1}>
-              <Image src={Logo} alt="Logo" />
+                 <img src="/logo/Logo-up.svg" alt="Logo" width={230} height={34} />
             </span>
           </a>
         </Link>
@@ -21,8 +18,7 @@ export function Navbar() {
       <Navadapt />
 
       <div className={styles.menu}>
-      
-
+    
         <a className={styles.workon}>
           <span className={styles.orange}>Portfolio</span>
           <span
@@ -32,7 +28,10 @@ export function Navbar() {
               marginRight: "10px",
             }}
           >
-            <Image src={img} alt=""></Image>
+            <img src="/icons/menuimg.svg" 
+            width={10}
+            height={10}
+            alt=""/>
           </span>
           <div className={styles.navigulwork}>
             <div className={styles.navwork}>

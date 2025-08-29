@@ -1,9 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
-import Insta from "../public/icons/instagram-icon.svg";
-import Facebook from "../public/icons/facebook-icon.svg";
 import style from "../styles/footer.module.scss";
-import Logo from "../public/logo/Logo-footer.svg";
+
 
 
 export function Footer() {
@@ -18,7 +15,7 @@ export function Footer() {
               <Link href={"/"}>
                 <a>
                   <span className={style.logo1}>
-                    <Image src={Logo} alt="Logo" />
+                    <img src="/logo/Logo-footer.svg" alt="Logo" />
                   </span>
                 </a>
               </Link>
@@ -35,7 +32,7 @@ export function Footer() {
                   target="_blanc"
                 >
                   <span className={style.insta}>
-                    <Image src={Insta} alt="instagram" />
+                    <img src="/icons/instagram-icon.svg" alt="instagram" />
                   </span>
                 </a>
 
@@ -44,7 +41,7 @@ export function Footer() {
                   target="_blanc"
                 >
                   <span className={style.facebook}>
-                    <Image src={Facebook} alt="facebook" />
+                    <img src="/icons/facebook-icon.svg" alt="facebook" />
                   </span>
                 </a>
               </div>

@@ -1,7 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-
-import Image2 from "../public/img/illustr.svg";
 import { Footer } from "../Components/Footer";
 import { Navbar } from "../Components/Navbar";
 import style from "../styles/about.module.scss";
@@ -34,7 +31,11 @@ export default function About() {
 
         <div className={style.principles}>
           <div className={style.principImage}>
-            <Image src={Image2} alt="circle" />
+            <img src="/img/illustr.svg" alt="circle" 
+              className={style.image}
+              width={291}
+              height={440} 
+      />
           </div>
           <div className={style.principtext}>
             <div className={style.blocktext}>

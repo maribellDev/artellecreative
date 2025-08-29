@@ -2,19 +2,12 @@ import Head from "next/head";
 import { Mainscreen } from "../Components/Mainscreen";
 import { Navbar } from "../Components/Navbar";
 import style from "../styles/home.module.scss";
-import Image from "next/image";
-import Icon1 from "../public/icons/icon1.gif";
-import Icon2 from "../public/icons/icon2.gif";
-import Icon3 from "../public/icons/icon3.gif";
-
 import Action from "../Components/Action";
 import { Footer } from "../Components/Footer";
-
 import Slider from "../Components/Slider";
 import Layout from "../Components/Layout";
 import Tools from "../Components/Tools";
 import Link from "next/link";
-
 export default function Home() {
   return (
     <Layout
@@ -29,9 +22,7 @@ export default function Home() {
           content="width=device-width, initial-scale=1.0"
         ></meta>
       </Head>
-
       <Navbar />
-
       <Mainscreen />
       <section className={style.sectionService}>
         <h2 style={{ paddingTop: "80px" }}>
@@ -42,7 +33,12 @@ export default function Home() {
             <div
               style={{ width: "80px", marginRight: "auto", marginLeft: "auto" }}
             >
-              <Image src={Icon1} alt="icon1" />
+              <img
+              src="/icons/icon1.gif"
+              className={style.image}
+              width={80}
+              height={80} 
+              alt="icon1" />
             </div>
             <h3>
               Website Design <br />+ Development
@@ -55,7 +51,12 @@ export default function Home() {
             <div
               style={{ width: "80px", marginRight: "auto", marginLeft: "auto" }}
             >
-              <Image src={Icon2} alt="icon2" />
+              <img
+              src="/icons/icon2.gif"
+              className={style.image}
+              width={80}
+              height={80} 
+              alt="icon2" />
             </div>
             <h3 className={style.header3}>
               Brand &amp; Logo <br />
@@ -69,7 +70,12 @@ export default function Home() {
             <div
               style={{ width: "80px", marginRight: "auto", marginLeft: "auto" }}
             >
-              <Image src={Icon3} alt="icon3" />
+              <img
+              src="/icons/icon3.gif"
+              className={style.image}
+              width={80}
+              height={80} 
+              alt="icon3" />
             </div>
             <h3>
               Marketing

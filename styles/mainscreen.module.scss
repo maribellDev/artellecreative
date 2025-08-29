@@ -7,8 +7,12 @@
     padding: 0 20px;
     .imagemain {
         max-width: 606px;
+        width: 100%;
         img {
+            width: 100%;
+            height: auto;
             border-radius: 20px;
+            display: block;
         }
     }
     .textmain {

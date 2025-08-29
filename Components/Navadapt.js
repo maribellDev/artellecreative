@@ -1,8 +1,5 @@
 import styles from "../styles/navadapt.module.scss";
 import Link from "next/link";
-import Logo from "../public/logo/Logo-up.svg";
-import Image from "next/image";
-import img from "../public/icons/menuimg.svg";
 import React from "react";
 import { style } from "@mui/system";
 
@@ -13,7 +10,7 @@ export function Navadapt() {
         <Link href={"/"}>
           <a>
             <span className={styles.logo}>
-              <Image src={Logo} alt="Logo" />
+              <img src="logo/Logo-up.svg" alt="Logo" width={230} height={34} />
             </span>
           </a>
         </Link>
@@ -23,15 +20,12 @@ export function Navadapt() {
         </label>
 
         <ul className={styles.menu}>
-          
-
-         
 
           <input type="checkbox" name="on" id="work" className={styles.work} />
           <label className={styles.label} htmlFor="work">
             Portfolio
             <span style={{ marginLeft: "10px", marginRight: "10px" }}>
-              <Image src={img} alt=""></Image>
+              <img src="icons/menuimg.svg" alt=""></img>
             </span>
           </label>
 

@@ -1,7 +1,6 @@
-import Image from "next/image";
+
 import style from "../styles/home.module.scss";
 import mainstyle from "../styles/mainscreen.module.scss";
-import Imagemain from "../public/img/mainimage.gif";
 import { Animation } from "./Animation";
 import Link from "next/link";
 
@@ -22,8 +21,9 @@ export function Mainscreen() {
               </a>
             </Link>
           </div>
-          <div className={mainstyle.Imagemain}>
-            <Image src={Imagemain} alt="crafting websites" />
+          <div className={mainstyle.imagemain}>
+            <img src="img/mainimage.gif" alt="crafting websites" width={720}
+              height={486}  />
           </div>
         </div>
       </section>
